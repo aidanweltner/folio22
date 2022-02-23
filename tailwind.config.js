@@ -5,6 +5,9 @@ module.exports = {
     './resources/**/*.vue',
     './content/**/*.md'
   ],
+  safelist: [
+    'hamburgers', 'is-active',
+  ],
   theme: {
     extend: {},
   },
