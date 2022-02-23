@@ -5,12 +5,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <link rel="stylesheet" href="{{ mix src='css/app.css' }}">
     </head>
     <body class="bg-gray-100 font-sans leading-normal text-gray-800">
-        <div class="mx-auto px-2 h-screen flex items-center justify-center">
+        <header class="flex justify-between items-center container mx-auto px-4 lg:px-6 py-2 lg:py-3">
+            <h1 class="font-bold text-3xl">{{ title }}</h1>
+            <nav>
+                <!-- Add burger as view component  -->
+                <button class="hamburger hamburger--spin lg:hidden" type="button"
+                        aria-label="Menu" aria-controls="navigation" aria-expanded="true/false">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div id="div-wrap" class="hidden lg:block">
+                    <ul class="flex gap-2">
+                        {{ nav:main_nav }}
+                            <li class="p-2">
+                                <a href="{{ url }}" title="{{ title }}">{{ title }}</a>
+                            </li>
+                        {{ /nav:main_nav }}
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="mx-auto">
             {{ template_content }}
-        </div>
+        </main>
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
 </html>
