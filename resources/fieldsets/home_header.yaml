@@ -1,0 +1,59 @@
+title: 'Home header'
+fields:
+  -
+    handle: main_heading_1
+    field:
+      input_type: text
+      antlers: false
+      display: 'Main Heading Line 1'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      validate:
+        - required
+      width: 50
+  -
+    handle: main_heading_2
+    field:
+      input_type: text
+      antlers: false
+      display: 'Main Heading Line 2'
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+  -
+    handle: sub_heading
+    field:
+      input_type: text
+      antlers: false
+      display: 'Sub Heading'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: description
+    field:
+      antlers: false
+      display: Description
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+  -
+    handle: image
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      max_files: 1
+      display: 'Header Image'
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
