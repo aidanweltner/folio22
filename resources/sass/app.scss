@@ -7,3 +7,7 @@
 @layer components {
   @import "~hamburgers/_sass/hamburgers/hamburgers";
 }
+
+@layer utilities {
+  @import './utilities/global';
+}

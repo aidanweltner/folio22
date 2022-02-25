@@ -1,0 +1,10 @@
+.bg-header {
+  background: rgb(231,229,228);
+}
+
+@media (min-width: 1024px) {
+  .bg-header {
+    background: rgb(231,229,228);
+    background: linear-gradient(180deg, rgba(231,229,228,1) 88%, rgba(255,255,255,0) 88%);
+  }
+}
