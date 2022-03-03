@@ -1,0 +1,11 @@
+title: Projects
+template: projects/show
+layout: layout
+taxonomies:
+  - skills
+  - status
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

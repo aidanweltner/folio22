@@ -1,0 +1,51 @@
+title: 'Project Basics'
+fields:
+  -
+    handle: start_date
+    field:
+      mode: single
+      time_enabled: false
+      time_required: false
+      full_width: true
+      inline: true
+      columns: 1
+      rows: 1
+      display: 'Start Date'
+      type: date
+      icon: date
+      listable: hidden
+      instructions_position: above
+  -
+    handle: is_current
+    field:
+      default: true
+      display: 'Is Current'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+  -
+    handle: end_date
+    field:
+      mode: single
+      time_enabled: false
+      time_required: false
+      full_width: true
+      inline: true
+      columns: 1
+      rows: 1
+      display: 'End Date'
+      type: date
+      icon: date
+      listable: hidden
+      instructions_position: above
+      if_any:
+        is_current: '!== true'
+  -
+    handle: project_partner
+    field:
+      display: 'Project Partner'
+      type: link
+      icon: link
+      listable: hidden
+      instructions_position: above

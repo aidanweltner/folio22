@@ -1,0 +1,58 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+      -
+        handle: featured
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Featured
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+      -
+        import: project_basics
+        prefix: project_
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: is_featured
+        field:
+          default: false
+          display: 'Is Featured'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+      -
+        handle: skills
+        field:
+          type: terms
+          taxonomies:
+            - skills
+          display: Skills
+          mode: select
+title: Projects

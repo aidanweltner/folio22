@@ -1,0 +1,49 @@
+title: Link
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: redirect
+        field:
+          type: link
+          validate:
+            - required
+      -
+        handle: featured
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Featured
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+      -
+        import: project_basics
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: skills
+        field:
+          type: terms
+          taxonomies:
+            - skills
+          display: Skills
+          mode: select
