@@ -5,6 +5,7 @@ taxonomies:
   - skills
   - status
 revisions: false
+route: '/projects/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
