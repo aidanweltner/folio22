@@ -42,9 +42,19 @@ fields:
       if_any:
         is_current: '!== true'
   -
-    handle: project_partner
+    handle: partner_title
     field:
-      display: 'Project Partner'
+      input_type: text
+      antlers: false
+      display: 'Partner Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: partner_url
+    field:
+      display: 'Partner URL'
       type: link
       icon: link
       listable: hidden
