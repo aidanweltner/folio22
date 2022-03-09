@@ -7,7 +7,7 @@ module.exports = {
   ],
   safelist: [
     'hamburgers', 'is-active',
-    'bg-lime-500', 'bg-amber-500', 'bg-red-500',
+    'bg-lime-500', 'bg-amber-500', 'bg-red-500'
   ],
   theme: {
     extend: {
