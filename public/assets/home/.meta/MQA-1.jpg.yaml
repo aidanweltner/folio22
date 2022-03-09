@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'I am the alt text'
 size: 380060
 last_modified: 1646014400
 width: 1024
