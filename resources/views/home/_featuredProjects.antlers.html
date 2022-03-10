@@ -24,11 +24,11 @@
                       </a>
                       <p class="lg:text-xl font-sans text-coffee-700">
                           <span class="sr-only">Project date(s):</span>
-                          {{ if project_is_current }}
-                              <time datetime="{{ project_start_date format='Y-m-d' }}">{{ project_start_date format='F Y' }} -</time>
+                          {{ if is_current }}
+                              <time datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='F Y' }} - </time>
                           {{ else }}
-                              <time datetime="{{ project_start_date format='Y-m-d' }}">{{ project_start_date format='F Y' }} -</time>
-                              <time datetime="{{ project_end_date format='Y-m-d' }}">{{ project_end_date format='F Y' }}</time>
+                              <time datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='F Y' }} - </time>
+                              <time datetime="{{ end_date format='Y-m-d' }}">{{ end_date format='F Y' }}</time>
                           {{ endif }}
                       </p>
                   </div>

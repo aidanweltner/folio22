@@ -3,9 +3,9 @@ id: fe9f72a6-80a4-488e-ab7b-85a82b4dfb0a
 blueprint: projects
 title: 'Discover Corps'
 featured: home/About-1.jpg
-project_start_date: '2021-06-01'
-project_is_current: false
-project_end_date: '2021-10-15'
+start_date: '2021-06-01'
+is_current: false
+end_date: '2021-10-15'
 is_featured: true
 skills:
   - wordpress
