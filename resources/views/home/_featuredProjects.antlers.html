@@ -12,9 +12,7 @@
                   <div class="pt-4 md:p-2 lg:p-4">
                       <ul class="flex gap-2">
                           {{ skills }}
-                              <li class="py-1 px-2 bg-coffee-200 rounded font-mono text-coffee-800">
-                                  <a class="font-mono text-coffee-800 text-xs font-light" href="{{ url }}" title="{{ title }}">{{ title }}</a>
-                              </li>
+                            {{ partial:components/taxonomy_li :url=url :title=title }}
                           {{ /skills }}
                       </ul>
                       <a href="{{ url }}" title="{{ title }}">

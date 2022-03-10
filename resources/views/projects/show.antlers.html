@@ -24,9 +24,7 @@
       </div>
       <ul class="flex gap-2 mb-4 lg:mb-8">
         {{ skills }}
-            <li class="py-1 px-2 bg-coffee-200 rounded font-mono text-coffee-800">
-                <a class="font-mono text-coffee-800 text-xs font-light" href="{{ url }}" title="{{ title }}">{{ title }}</a>
-            </li>
+          {{ partial:components/taxonomy_li :url=url :title=title }}
         {{ /skills }}
       </ul>
     </div>
@@ -34,7 +32,10 @@
       <img class="rounded-md max-w-screen-md mx-auto" src="{{ url }}" alt="{{ alt }}">
     {{ /featured }}
   </header>
-  <div class="prose mx-auto">
+  <div class="prose mx-auto mb-4 lg:mb-8">
     {{ content }}
+  </div>
+  <div class="max-w-prose mx-auto mb-8 lg:mb-16">
+    {{ partial:components/back_to_index url="/projects/" title="Back to all projects"}}
   </div>
 </article>

@@ -17288,6 +17288,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ToggleMenu_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/ToggleMenu.vue */ "./resources/js/components/ToggleMenu.vue");
 /* harmony import */ var _heroicons_vue_outline__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @heroicons/vue/outline */ "./node_modules/@heroicons/vue/outline/esm/DocumentTextIcon.js");
 /* harmony import */ var _heroicons_vue_outline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @heroicons/vue/outline */ "./node_modules/@heroicons/vue/outline/esm/ExternalLinkIcon.js");
+/* harmony import */ var _heroicons_vue_outline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @heroicons/vue/outline */ "./node_modules/@heroicons/vue/outline/esm/ArrowNarrowLeftIcon.js");
 
 
 
@@ -17295,7 +17296,8 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     ToggleMenu: _components_ToggleMenu_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     DocumentTextIcon: _heroicons_vue_outline__WEBPACK_IMPORTED_MODULE_2__["default"],
-    ExternalLinkIcon: _heroicons_vue_outline__WEBPACK_IMPORTED_MODULE_3__["default"]
+    ExternalLinkIcon: _heroicons_vue_outline__WEBPACK_IMPORTED_MODULE_3__["default"],
+    ArrowNarrowLeftIcon: _heroicons_vue_outline__WEBPACK_IMPORTED_MODULE_4__["default"]
   }
 }).mount('#app');
 
@@ -17617,6 +17619,38 @@ function compileToFunction(template, options) {
 
 
 
+
+/***/ }),
+
+/***/ "./node_modules/@heroicons/vue/outline/esm/ArrowNarrowLeftIcon.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@heroicons/vue/outline/esm/ArrowNarrowLeftIcon.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+function render(_ctx, _cache) {
+  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    "stroke-width": "2",
+    stroke: "currentColor",
+    "aria-hidden": "true"
+  }, [
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M7 16l-4-4m0 0l4-4m-4 4h18"
+    })
+  ]))
+}
 
 /***/ }),
 
