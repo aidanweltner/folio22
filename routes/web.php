@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 // Route::statamic('example', 'example-view', [
 //    'title' => 'Example'
 // ]);
+
+/**
+ * Add routes for collection index's
+ */
+Route::statamic('/projects', 'projects.index' );
+Route::statamic('/feed', 'feed.index');
