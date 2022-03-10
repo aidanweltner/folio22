@@ -14,6 +14,7 @@ skills:
 project_status:
   - ongoing
 updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1646518176
+updated_at: 1646946581
+external: 'https://discovercorps.com/'
 ---
 Pork porchetta turkey bacon sausage landjaeger. T-bone ham jerky tongue pastrami boudin. T-bone pork loin cupim pork chop strip steak bresaola. Sirloin pig landjaeger ribeye turducken, andouille rump venison filet mignon frankfurter pastrami buffalo chicken meatloaf tri-tip. Salami shank beef ribs rump landjaeger cupim.

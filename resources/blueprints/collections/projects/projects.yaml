@@ -10,6 +10,14 @@ sections:
           validate:
             - required
       -
+        handle: external
+        field:
+          display: External
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+      -
         handle: content
         field:
           type: markdown

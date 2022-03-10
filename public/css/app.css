@@ -1993,6 +1993,15 @@ select {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.block {
+  display: block;
+}
 .flex {
   display: flex;
 }
@@ -2044,6 +2053,9 @@ select {
 .max-w-\[33\.33\%\] {
   max-width: 33.33%;
 }
+.max-w-screen-md {
+  max-width: 768px;
+}
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -2058,6 +2070,9 @@ select {
 }
 .flex-col {
   flex-direction: column;
+}
+.items-end {
+  align-items: flex-end;
 }
 .items-center {
   align-items: center;
@@ -2096,6 +2111,11 @@ select {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
@@ -2400,6 +2420,10 @@ select {
   .md\:pb-3 {
     padding-bottom: 0.75rem;
   }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
 }
 @media (min-width: 1024px) {
 
@@ -2417,6 +2441,18 @@ select {
 
   .lg\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .lg\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .lg\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .lg\:mb-2 {
+    margin-bottom: 0.5rem;
   }
 
   .lg\:block {
