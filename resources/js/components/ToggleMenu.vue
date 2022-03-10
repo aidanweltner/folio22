@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="lg:ml-auto">
     <button
         class="hamburger hamburger--spin lg:hidden"
         :class="{ 'is-active': isExpanded }"

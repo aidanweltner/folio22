@@ -12,7 +12,7 @@
                   <div class="pt-4 md:p-2 lg:p-4">
                       <ul class="flex gap-2">
                           {{ skills }}
-                            {{ partial:components/taxonomy_li :url=url :title=title }}
+                            {{ partial:components/taxonomy_li :url="url" :title="title" }}
                           {{ /skills }}
                       </ul>
                       <a href="{{ url }}" title="{{ title }}">

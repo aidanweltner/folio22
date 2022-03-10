@@ -9,20 +9,21 @@
     </head>
     <body class="bg-white font-sans leading-normal text-gray-800">
         <div id="app">
-            <header class="fixed inset-0 bg-transparent h-16">
-                <div class="flex justify-between items-center container mx-auto px-4 lg:px-6 py-2 lg:py-3">
-                    <h1 class="font-bold text-3xl">{{ title }}</h1>
-                    <toggle-menu>
-                        <ul class="rounded-lg shadow-sm bg-white absolute right-0 p-2 w-48 lg:w-auto lg:shadow-none lg:flex-row lg:p-0 lg:relative lg:text-left lg:flex gap-2">
-                            {{ nav:main_nav }}
-                                <li class="p-2 menu-item-{{index}}">
-                                    <a href="{{ url }}" title="{{ title }}">{{ title }}</a>
-                                </li>
-                            {{ /nav:main_nav }}
-                        </ul>
-                    </toggle-menu>
-                </div>
-            </header>
+            <nav-bar>
+                <ul class="shadow-sm bg-coffee-200 lg:bg-transparent absolute left-0 p-2 w-screen lg:w-auto lg:shadow-none lg:flex-row lg:p-0 lg:relative lg:text-left lg:flex gap-2">
+                    {{ nav:main_nav }}
+                        <li class="p-2 menu-item-{{index}}">
+                            <a
+                                href="{{ url }}"
+                                title="{{ title }}"
+                                class="font-mono text-coffee-600 text-lg lg:text-xl"
+                            >
+                                {{ title }}
+                            </a>
+                        </li>
+                    {{ /nav:main_nav }}
+                </ul>
+            </nav-bar>
             <main class="mx-auto">
                 {{ template_content }}
             </main>

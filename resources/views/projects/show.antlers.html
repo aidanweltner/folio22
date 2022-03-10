@@ -1,4 +1,4 @@
-<article class="container mx-auto px-4 lg:px-6 pt-8 md:pt-12 lg:pt-24">
+<article class="container mx-auto px-4 lg:px-6 pt-20 lg:pt-24">
   <header class="mb-4 lg:mb-6 block">
     <div class="mx-auto max-w-prose">
       {{ project_status }}
@@ -24,12 +24,12 @@
       </div>
       <ul class="flex gap-2 mb-4 lg:mb-8">
         {{ skills }}
-          {{ partial:components/taxonomy_li :url=url :title=title }}
+          {{ partial:components/taxonomy_li :url="url" :title="title" }}
         {{ /skills }}
       </ul>
     </div>
     {{ featured }}
-      <img class="rounded-md max-w-screen-md mx-auto" src="{{ url }}" alt="{{ alt }}">
+      <img class="rounded-md w-full max-w-screen-md mx-auto" src="{{ url }}" alt="{{ alt }}">
     {{ /featured }}
   </header>
   <div class="prose mx-auto mb-4 lg:mb-8">
