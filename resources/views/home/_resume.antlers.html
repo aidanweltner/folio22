@@ -1,21 +1,15 @@
 <div class="container mx-auto px-4 lg:px-6 pt-4 lg:pt-12">
   <h2 class="font-sans font-bold text-2xl lg:text-4xl text-coffee-800 pb-3">Resume</h2>
-  <div class="grid md:grid-cols-2 gap-x-4 lg:gap-x-8">
-      <p class="py-2 lg:py-4 w-full text-lg lg:text-xl font-sans space-x-2 border-b border-coffee-400">
-          <span class="text-coffee-800 font-semibold">Skill</span>
-          <span class="text-coffee-600">2022 -</span>
-      </p>
-      <p class="py-2 lg:py-4 w-full text-lg lg:text-xl font-sans space-x-2 border-b border-coffee-400">
-          <span class="text-coffee-800 font-semibold">Skill</span>
-          <span class="text-coffee-600">2022 -</span>
-      </p>
-      <p class="py-2 lg:py-4 w-full text-lg lg:text-xl font-sans space-x-2 border-b border-coffee-400">
-          <span class="text-coffee-800 font-semibold">Skill</span>
-          <span class="text-coffee-600">2022 -</span>
-      </p>
-      <p class="py-2 lg:py-4 w-full text-lg lg:text-xl font-sans space-x-2 border-b border-coffee-400">
-          <span class="text-coffee-800 font-semibold">Skill</span>
-          <span class="text-coffee-600">2022 -</span>
-      </p>
-  </div>
+  <ul class="grid md:grid-cols-2 gap-x-4 lg:gap-x-8">
+    {{ taxonomy from="skills" limit=12 sort="since" }}
+      <li class="py-2 lg:py-4 w-full text-lg lg:text-xl font-sans space-x-2 border-b border-coffee-400">
+          <a href="{{ url }}" title="View projects using {{ title }}" class="text-coffee-800 font-semibold">{{ title }}</a>
+          <time datetime="{{ since format='Y-m-d' }}" class="text-coffee-600">
+              <span class="sr-only">since:</span>
+              {{ since format='Y' }}
+          </time>
+      </li>
+    {{ /taxonomy }}
+  </ul>
 </div>
+{{# Add view all button #}}
