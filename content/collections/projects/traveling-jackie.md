@@ -9,7 +9,7 @@ end_date: '2021-12-01'
 partner_title: 'Townsend Collectice'
 partner_url: 'https://townsendcollective.com/'
 updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1646870019
+updated_at: 1647148496
 skills:
   - development
   - wordpress

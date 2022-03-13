@@ -58,11 +58,3 @@ sections:
           instructions_position: above
           listable: hidden
           create: true
-      -
-        handle: status
-        field:
-          type: terms
-          taxonomies:
-            - status
-          display: Status
-          mode: select

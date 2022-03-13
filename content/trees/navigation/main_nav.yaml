@@ -5,16 +5,12 @@ tree:
     url: '#'
   -
     id: 53f09021-05cc-476b-8884-984c47beccf7
-    title: Blog
-    url: '#'
-  -
-    id: a1b0dd82-b7f2-4208-a2a5-44a151a3fc8a
-    title: 'Daily Creations'
-    url: '#'
+    title: Feed
+    url: /feed/
   -
     id: ec7ce8af-dd13-4378-82e9-a5301587fe34
     title: Portfolio
-    url: '#'
+    url: /projects/
   -
     id: a9d8943b-78bb-47e6-87f3-acb3c43e2729
     title: Contact

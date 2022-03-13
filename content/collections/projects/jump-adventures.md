@@ -12,7 +12,7 @@ skills:
 project_status:
   - ongoing
 updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1646864829
+updated_at: 1647148398
 partner_title: 'Townsend Collective'
 partner_url: 'https://townsendcollective.com/'
 ---
