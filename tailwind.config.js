@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     './resources/**/*.antlers.html',
@@ -11,6 +13,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        header: ['sofia-pro', ...defaultTheme.fontFamily.sans],
+        mono: ['odisseia', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         coffee: {
           100: '#fcfbfa',

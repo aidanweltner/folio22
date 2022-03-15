@@ -1,5 +1,5 @@
 <div class="container mx-auto px-4 lg:px-6 pt-8 md:pt-24 lg:pt-48">
-  <h2 class="font-sans font-bold text-3xl lg:text-5xl text-coffee-800 pb-3">Featured Projects</h2>
+  <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 pb-3">Featured Projects</h2>
   <ul class="grid grid-cols-1 gap-3 lg:gap-6 mt-6 lg:mt-9">
       {{ collection:projects is_featured:is="true" sort="project_start_date:desc" }}
           <li>
@@ -16,11 +16,11 @@
                           {{ /skills }}
                       </ul>
                       <a href="{{ url }}" title="{{ title }}">
-                          <h3 class="text-2xl mt-4 lg:text-4xl font-sans font-semibold text-coffee-800">
+                          <h3 class="text-2xl mt-4 lg:text-4xl font-header font-semibold text-coffee-800">
                               <span class="border-b-2 border-transparent hover:border-coffee-600 leading-tight">{{ title }}</span>
                           </h3>
                       </a>
-                      <p class="lg:text-xl font-sans text-coffee-700">
+                      <p class="lg:text-xl font-header text-coffee-700">
                           <span class="sr-only">Project date(s):</span>
                           {{ if is_current }}
                               <time datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='F Y' }} - </time>
