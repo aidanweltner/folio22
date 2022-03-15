@@ -2321,6 +2321,9 @@ select {
 .leading-tight {
   line-height: 1.25;
 }
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
