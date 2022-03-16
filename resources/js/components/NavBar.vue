@@ -8,7 +8,7 @@
   >
     <header
       v-if="bannerIsVisible"
-      class="transition-all duration-400 ease-in-out fixed inset-0 bg-[rgba(231,229,228,1)] h-16 flex items-center"
+      class="transition-all duration-400 ease-in-out fixed z-10 inset-0 bg-coffee-200 h-16 flex items-center"
       :class="{ 'shadow-sm': previousScroll > 100 }"
     >
         <div class="flex justify-between items-center container mx-auto">

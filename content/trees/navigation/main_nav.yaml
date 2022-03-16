@@ -1,8 +1,8 @@
 tree:
   -
     id: 7bfc4eff-85af-4a1e-808a-4e8a8e2ca1b6
-    title: About
-    url: '#'
+    title: Home
+    url: /
   -
     id: 53f09021-05cc-476b-8884-984c47beccf7
     title: Feed

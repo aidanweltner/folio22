@@ -26,3 +26,9 @@
     },
   }
 </script>
+
+<style scoped>
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #695f4d;
+  }
+</style>

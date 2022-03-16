@@ -1962,8 +1962,21 @@ select {
   bottom: 0px;
   left: 0px;
 }
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
 .left-0 {
   left: 0px;
+}
+.bottom-6 {
+  bottom: 1.5rem;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.z-10 {
+  z-index: 10;
 }
 .row-span-2 {
   grid-row: span 2 / span 2;
@@ -2398,6 +2411,10 @@ select {
 }
 @media (min-width: 768px) {
 
+  .md\:bottom-8 {
+    bottom: 2rem;
+  }
+
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -2495,6 +2512,14 @@ select {
 
   .lg\:relative {
     position: relative;
+  }
+
+  .lg\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .lg\:bottom-6 {
+    bottom: 1.5rem;
   }
 
   .lg\:ml-auto {
@@ -2622,6 +2647,16 @@ select {
     padding-bottom: 3rem;
   }
 
+  .lg\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .lg\:pt-12 {
     padding-top: 3rem;
   }
@@ -2683,5 +2718,11 @@ select {
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:bottom-12 {
+    bottom: 3rem;
   }
 }
