@@ -2172,6 +2172,9 @@ select {
 .rounded-full {
   border-radius: 9999px;
 }
+.rounded-sm {
+  border-radius: 0.125rem;
+}
 .border {
   border-width: 1px;
 }
@@ -2210,6 +2213,10 @@ select {
 }
 .bg-\[rgba\(231\2c 229\2c 228\2c 1\)\] {
   background-color: rgba(231,229,228,1);
+}
+.bg-coffee-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 251 250 / var(--tw-bg-opacity));
 }
 .object-cover {
   -o-object-fit: cover;
