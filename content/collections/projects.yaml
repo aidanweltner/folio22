@@ -4,6 +4,7 @@ layout: layout
 taxonomies:
   - skills
   - status
+  - project_status
 revisions: false
 route: '/projects/{slug}'
 sort_dir: asc
