@@ -42,7 +42,7 @@
     <div class="flex flex-col gap-2 pb-4 md:pb-0 border-b border-coffee-400 md:border-none md:flex-row md:justify-between w-full md:items-center">
       <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 md:pb-3">All Projects</h2>
       <ul class="flex gap-4 lg:gap-8">
-          {{ taxonomy from="status" }}
+          {{ taxonomy from="project_status" }}
               <a href="{{ url }}" title="{{ title }}" class="inline-flex items-center space-x-4">
                   <div class="w-2 h-2 rounded-full {{ marker }}"></div>
                   <span class="text-coffee-700 lg:text-lg font-header">{{ title }}</span>
