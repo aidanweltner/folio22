@@ -9,10 +9,9 @@ is_featured: false
 skills:
   - development
   - wordpress
-project_status:
-  - ongoing
+project_status: ongoing
 updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1647148398
+updated_at: 1649898376
 partner_title: 'Townsend Collective'
 partner_url: 'https://townsendcollective.com/'
 ---

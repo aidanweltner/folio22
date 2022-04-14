@@ -52,9 +52,11 @@ sections:
         field:
           type: terms
           taxonomies:
-            - status
-          display: Status
+            - project_status
+          display: 'Project Status'
           mode: select
-          instructions_position: above
-          listable: hidden
+          max_items: 1
           create: true
+          icon: taxonomy
+          listable: hidden
+          instructions_position: above
