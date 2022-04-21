@@ -25,9 +25,10 @@
                     {{ /nav:main_nav }}
                 </ul>
             </nav-bar>
-            <main class="mx-auto">
+            <main class="mx-auto h-full min-h-80">
                 {{ template_content }}
             </main>
+            {{ partial:partials/footer }}
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>

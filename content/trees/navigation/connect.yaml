@@ -1,0 +1,33 @@
+tree:
+  -
+    id: 9f972e3d-b44d-4a92-be44-fcd2f6ce26aa
+    title: Twitter
+    url: 'https://twitter.com/aidanweltner'
+  -
+    id: f552129b-8f2f-4577-b19e-afb5ae6c97f2
+    title: Instagram
+    url: 'https://www.instagram.com/aidanweltner/'
+  -
+    id: 8ea1d169-423e-4d72-a70d-0cf32f9b37c2
+    title: Flickr
+    url: 'https://www.flickr.com/photos/aidanweltner/'
+  -
+    id: a3f9a5bc-dca1-498a-a122-a152fabb1e7b
+    title: YouTube
+    url: 'https://www.youtube.com/channel/UCvZ-a9eBQLZMl3doFXM3DgA'
+  -
+    id: 99c9a521-bf18-4b40-a2de-61ba116594ae
+    title: Dribbble
+    url: 'https://dribbble.com/CottontailMT'
+  -
+    id: 2a8c5bde-8751-44b1-9d7e-446ade811922
+    title: LinkedIn
+    url: 'https://www.linkedin.com/in/aidanweltner/'
+  -
+    id: ad680cc3-4212-455d-8a0e-879b161a2cc9
+    title: Schedule
+    url: 'https://calendly.com/cottontailmt/meeting'
+  -
+    id: d74b9081-311a-4f5d-b922-dbdb86b3352e
+    title: Email
+    url: 'mailto:hello@aidanweltner.com'

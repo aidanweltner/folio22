@@ -30,6 +30,9 @@ module.exports = {
           900: '#2b2718',
         }
       },
+      minHeight: {
+        80: '80vh',
+      },
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {

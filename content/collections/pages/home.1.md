@@ -3,7 +3,7 @@ id: a3cdb98a-194a-45c4-a5d9-a53f212c28e9
 blueprint: homepage
 title: Home
 updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1646339385
+updated_at: 1650498941
 author: 25de984e-075a-47a8-8b41-32e9880eb240
 template_field: home
 template: home
@@ -25,4 +25,3 @@ about_values:
   - Value
   - 'Value pack'
 ---
-This is the homepage
