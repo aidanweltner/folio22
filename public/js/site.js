@@ -17285,6 +17285,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ToggleMenu = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ToggleMenu");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+    "enter-active-class": "duration-400 transition-all ease-in-out",
     "enter-class": "opacity-0 -translate-y-16 ",
     "enter-to-class": "opacity-100 translate-y-0",
     "leave-active-class": "transition-all duration-600 ease-in-out",
@@ -17294,7 +17295,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [$data.bannerIsVisible ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("header", {
         key: 0,
-        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["transition-all duration-400 ease-in-out fixed z-10 inset-0 bg-coffee-200 h-16 flex items-center", {
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["transition-all duration-400 ease-in-out fixed z-10 inset-0 bg-coffee-200 dark:bg-coffee-800 h-16 flex items-center", {
           'shadow-sm': $data.previousScroll > 100
         }])
       }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [$data.isRendered ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_ToggleMenu, {
@@ -17429,7 +17430,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.hamburger-inner[data-v-8570f404], .hamburger-inner[data-v-8570f404]::before, .hamburger-inner[data-v-8570f404]::after {\n    background-color: #695f4d;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.hamburger-inner[data-v-8570f404], .hamburger-inner[data-v-8570f404]::before, .hamburger-inner[data-v-8570f404]::after,\n  .hamburger.is-active .hamburger-inner[data-v-8570f404], .hamburger.is-active .hamburger-inner[data-v-8570f404]::before, .hamburger.is-active .hamburger-inner[data-v-8570f404]::after {\n    background-color: #695f4d;\n}\n@media (prefers-color-scheme: dark) {\n.hamburger-inner[data-v-8570f404], .hamburger-inner[data-v-8570f404]::before, .hamburger-inner[data-v-8570f404]::after,\n    .hamburger.is-active .hamburger-inner[data-v-8570f404], .hamburger.is-active .hamburger-inner[data-v-8570f404]::before, .hamburger.is-active .hamburger-inner[data-v-8570f404]::after {\n      background-color: #f0ebe4;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

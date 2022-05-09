@@ -1,12 +1,12 @@
 <article class="container mx-auto px-4 lg:px-6 pt-20 lg:pt-24">
   <header class="mb-4 lg:mb-6 block">
-    <div class="mx-auto max-w-prose">
+    <div class="mx-auto max-w-prose dark:prose-invert">
       <ul class="flex gap-2 mb-2 lg:mb-4">
         {{ categories }}
           {{ partial:components/taxonomy_li :url="url" :title="title" }}
         {{ /categories }}
       </ul>
-      <h1 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 mb-4 lg:mb-8">
+      <h1 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 mb-4 lg:mb-8">
         <span class="sr-only">Project:</span>
         {{ title }}
       </h1>
@@ -15,10 +15,10 @@
       <img class="rounded-md w-full max-w-screen-md mx-auto" src="{{ url }}" alt="{{ alt }}">
     {{ /featured }}
   </header>
-  <div class="prose mx-auto mb-4 lg:mb-8">
+  <div class="prose dark:prose-invert mx-auto mb-4 lg:mb-8">
     {{ content }}
   </div>
-  <div class="max-w-prose mx-auto mb-8 lg:mb-16">
+  <div class="max-w-prose dark:prose-invert mx-auto mb-8 lg:mb-16">
     {{ partial:components/back_to_index url="/feed/" title="Back to feed"}}
   </div>
 </article>

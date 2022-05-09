@@ -1,5 +1,6 @@
 <template>
   <Transition
+    enter-active-class="duration-400 transition-all ease-in-out"
     enter-class="opacity-0 -translate-y-16 "
     enter-to-class="opacity-100 translate-y-0"
     leave-active-class="transition-all duration-600 ease-in-out"
@@ -8,7 +9,7 @@
   >
     <header
       v-if="bannerIsVisible"
-      class="transition-all duration-400 ease-in-out fixed z-10 inset-0 bg-coffee-200 h-16 flex items-center"
+      class="transition-all duration-400 ease-in-out fixed z-10 inset-0 bg-coffee-200 dark:bg-coffee-800 h-16 flex items-center"
       :class="{ 'shadow-sm': previousScroll > 100 }"
     >
         <div class="flex justify-between items-center container mx-auto">

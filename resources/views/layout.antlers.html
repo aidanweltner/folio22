@@ -8,16 +8,16 @@
         <link rel="stylesheet" href="{{ mix src='css/app.css' }}">
         <link rel="stylesheet" href="https://use.typekit.net/emq4rys.css">
     </head>
-    <body class="bg-white font-sans leading-normal text-gray-800">
+    <body class="bg-white dark:bg-[#1C180C] font-sans leading-normal text-gray-800">
         <div id="app">
             <nav-bar>
-                <ul class="shadow-sm container bg-coffee-200 lg:bg-transparent absolute left-0 p-2 lg:px-4 w-screen lg:w-auto lg:shadow-none lg:flex-row lg:p-0 lg:relative lg:text-left lg:flex gap-2">
+                <ul class="shadow-lg container bg-coffee-200 dark:bg-coffee-800 lg:bg-transparent absolute left-0 p-2 lg:px-4 w-screen lg:w-auto lg:shadow-none lg:flex-row lg:p-0 lg:relative lg:text-left lg:flex gap-2">
                     {{ nav:main_nav }}
                         <li class="p-2 menu-item-{{index}}">
                             <a
                                 href="{{ url }}"
                                 title="{{ title }}"
-                                class="font-mono text-coffee-600 tracking-wide lg:text-lg"
+                                class="font-mono text-coffee-600 dark:text-coffee-300 tracking-wide lg:text-lg"
                             >
                                 {{ title }}
                             </a>

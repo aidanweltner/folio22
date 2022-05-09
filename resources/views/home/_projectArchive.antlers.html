@@ -1,17 +1,17 @@
 <div class="container mx-auto px-4 lg:px-6 pt-8 md:pt-24 lg:pt-48">
-    <div class="flex flex-col gap-2 pb-4 md:pb-0 border-b border-coffee-400 md:border-none md:flex-row md:justify-between w-full md:items-center">
-        <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 md:pb-3">Featured Projects</h2>
+    <div class="flex flex-col gap-2 pb-4 md:pb-0 border-b border-coffee-400 dark:border-coffee-800 md:border-none md:flex-row md:justify-between w-full md:items-center">
+        <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 md:pb-3">Featured Projects</h2>
         <ul class="flex gap-4 lg:gap-8">
             {{ taxonomy from="project_status" }}
                 <a href="{{ url }}" title="{{ title }}" class="inline-flex items-center space-x-4">
                     <div class="w-2 h-2 rounded-full {{ marker }}"></div>
-                    <span class="text-coffee-700 lg:text-lg font-header">{{ title }}</span>
+                    <span class="text-coffee-700 dark:text-coffee-400 lg:text-lg font-header">{{ title }}</span>
                 </a>
             {{ /taxonomy }}
         </ul>
     </div>
     <table class="w-full">
-      <tbody class="divide-y divide-coffee-400">
+      <tbody class="divide-y divide-coffee-400 dark:divide-coffee-800">
           {{ collection:projects limit="9" redirects="true" is_featured:isnt="true" sort="project_end_date:desc|project_start_date:desc" }}
               <tr class="py-4 grid md:grid-cols-4 gap-2">
                   <td class="md:col-span-2">
@@ -23,25 +23,25 @@
                                   </div>
                               {{ /project_status }}
                               <a href="{{ url }}" title="{{ title }}" target="{{ blueprint == 'link' ?= '_blank'  }}" class="text-xl font-header space-x-2">
-                                  <span class="text-coffee-800 font-semibold">{{ title }}</span>
+                                  <span class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</span>
                                   <span class="sr-only">Project date(s):</span>
                                   {{ if is_current }}
-                                      <time class="text-coffee-600" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
+                                      <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
                                   {{ else }}
-                                      <time class="text-coffee-600" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
-                                      <time class="text-coffee-600" datetime="{{ end_date format='Y-m-d' }}">{{ end_date format='M Y' }}</time>
+                                      <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
+                                      <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">{{ end_date format='M Y' }}</time>
                                   {{ endif }}
                               </a>
                           </div>
                           <div class="inline-flex gap-2">
                               {{ if blueprint == 'projects' }}
                                   <a href="{{ url }}" title="{{ title }}">
-                                      <document-text-icon class="text-coffee-700 w-6 h-6" />
+                                      <document-text-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6" />
                                       <span class="sr-only">View case study</span>
                                   </a>
                               {{ else }}
                                   <a href="{{ url }}" title="{{ title }}" target="_blank">
-                                      <external-link-icon class="text-coffee-700 w-6 h-6" />
+                                      <external-link-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6" />
                                       <span class="sr-only">View site</span>
                                   </a>
                               {{ /if }}
@@ -57,12 +57,12 @@
                   </td>
                   <td class="hidden md:flex justify-end gap-4 mt-0">
                       {{ if partner_title }}
-                          <a href="{{ partner_url }}" title="{{ partner_title }}" class="text-xl font-header text-coffee-800 font-semibold">
+                          <a href="{{ partner_url }}" title="{{ partner_title }}" class="text-xl font-header text-coffee-800 dark:text-coffee-200 font-semibold">
                               {{ partner_title }}
                           </a>
                           <a href="{{ partner_url }}" title="{{ partner_title }}">
                               <span class="sr-only">View site</span>
-                              <external-link-icon class="text-coffee-700 w-6 h-6" />
+                              <external-link-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6" />
                           </a>                            
                       {{ /if }}
                   </td>

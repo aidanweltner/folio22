@@ -1,27 +1,27 @@
 <div class="container mx-auto px-4 lg:px-6 pt-8 md:pt-24 lg:pt-48">
   <div class="flex flex-col md:flex-row gap-2 mb-4 md:mb-0 justify-between w-full md:items-center">
-      <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 md:pb-3">Feed</h2>
+      <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 md:pb-3">Feed</h2>
       <div class="flex gap-4 lg:gap-8">
         {{ taxonomy from="categories" }}
           <a href="{{ url }}" title="{{ title }}" class="inline-flex items-center gap-2">
-            <span class="text-coffee-700 text-lg font-header">{{ title }}</span>
-            <document-text-icon class="text-coffee-700 w-6 h-6" />
+            <span class="text-coffee-700 dark:text-coffee-400 text-lg font-header">{{ title }}</span>
+            <document-text-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6" />
           </a>
         {{ /taxonomy }}
       </div>
   </div>
   <ul class="w-full">
     {{ collection:feed limit="9" }}
-      <li class="border-b border-coffee-400">
+      <li class="border-b border-coffee-400 dark:border-coffee-800">
           <article class="py-4 flex justify-between items-stretch">
               <header>
                   <div class="flex items-center gap-2 lg:gap-4">
-                      <h3 class="font-header font-semibold text-lg lg:text-xl text-coffee-800"><a href="{{ url }}" title="{{ title }}">{{ title }}</a></h3>
+                      <h3 class="font-header font-semibold text-lg lg:text-xl text-coffee-800 dark:text-coffee-200"><a href="{{ url }}" title="{{ title }}">{{ title }}</a></h3>
                       {{ categories }}
-                        <a href="{{ url }}" title="{{ title }}" class="py-1 px-2 bg-coffee-200 rounded font-mono text-coffee-800 text-xs font-light">{{ title }}</a>
+                        <a href="{{ url }}" title="{{ title }}" class="py-1 px-2 bg-coffee-200 dark:bg-coffee-800 rounded font-mono text-coffee-800 dark:text-coffee-200 text-xs font-light">{{ title }}</a>
                       {{ /categories }}
                   </div>
-                  <p class="font-sans line-clamp-2 text-lg lg:text-xl text-coffee-600 mt-2 max-w-prose">
+                  <p class="font-sans line-clamp-2 text-lg lg:text-xl text-coffee-600 dark:text-coffee-300 mt-2 max-w-prose dark:prose-invert">
                     {{ description ? description : content }}
                   </p>
                   <a href="{{ url }}" title="Read more" class="sr-only">Read more</a>

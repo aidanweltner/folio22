@@ -14,16 +14,16 @@
           </div>
           {{ about_landscape_3 }}<img class="rounded-md w-full" src="{{ url }}" alt="{{ alt }}">{{ /about_landscape_3 }}
       </div>
-      <div id="about-content" class="py-4 lg:py-8 max-w-prose">
-          <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 pb-3">{{ about_heading }}</h2>
-          <div class="prose pb-6">
+      <div id="about-content" class="py-4 lg:py-8 max-w-prose dark:prose-invert">
+          <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 pb-3">{{ about_heading }}</h2>
+          <div class="prose dark:prose-invert pb-6">
               {{ about_description }}
           </div>
           <div>
-              <h3 class="font-header font-semibold text-xl lg:text-3xl text-coffee-800">{{ about_values_heading }}</h3>
+              <h3 class="font-header font-semibold text-xl lg:text-3xl text-coffee-800 dark:text-coffee-200">{{ about_values_heading }}</h3>
               <ul class="pt-2 max-w-md grid grid-cols-2 gap-x-4 lg:grid-cols-1 lg:gap-0">
                 {{ about_values }}
-                  <li class="py-3 w-full border-b border-coffee-400 text-lg lg:text-xl text-coffee-600 font-header">{{value}}</li>
+                  <li class="py-3 w-full border-b border-coffee-400 dark:border-coffee-800 text-lg lg:text-xl text-coffee-600 dark:text-coffee-500 font-header">{{value}}</li>
                 {{ /about_values }}
               </ul>
           </div>
