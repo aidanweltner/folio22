@@ -2315,14 +2315,14 @@ select {
     color: rgb(224 218 206 / var(--tw-text-opacity));
   }
 
-  .dark\:text-coffee-100 {
-    --tw-text-opacity: 1;
-    color: rgb(252 251 250 / var(--tw-text-opacity));
-  }
-
   .dark\:text-coffee-500 {
     --tw-text-opacity: 1;
     color: rgb(191 180 163 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-coffee-100 {
+    --tw-text-opacity: 1;
+    color: rgb(252 251 250 / var(--tw-text-opacity));
   }
 
   .dark\:hover\:border-coffee-400:hover {
