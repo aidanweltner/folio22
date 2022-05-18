@@ -8,6 +8,7 @@ updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
 updated_at: 1646936878
 description: 'Aliquip chuck drumstick, brisket labore dolor meatloaf boudin sint jerky pork reprehenderit short loin alcatra. T-bone capicola pork loin, pancetta beef ribs prosciutto ham hock pig sunt minim.'
 featured: home/Fish.jpg
+publish_date: 20220415
 ---
 Aliquip chuck drumstick, brisket labore dolor meatloaf boudin sint jerky pork reprehenderit short loin alcatra. T-bone capicola pork loin, pancetta beef ribs prosciutto ham hock pig sunt minim. Sausage beef dolor, enim officia buffalo id spare ribs fugiat est elit landjaeger aliqua prosciutto beef ribs. Chislic kevin short loin, mollit alcatra t-bone et chuck magna ribeye. Short ribs meatball in pork belly.
 

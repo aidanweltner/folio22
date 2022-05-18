@@ -1,0 +1,20 @@
+---
+id: f0a206dd-a4a9-4354-8edb-7935f7457d75
+blueprint: feed
+title: 'Some windy, late-summer Montana high country goodness'
+description: 'I always used to watch nature videos as a kid when I was stressing about school. Just raw audio and video, nothing fancy.'
+publish_date: 20200831
+categories:
+  - creative
+updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
+updated_at: 1652847562
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HeqNraA46Oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I always used to watch nature videos as a kid when I was stressing about school. Just raw audio and video, nothing fancy. When I take a break to watch something like this with the intention to calm down and lower my blood pressure it generally does the trick.
+
+I so often carry professional video equipment with me when I’m bopping around and exploring, I think it’s wise to start making my own little ASMR nature videos.
+
+Here’s one from a solo romp in the Montana high country. Turn your sound on for decently recorded wind noises. Go full screen and give the 4k version some time to buffer for a more immersive experience.
+
+I’m very seriously considering starting to license some stock video and photography. I think that backcountry nature clips would definitely be my specialty. As I said, I often have the equipment with me anyways!

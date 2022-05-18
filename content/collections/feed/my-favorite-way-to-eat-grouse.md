@@ -1,0 +1,27 @@
+---
+id: b8aa6983-dbfa-43b0-b321-c3f9c9f8e337
+blueprint: feed
+title: 'My favorite way to eat grouse'
+description: 'I have been getting more into hunting over the last few years. Small game and upland bird hunting is a great way to get out for a short hike, usually before work, and source some delicious, sustainable food.'
+publish_date: 20200909
+categories:
+  - creative
+updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
+updated_at: 1652847685
+---
+(picture)
+
+I have been getting more into hunting over the last few years. Small game and upland bird hunting is a great way to get out for a short hike, usually before work, and source some delicious, sustainable food. I have yet to master the flavor and texture that I want out of cooking game birds whole so I have been defaulting to making breakfast sausage from fresh grouse. My favorite way to eat this sausage is on a little breakfast sandwich or bagel but it’s also great just as a side. I adapted this recipe from a [wild turkey breakfast sausage recipe from Steven Rinella](https://www.penguinrandomhouse.com/books/243408/the-complete-guide-to-hunting-butchering-and-cooking-wild-game-by-steven-rinella/). The recipe loosely goes as follows:
+
+- 3 parts cubed grouse meat
+- 1 part of locally-sourced cubed pork fat
+- A healthy seasoning of kosher salt
+- 1ish teaspoon of black pepper per pound of sausage
+- A clove or two of garlic from your roommate’s Dad’s farm
+- 4 sage leaves from your garden per pound of sausage
+- A bit of finely chopped fresh ginger
+- (optional) a teaspoon or two of brown sugar
+
+If you can’t tell, I am big on local ingredients. They don’t have to be organic, just local. It seems to fit in the spirit of cooking wild game you sourced that morning. I find that one healthy-sized blue or ruffled grouse produces about 3/4 lb of meat which produces about 1 lb of sausage. I just mix all these together and grind one time through the wide die of a meat grinder. I usually form the sausage into 1/8lb for a side to your eggs or 1/4lb patties if you’re making sandwiches. Cook the patties on a medium heat cast iron and press them hard for a few seconds to get nice and brown.
+
+The sandwich in the picture is sourdough, mayo, big-leaf spinach, grilled red onion, a steam-fried egg and some Cholula hot sauce.

@@ -1,0 +1,39 @@
+---
+id: 33cce9d7-d5ae-4aa7-91ad-faa73050d506
+blueprint: feed
+title: 'New snippets for Laravel 8 Blade Components'
+description: 'Today I added a few Blade snippets to my Visual Studio Code configuration to accommodate the new (to me) workflow for the Laravel 8 update for Blade components.'
+publish_date: 20210104
+categories:
+  - creative
+updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
+updated_at: 1652847981
+---
+Today I added a few Blade snippets to my [Visual Studio Code](https://code.visualstudio.com/) configuration to accommodate the new (to me) workflow for the [Laravel 8 update for Blade components](https://laravel.com/docs/8.x/blade#rendering-components). Anything in the `app/views/components` directory will now render with the `<x-componentName />` tag in Blade templates. I already used a similar workflow with the `@include('componentName')` tag in previous versions of Blade in [Sage theme](https://roots.io/sage/) projects so this is a nice upgrade to me. I also recently learned how to create new file-specific snippets in Visual Studio from Laracasts so this seemed like a really nice use case. As suggested by Jeffery Way in the [Visual Studio Code for PHP Developers](https://laracasts.com/series/visual-studio-code-for-php-developers/episodes/5) series, I used an extension called [Snippet Creator (from wware)](https://marketplace.visualstudio.com/items?itemName=wware.snippet-creator) that logs code snippets to a file-type specific file. It’s super useful and I’ve already set up a number of them for PHP. But the Blade snippets which I’ve set up to my liking are stored inside the `blade.json` file are below:
+```
+{
+	"Blade Component": {
+		"prefix": "x-",
+		"body": [
+			"<x-$1 class=\"$3\">",
+			"\t$2",
+			"</x-$1>"
+		],
+		"description": "New blade component"
+	},
+	"Inline Blade Component": {
+		"prefix": "x",
+		"body": "<x-$1 class=\"$2\" />",
+		"description": "Create new inline blade component"
+	},
+	"Blade Layout Component": {
+		"prefix": "xl",
+		"body": [
+			"<x-$1-layout>",
+			"\t$2",
+			"</x-$1-layout>"
+		],
+		"description": "Create new blade layout component"
+	}
+}
+```

@@ -1,0 +1,33 @@
+---
+id: b7cbfa30-1d57-42a7-87a6-920f2ad9defe
+blueprint: feed
+title: 'Why I love Film'
+description: 'The first, real film camera that I received was a Zeiss Ikon Contessa which was given to me by the beloved Saad family. It’s compact with a non-interchangeable 45mm lens. The camera is German and was first manufactured in 1950. It’s a metal box in which the lens folds out of the camera to capture images.'
+categories:
+  - blog
+updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
+updated_at: 1652843204
+publish_date: 20151012
+---
+### Slow down and shoot whatever you want… on film.
+The first, real film camera that I received was a Zeiss Ikon Contessa which was given to me by the beloved Saad family. It’s compact with a non-interchangeable 45mm lens. The camera is German and was first manufactured in 1950. It’s a metal box in which the lens folds out of the camera to capture images. Being a rangefinder style camera, instead of seeing the image through the lens you see it through a small viewfinder. The viewfinder uses a range finding system to achieve proper focus. Since the photographer doesn’t look through the lens there are no mirrors that flip up every shot, which makes the camera very quiet. This design was for candid moments and rangefinders were a big part of the street photography craze in the mid 20th century.
+
+This camera enamoured me, as it was the only film camera that I owned for years. I did all kinds of experiments with it: different films, double exposure, push and pull processing. I quickly realized that I was taking better pictures with it. The high cost and limited frames on the rolls made me slow down and shoot scenes that actually warranted a shot. I wasn’t firing off random frames just to see how they would turn out on the back of the screen. I was metering every shot exactly how I wanted with careful composition. Plus, with the gap between when I shot a picture and when I actually got the image back, I was selecting better images to share with friends (and put on the internet).
+
+Later, I bought another film camera, a Canon FTb, and started to learn how to develop my own black and white film with the help of a 7th-grade art teacher, Ms DeJong. This is the point when I got hooked. I was now in full control of the photographic process. I knew how to shoot, develop and print my own photographs, start to finish. I eventually got more cameras and abandoned the idea of updating my digital gear almost completely. The money that I had for photography equipment almost always went towards chemicals, film and lenses for my classic camera bodies.
+I’m not advocating that you try out film; it’s incredibly frustrating and expensive. But, the following are my main reason for loving it so dearly.
+
+### \#1: My shots are physically there.
+I record a digital image on a flimsy memory card and transfer it to a sensitive hard drive and then back it up to another sensitive hard drive. With film, I capture an image onto an emulsion that lies on a roll of film. Then I develop these images into silver negatives that virtually never fade away and these sheets of negatives lie in a binder than generally stays in a safe place at all times. Sure, the possibility of losing those negatives to something like a flood or fire exists but I’ll take my chances. The images I shoot on film are generally shot with the intention that I will be holding onto them forever while with digital I generally shoot with the possibility of instant and random loss.
+
+### \#2: Every frame counts.
+In my mind, film is not to be wasted. Facilities that produce film are constantly being shut down or raising prices. I always shoot with the intention that proper exposure, focus, and composition will be considered for every shot. These considerations leave me with a higher percentage of keepers in my rolls of film versus my cards of digitals. 
+
+### \#3: Film photography has gone through its lifetime.
+Film photography equipment production has come to almost a complete halt while digital photography has only been in the forefront of photography for about 20 years. Roll film was invented in the late 19th century and effectively had 100 years of research and perfection. This means that when I make a film equipment choice I can select the best camera and lens based on time-tested fact. These days there seems to be brand-new, photography technology every single year: more megapixels, higher resolution, faster, smarter, more sensitivity, etc. It never ends. The entire photography industry seems to be one big beta test. I feel constantly pressured to upgrade my digital equipment to accommodate for problems that never I never knew existed. Thankfully, upgrades in the film photography industry are scarce and I never feel pressured to ditch my lineup. 
+
+### \#4: The film look. 
+I have spent hundreds of dollars on software that is meant to emulate the film look in my digital images. The look of film is something that, to me, is almost perfect. I love how much detail it has in highlights and shadows; I love the look of grain that was produced by the entropy of the light sensitive chemicals; and I love the way I get a different look on a roll every time I leave it in the development tank just a little too long or too short. Plus, to me, family photos stuffed in boxes from the days of film are much more emotionally provocative than the photos we take on our cell phones or the ones that sit forever on a hard drive.
+
+### \#5: I take pictures of what I want on film.
+To me, the purpose of digital photography is to quickly create images and share them. This is a great thing. Digital photography helps me collaborate with other people simply because we can instantly compare our perceptions with the outcomes. This makes me feel like I always have to share photographs I create digitally, which in turn keeps the audience I’m shooting for always in the back of my mind. I find that the photos that I shoot on film are much more personal and relevant to my life. They aren’t tailored to a certain audience; they are often my purest form of expression.

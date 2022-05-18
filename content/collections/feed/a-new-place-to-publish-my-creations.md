@@ -1,0 +1,16 @@
+---
+id: 7fd5e889-a2f1-41be-af77-94715e4feb58
+blueprint: feed
+title: 'A new place to publish my creations'
+description: 'In late 2019, I made it a goal to start each day by creating something. Currently, as of writing this (mid-May 2020) I do not have this habit down perfectly. Often it’s not the very first activity that I start my day with but often it’s the first thing I do during my workday.'
+publish_date: 20200515
+categories:
+  - creative
+updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
+updated_at: 1652846062
+---
+I read (or heard) once from [Tim Ferris](https://tim.blog/) that he tries to start each day by creating something. He mentioned that taking inputs either from email or social media can often leave you drained the rest of the day. I can’t find a quote anywhere on the internet but just know that a) that’s basically what he said and b) it sounds like something he would say so you’ll have to take my word for it. Regardless, in late 2019, I made it a goal to start each day by creating something. Currently, as of writing this (mid-May 2020) I do not have this habit down perfectly. Often it’s not the very first activity that I start my day with but often it’s the first thing I do during my workday. As of writing, a common pattern is to check social media when I first start my day, which is a habit that I am trying to break. Also, shout out to [Derek Sivers](https://sivers.org/) for inspiring the idea of publically publishing these creations. I was listening to an interview with him on the [Yo! Podcast with Rob Hope](https://robhope.com/yo-sivers) and poking around his website when [his ‘now’ page](https://sivers.org/now) concept caught my attention.
+
+### Explore the collection
+I am going to try the reasonable goal of publishing 2-3 per week. You will find designs, code, writing, photography, & anything else I deem “creative.” I will skip some days for reasons of privacy to my clients, personal projects, or my friends and I will often omit personal information. Feel free to explore the collection and hopefully it continues to grow.
+[Explore the collection](/categories/creative)

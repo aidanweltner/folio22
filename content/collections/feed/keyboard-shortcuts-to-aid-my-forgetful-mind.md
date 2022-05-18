@@ -1,0 +1,24 @@
+---
+id: ba3405d4-1472-4f39-8c26-8184159418a8
+blueprint: feed
+title: 'Keyboard shortcuts to aid my forgetful mind'
+description: 'I use a few important tools for communicating with clients in my freelance work. All of which, I can never remember.'
+publish_date: 20200521
+categories:
+  - creative
+updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
+updated_at: 1652846744
+---
+(screenshot)
+
+I use a few important tools for communicating with clients in my [freelance work](https://cottontailcreative.com/?utm_source=signature&utm_medium=email&utm_campaign=CTC_communication). A separate email, a [Google Voice phone number](https://voice.google.com/) with a separate voicemail, and a [Calendly account](https://calendly.com/) to schedule meetings and calls. All of which, I can never remember. So every time that I need to give someone one of these pieces of information, I have to go into [Evernote](https://evernote.com/), look it up, copy it, and paste it into a message. It’s been driving me insane and after remembering that I have a little shortcut on my computer and phone that helps me write more clearly, I finally came up with a good solution to my space-brain tendencies of forgetting my own phone number.
+
+I love [keyboard shortcuts](https://support.apple.com/en-us/HT201236) and a few years ago I added the text shortcut “chip chu” to autocorrect “thing” in my iPhone and MacBook. It was an attempt to improve my writing so that I was more specific about what I was referring to; a habit that was ingrained into my head by my 9th-grade English teacher. Thanks Mrs. V. That shortcut has worked really well for me and I decided to use the same technique to help me with my links and phone number. On my MacBook I went to  > System Preferences > Keyboard > Text and (here’s an article on [how to add text shortcuts on mac](https://www.techradar.com/how-to/computing/apple/how-to-use-text-shortcuts-on-mac-1308652)) added the following shortcuts:
+
+\[aw\] –> my personal email <br>
+\[cl\] –> my Calendly link <br>
+\[ctc\] –> my work email <br>
+\[ctcp\] –> my work phone <br>
+\[ctcw\] –> my work website
+
+It works really well and I am super pleased. For now, while I remember the shortcuts, I have a post-it note on my monitor as a reminder. I know that this sounds a little bit like cheating for a “first creation of the day” but I had to flex some creative muscles to come up with the actual shortcuts and this is a hack that will surely bring me enjoyment for years to come!

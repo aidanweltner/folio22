@@ -1,0 +1,28 @@
+---
+id: c0a5afc2-fc76-4c9f-9f99-d9a90a23883e
+blueprint: feed
+title: 'Our Generation’s Biggest Challenge'
+description: 'My generation’s biggest challenge is having the courage to change the K-12 public education system. Take old thinking and completely turn it inside out. Analyze what works and create an entirely new system.'
+categories:
+  - blog
+updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
+updated_at: 1652842806
+publish_date: 20150315
+---
+My generation’s biggest challenge is having the courage to change the K-12 public education system. Take old thinking and completely turn it inside out. Analyze what works and create an entirely new system.
+
+In too many aspects of our current education system, we find that we are being pushed to do things in one particular way.  We learn how to get the answer to a math problem in a very specific way or not stray from instruction in a science experiment. Even when we read a book we are expected to come to the same prophetic conclusion that is accepted by society.
+
+We are learning in a fenced environment with no room to explore or be curious. We do not get to tinker or ramble.
+
+We need to inspire future generations to be creative, innovative and self-confident. We did not evolve to have the most complex brain on earth to have it restricted by a system that does not allow for these characteristics.  We are falling behind as a nation in education not because we are losing intelligence, but because we are educating in the same way we have been for 100 years. We will not progress as a nation if we continue to let the system hold bright minds back.
+
+I want my generation to value the future generations. We have to be the ones who change what a public education looks like. We have to be the ones to inspire others to think about a child’s mind as our most precious resource.
+
+We have to have more classes in school that focus on teamwork and creativity. Those classes need to start at the beginning and never stop. Lessons and classes will also need to be focused on collaboration while also keeping a healthy mix of individual achievement. We will also need to break the old habit of teaching every child the same way. Children will need to be grouped into different learning styles and abilities, no matter their age.
+
+Our students need real-world interaction: they need to experience accomplishments that really matter and connect to the world outside the classroom. Give a child a task with no restrictions and you will be amazed at the results. Children of a surprisingly young age can solve real-world problems in ways that no one has ever dreamed of. They are not allowed to do this in today’s system. It is imperative that we give our students confidence at a young age and show them that they can make a difference in the world.
+
+Changes like these do not come easy.  We must come together and convince everyone that the way we operate now is not conducive as we move on and progress.
+
+My generation can do it. We will change the way the world thinks, one kindergartner at a time.
