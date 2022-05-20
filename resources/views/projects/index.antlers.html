@@ -3,11 +3,11 @@
     <h1 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 mb-4 lg:mb-8">Featured Projects</h1>
   </header>
   <section>
-    <ul class="grid grid-cols-1 gap-3 lg:gap-6 mt-6 lg:mt-9">
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-6 mt-6 lg:mt-9">
       {{ collection:projects is_featured:is="true" limit="4" sort="project_start_date:desc" }}
           <li>
-              <article class="flex flex-col md:flex-row-reverse md:items-end justify-between border border-coffee-400 dark:border-coffee-800 rounded-lg p-2 lg:p-4">
-                  <a href="{{ url }}" class="hover:opacity-60 w-full md:w-1/2 lg:w-3/5" title="{{ title }}">
+              <article class="flex flex-col lg:flex-row-reverse lg:items-end justify-between border border-coffee-400 dark:border-coffee-800 rounded-lg p-2 lg:p-4">
+                  <a href="{{ url }}" class="hover:opacity-60 w-full lg:w-1/2 lg:w-3/5" title="{{ title }}">
                       {{ featured }}
                           <img class="rounded-md" src="{{ url }}" alt="{{ alt }}">
                       {{ /featured }}
@@ -52,10 +52,10 @@
     </div>
     {{ collection:projects as="project" paginate="9" redirects="true" is_featured:isnt="true" sort="project_start_date:desc" }}
         <table class="w-full">
-            <tbody class="divide-y divide-coffee-400">
+            <tbody class="divide-y divide-coffee-400 dark:divide-coffee-800">
                 {{ project }}
-                    <tr class="py-4 grid md:grid-cols-4 gap-2">
-                        <td class="md:col-span-2">
+                    <tr class="py-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-2">
+                        <td class="sm:col-span-2">
                             <div class="flex items-center justify-between md:justify-start gap-4">
                                 <div class="gap-4 inline-flex items-center">
                                     {{ project_status }}
@@ -67,10 +67,19 @@
                                         <span class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</span>
                                         <span class="sr-only">Project date(s):</span>
                                         {{ if is_current }}
-                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
+                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
+                                                <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
+                                                <span class="lg:hidden">{{ start_date format='M y' }} -</span>
+                                            </time>
                                         {{ else }}
-                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
-                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">{{ end_date format='M Y' }}</time>
+                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
+                                                <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
+                                                <span class="lg:hidden">{{ start_date format='M y' }} -</span>
+                                            </time>
+                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">
+                                                <span class="hidden lg:inline">{{ end_date format='M Y' }}</span>
+                                                <span class="lg:hidden">{{ end_date format='M y' }}</span>
+                                            </time>
                                         {{ endif }}
                                     </a>
                                 </div>
@@ -96,7 +105,7 @@
                                 {{ /skills }}
                             </ul>
                         </td>
-                        <td class="hidden md:flex justify-end gap-4 mt-0">
+                        <td class="hidden lg:flex justify-end gap-4 mt-0">
                             {{ if partner_title }}
                                 <a href="{{ partner_url }}" title="{{ partner_title }}" class="text-xl font-header text-coffee-800 dark:text-coffee-200 font-semibold">
                                     {{ partner_title }}

@@ -1,7 +1,7 @@
 <template>
-  <nav class="lg:ml-auto">
+  <nav class="ml-auto">
     <button
-        class="hamburger hamburger--spin lg:hidden"
+        class="hamburger hamburger--spin sm:hidden"
         :class="{ 'is-active': isExpanded }"
         @click="isExpanded = ! isExpanded"
         type="button" aria-label="Menu" aria-controls="navigation" :aria-expanded="String(isExpanded)"
@@ -11,7 +11,7 @@
         </span>
         <span class="hamburger-label sr-only">Menu</span>
     </button>
-    <div id="navigation" class="lg:block relative" :class="{ 'hidden' : !isExpanded }">
+    <div id="navigation" class="sm:block relative" :class="{ 'hidden' : !isExpanded }">
       <slot></slot>
     </div>
   </nav>

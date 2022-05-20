@@ -17337,7 +17337,7 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  "class": "lg:ml-auto"
+  "class": "ml-auto"
 };
 var _hoisted_2 = ["aria-expanded"];
 
@@ -17362,7 +17362,7 @@ var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
 var _hoisted_5 = [_hoisted_3, _hoisted_4];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["hamburger hamburger--spin lg:hidden", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["hamburger hamburger--spin sm:hidden", {
       'is-active': $data.isExpanded
     }]),
     onClick: _cache[0] || (_cache[0] = function ($event) {
@@ -17376,7 +17376,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* CLASS, PROPS */
   , _hoisted_2), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     id: "navigation",
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["lg:block relative", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["sm:block relative", {
       'hidden': !$data.isExpanded
     }])
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default", {}, undefined, true)], 2

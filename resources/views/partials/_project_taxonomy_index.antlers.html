@@ -12,10 +12,10 @@
   </header>
   {{ entries paginate="9" redirects="true" sort="project_start_date:desc" }}
       <table class="w-full">
-          <tbody class="divide-y divide-coffee-400">
+          <tbody class="divide-y divide-coffee-400 dark:divide-coffee-800">
               {{ results }}
-                  <tr class="py-4 grid md:grid-cols-4 gap-2">
-                      <td class="md:col-span-2">
+                  <tr class="py-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-2">
+                      <td class="sm:col-span-2">
                           <div class="flex items-center justify-between md:justify-start gap-4">
                               <div class="gap-4 inline-flex items-center">
                                   {{ project_status }}
@@ -24,14 +24,23 @@
                                       </div>
                                   {{ /project_status }}
                                   <a href="{{ url }}" title="{{ title }}" target="{{ blueprint == 'link' ?= '_blank'  }}" class="text-xl font-header space-x-2">
-                                      <span class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</span>
-                                      <span class="sr-only">Project date(s):</span>
-                                      {{ if is_current }}
-                                          <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
-                                      {{ else }}
-                                          <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='M Y' }} -</time>
-                                          <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">{{ end_date format='M Y' }}</time>
-                                      {{ endif }}
+                                        <span class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</span>
+                                        <span class="sr-only">Project date(s):</span>
+                                        {{ if is_current }}
+                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
+                                                <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
+                                                <span class="lg:hidden">{{ start_date format='M y' }} -</span>
+                                            </time>
+                                        {{ else }}
+                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
+                                                <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
+                                                <span class="lg:hidden">{{ start_date format='M y' }} -</span>
+                                            </time>
+                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">
+                                                <span class="hidden lg:inline">{{ end_date format='M Y' }}</span>
+                                                <span class="lg:hidden">{{ end_date format='M y' }}</span>
+                                            </time>
+                                        {{ endif }}
                                   </a>
                               </div>
                               <div class="inline-flex gap-2">
@@ -56,7 +65,7 @@
                               {{ /skills }}
                           </ul>
                       </td>
-                      <td class="hidden md:flex justify-end gap-4 mt-0">
+                      <td class="hidden lg:flex justify-end gap-4 mt-0">
                           {{ if partner_title }}
                               <a href="{{ partner_url }}" title="{{ partner_title }}" class="text-xl font-header text-coffee-800 dark:text-coffee-200 font-semibold">
                                   {{ partner_title }}
