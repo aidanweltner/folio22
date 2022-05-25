@@ -3,7 +3,7 @@
         <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 md:pb-3">Featured Projects</h2>
         <ul class="flex gap-4 lg:gap-8">
             {{ taxonomy from="project_status" }}
-                <a href="{{ url }}" title="{{ title }}" class="inline-flex items-center space-x-4">
+                <a href="/projects{{ url }}" title="{{ title }}" class="inline-flex items-center space-x-4">
                     <div class="w-2 h-2 rounded-full {{ marker }}"></div>
                     <span class="text-coffee-700 dark:text-coffee-400 lg:text-lg font-header">{{ title }}</span>
                 </a>

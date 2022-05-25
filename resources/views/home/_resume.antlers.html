@@ -3,7 +3,7 @@
   <ul class="grid md:grid-cols-2 gap-x-4 lg:gap-x-8">
     {{ taxonomy from="skills" limit="12" sort="since" }}
       <li class="py-2 lg:py-4 w-full text-lg lg:text-xl font-header space-x-2 border-b border-coffee-400 dark:border-coffee-800">
-          <a href="{{ url }}" title="View projects using {{ title }}" class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</a>
+          <a href="/projects{{ url }}" title="View projects using {{ title }}" class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</a>
           <time datetime="{{ since format='Y-m-d' }}" class="text-coffee-600 dark:text-coffee-300">
               <span class="sr-only">since:</span>
               {{ since format='Y' }}
