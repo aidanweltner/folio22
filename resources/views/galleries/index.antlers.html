@@ -6,12 +6,12 @@
     {{ collection:galleries }}
       <li class="w-full h-full relative">
         <div class="block">
-          <a class="block" href="{{ url }}" title="{{ title }}">
+          <a class="block hover:opacity-60" href="{{ url }}" title="{{ title }} Gallery">
             <figure class="w-full h-42 xl:h-64">
               <img src="{{ featured }}" class="w-full h-42 xl:h-64 object-cover"/>
             </figure>
           </a>
-          <a class="block relative" href="{{ url }}" title="{{ title }}">
+          <a class="block relative" href="{{ url }}" title="{{ title }} Gallery">
             <h3 class="mt-2 font-header font-bold text-xl lg:text-2xl text-coffee-800 dark:text-coffee-200">{{ title }}</h3>
           </a>
         </div>
