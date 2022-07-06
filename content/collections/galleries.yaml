@@ -1,0 +1,9 @@
+title: Galleries
+template: galleries/show
+layout: layout
+revisions: false
+route: '/galleries/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

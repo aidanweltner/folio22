@@ -1,0 +1,27 @@
+<article class="pt-20 lg:pt-24">
+  <div class="container px-4 md:px-8 lg:px-16 xl:px-24 mx-auto">
+    <header class="mb-4 lg:mb-6 block">
+      <div class="max-w-prose dark:prose-invert">
+        <h1 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 mb-4 lg:mb-8">
+          <span class="sr-only">Gallery: </span>
+          {{ title }}
+        </h1>
+      </div>
+    </header>
+    <div class="prose dark:prose-invert mb-4 lg:mb-8">
+      {{ content }}
+    </div>
+    <div class="max-w-prose dark:prose-invert mb-8 lg:mb-16">
+      {{ partial:components/back_to_index url="/galleries/" title="Back to galleries"}}
+    </div>
+  </div>
+  <ul class="container mx-auto md:px-8 lg:px-16 xl:px-24 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
+    {{ images }}
+      <li class="w-full h-24 xl:h-42 relative">
+        <figure class="absolute inset-0 w-full h-full">
+          <img src="{{asset}}" class="w-full h-full object-cover"/>
+        </figure>
+      </li>
+    {{ /images }}
+  </ul>
+</article>

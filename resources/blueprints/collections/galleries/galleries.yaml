@@ -1,0 +1,117 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: featured
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Featured
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+      -
+        handle: images
+        field:
+          collapse: true
+          sets:
+            image:
+              display: Image
+              fields:
+                -
+                  handle: source_is_external
+                  field:
+                    default: false
+                    display: 'Source Is External'
+                    type: toggle
+                    icon: toggle
+                    listable: hidden
+                    instructions_position: above
+                    read_only: false
+                -
+                  handle: asset
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Asset
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    read_only: false
+                    if:
+                      source_is_external: 'equals 0'
+                -
+                  handle: url
+                  field:
+                    display: URL
+                    type: link
+                    icon: link
+                    listable: hidden
+                    instructions_position: above
+                    read_only: false
+                    if:
+                      source_is_external: 'equals 1'
+                -
+                  handle: alt
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Alt
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    read_only: false
+                    if:
+                      source_is_external: 'equals 1'
+                -
+                  handle: caption
+                  field:
+                    antlers: false
+                    display: Caption
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    read_only: false
+                    if:
+                      source_is_external: 'equals 1'
+          display: Images
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          read_only: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+title: Galleries

@@ -1,0 +1,21 @@
+<div class="container mx-auto px-4 lg:px-6 pt-20 lg:pt-24 pb-16 lg:pb-20">
+  <header class="mb-4 lg:mb-6">
+    <h1 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 mb-4 lg:mb-8">Featured Galleries</h1>
+  </header>
+  <ul class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2">
+    {{ collection:galleries }}
+      <li class="w-full h-full relative">
+        <div class="block">
+          <a class="block" href="{{ url }}" title="{{ title }}">
+            <figure class="w-full h-42 xl:h-64">
+              <img src="{{ featured }}" class="w-full h-42 xl:h-64 object-cover"/>
+            </figure>
+          </a>
+          <a class="block relative" href="{{ url }}" title="{{ title }}">
+            <h3 class="mt-2 font-header font-bold text-xl lg:text-2xl text-coffee-800 dark:text-coffee-200">{{ title }}</h3>
+          </a>
+        </div>
+      </li>
+    {{ /collection:galleries }}
+  </ul>
+</div>

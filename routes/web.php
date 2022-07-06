@@ -22,3 +22,4 @@ use Illuminate\Support\Facades\Route;
  */
 Route::statamic('/projects', 'projects.index' );
 Route::statamic('/feed', 'feed.index');
+Route::statamic('/galleries', 'galleries.index');
