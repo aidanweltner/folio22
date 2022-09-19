@@ -18,18 +18,18 @@
         class="absolute right-2 bottom-2 transition-all delay-200 ease-in-out group-hover:opacity-100 opacity-0 scale-75 group-hover:scale-100"
         :class="popup ? 'hidden' : 'block'"
       >
-        <ArrowsExpandIcon class="h-4 w-4 text-coffee-100" />
+        <ArrowsPointingOutIcon class="h-4 w-4 text-coffee-100" />
       </div>
     </figure>
   </button>
 </template>
 
 <script>
-  import {ArrowsExpandIcon} from '@heroicons/vue/outline'
+  import {ArrowsPointingOutIcon} from '@heroicons/vue/24/outline'
 
   export default {
     components: {
-      ArrowsExpandIcon,
+      ArrowsPointingOutIcon,
     },
 
     data() {
