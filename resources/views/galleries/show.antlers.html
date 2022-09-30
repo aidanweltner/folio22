@@ -24,4 +24,14 @@
       </li>
     {{ /images }}
   </ul>
+  <light-box
+    :media="[
+      {{ images }}
+        {
+          thumb: '{{asset}}',
+          src: '{{asset}}'
+        },
+      {{ /images }}
+    ]"
+  ></light-box>
 </article>

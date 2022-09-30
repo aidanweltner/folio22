@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js":
@@ -8,6 +7,7 @@
   \***************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "generateCodeFrame": () => (/* reexport safe */ _vue_shared__WEBPACK_IMPORTED_MODULE_0__.generateCodeFrame),
@@ -5002,6 +5002,7 @@ const noopDirectiveTransform = () => ({ props: [] });
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "BASE_TRANSITION": () => (/* reexport safe */ _vue_compiler_core__WEBPACK_IMPORTED_MODULE_0__.BASE_TRANSITION),
@@ -5620,6 +5621,7 @@ function parse(template, options = {}) {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "EffectScope": () => (/* binding */ EffectScope),
@@ -6868,6 +6870,7 @@ function deferredComputed(getter) {
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "EffectScope": () => (/* reexport safe */ _vue_reactivity__WEBPACK_IMPORTED_MODULE_0__.EffectScope),
@@ -14707,6 +14710,7 @@ const compatUtils = (null);
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "BaseTransition": () => (/* reexport safe */ _vue_runtime_core__WEBPACK_IMPORTED_MODULE_0__.BaseTransition),
@@ -16550,6 +16554,7 @@ const initDirectivesForSSR = () => {
   \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "EMPTY_ARR": () => (/* binding */ EMPTY_ARR),
@@ -17208,6 +17213,7 @@ const getGlobalThis = () => {
   \*****************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17233,6 +17239,7 @@ __webpack_require__.r(__webpack_exports__);
   \************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17277,6 +17284,7 @@ __webpack_require__.r(__webpack_exports__);
   \****************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17297,6 +17305,7 @@ __webpack_require__.r(__webpack_exports__);
   \*********************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render)
@@ -17336,6 +17345,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   \****************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render)
@@ -17389,6 +17399,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   \********************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render)
@@ -17456,28 +17467,36 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-/* harmony import */ var _components_NavBar_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/NavBar.vue */ "./resources/js/components/NavBar.vue");
-/* harmony import */ var _components_FigurePopup_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/FigurePopup.vue */ "./resources/js/components/FigurePopup.vue");
-/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/DocumentTextIcon.js");
-/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/ArrowTopRightOnSquareIcon.js");
-/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/ArrowLongLeftIcon.js");
-/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/ArrowLongRightIcon.js");
+/* harmony import */ var vue_lazyload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-lazyload */ "./node_modules/vue-lazyload/vue-lazyload.esm.js");
+/* harmony import */ var _components_NavBar_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/NavBar.vue */ "./resources/js/components/NavBar.vue");
+/* harmony import */ var _components_FigurePopup_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/FigurePopup.vue */ "./resources/js/components/FigurePopup.vue");
+/* harmony import */ var vue_image_lightbox__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-image-lightbox */ "./node_modules/vue-image-lightbox/dist/vue-image-lightbox.min.js");
+/* harmony import */ var vue_image_lightbox__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_image_lightbox__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/DocumentTextIcon.js");
+/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/ArrowTopRightOnSquareIcon.js");
+/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/ArrowLongLeftIcon.js");
+/* harmony import */ var _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @heroicons/vue/24/outline */ "./node_modules/@heroicons/vue/24/outline/esm/ArrowLongRightIcon.js");
 
 
 
 
-(0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)({
+ // @NOTE could also try `npm install --save vue-easy-lightbox@nex`
+
+
+var Vue = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)({
   components: {
-    NavBar: _components_NavBar_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FigurePopup: _components_FigurePopup_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    DocumentTextIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_3__["default"],
-    ArrowTopRightOnSquareIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_4__["default"],
-    ArrowLongLeftIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_5__["default"],
-    ArrowLongRightIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_6__["default"]
+    NavBar: _components_NavBar_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    FigurePopup: _components_FigurePopup_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    Lightbox: vue_image_lightbox__WEBPACK_IMPORTED_MODULE_4__.Lightbox,
+    DocumentTextIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_5__["default"],
+    ArrowTopRightOnSquareIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_6__["default"],
+    ArrowLongLeftIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_7__["default"],
+    ArrowLongRightIcon: _heroicons_vue_24_outline__WEBPACK_IMPORTED_MODULE_8__["default"]
   }
-}).mount('#app');
+}).mount('#app').use(vue_lazyload__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
 /***/ }),
 
@@ -17487,6 +17506,7 @@ __webpack_require__.r(__webpack_exports__);
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17510,6 +17530,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.hamburger-inner[data-v-8570f404], .
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -17585,6 +17606,7 @@ module.exports = function (cssWithMappingToString) {
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
@@ -17597,6 +17619,7 @@ __webpack_require__.r(__webpack_exports__);
   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17626,6 +17649,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 var isOldIE = function isOldIE() {
@@ -17898,12 +17922,1170 @@ module.exports = function (list, options) {
 
 /***/ }),
 
+/***/ "./node_modules/vue-image-lightbox/dist/vue-image-lightbox.min.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/vue-image-lightbox/dist/vue-image-lightbox.min.js ***!
+  \************************************************************************/
+/***/ ((module) => {
+
+/*! For license information please see vue-image-lightbox.min.js.LICENSE.txt */
+!function(t,e){ true?module.exports=e():0}(window,(function(){return function(t){var e={};function n(i){if(e[i])return e[i].exports;var s=e[i]={i:i,l:!1,exports:{}};return t[i].call(s.exports,s,s.exports,n),s.l=!0,s.exports}return n.m=t,n.c=e,n.d=function(t,e,i){n.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:i})},n.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},n.t=function(t,e){if(1&e&&(t=n(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var i=Object.create(null);if(n.r(i),Object.defineProperty(i,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var s in t)n.d(i,s,function(e){return t[e]}.bind(null,s));return i},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,"a",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p="/",n(n.s=3)}([function(t,e,n){},function(t,e,n){var i;!function(s,o,r,a){"use strict";var c,u=["","webkit","Moz","MS","ms","o"],l=o.createElement("div"),h=Math.round,p=Math.abs,d=Date.now;function f(t,e,n){return setTimeout(x(t,n),e)}function v(t,e,n){return!!Array.isArray(t)&&(m(t,n[e],n),!0)}function m(t,e,n){var i;if(t)if(t.forEach)t.forEach(e,n);else if(t.length!==a)for(i=0;i<t.length;)e.call(n,t[i],i,t),i++;else for(i in t)t.hasOwnProperty(i)&&e.call(n,t[i],i,t)}function g(t,e,n){var i="DEPRECATED METHOD: "+e+"\n"+n+" AT \n";return function(){var e=new Error("get-stack-trace"),n=e&&e.stack?e.stack.replace(/^[^\(]+?[\n$]/gm,"").replace(/^\s+at\s+/gm,"").replace(/^Object.<anonymous>\s*\(/gm,"{anonymous}()@"):"Unknown Stack Trace",o=s.console&&(s.console.warn||s.console.log);return o&&o.call(s.console,i,n),t.apply(this,arguments)}}c="function"!=typeof Object.assign?function(t){if(t===a||null===t)throw new TypeError("Cannot convert undefined or null to object");for(var e=Object(t),n=1;n<arguments.length;n++){var i=arguments[n];if(i!==a&&null!==i)for(var s in i)i.hasOwnProperty(s)&&(e[s]=i[s])}return e}:Object.assign;var y=g((function(t,e,n){for(var i=Object.keys(e),s=0;s<i.length;)(!n||n&&t[i[s]]===a)&&(t[i[s]]=e[i[s]]),s++;return t}),"extend","Use `assign`."),T=g((function(t,e){return y(t,e,!0)}),"merge","Use `assign`.");function b(t,e,n){var i,s=e.prototype;(i=t.prototype=Object.create(s)).constructor=t,i._super=s,n&&c(i,n)}function x(t,e){return function(){return t.apply(e,arguments)}}function _(t,e){return"function"==typeof t?t.apply(e&&e[0]||a,e):t}function w(t,e){return t===a?e:t}function E(t,e,n){m(L(e),(function(e){t.addEventListener(e,n,!1)}))}function I(t,e,n){m(L(e),(function(e){t.removeEventListener(e,n,!1)}))}function C(t,e){for(;t;){if(t==e)return!0;t=t.parentNode}return!1}function S(t,e){return t.indexOf(e)>-1}function L(t){return t.trim().split(/\s+/g)}function P(t,e,n){if(t.indexOf&&!n)return t.indexOf(e);for(var i=0;i<t.length;){if(n&&t[i][n]==e||!n&&t[i]===e)return i;i++}return-1}function A(t){return Array.prototype.slice.call(t,0)}function O(t,e,n){for(var i=[],s=[],o=0;o<t.length;){var r=e?t[o][e]:t[o];P(s,r)<0&&i.push(t[o]),s[o]=r,o++}return n&&(i=e?i.sort((function(t,n){return t[e]>n[e]})):i.sort()),i}function M(t,e){for(var n,i,s=e[0].toUpperCase()+e.slice(1),o=0;o<u.length;){if((i=(n=u[o])?n+s:e)in t)return i;o++}return a}var N=1;function z(t){var e=t.ownerDocument||t;return e.defaultView||e.parentWindow||s}var D="ontouchstart"in s,R=M(s,"PointerEvent")!==a,k=D&&/mobile|tablet|ip(ad|hone|od)|android/i.test(navigator.userAgent),$="touch",B="mouse",X=24,F=["x","y"],Y=["clientX","clientY"];function q(t,e){var n=this;this.manager=t,this.callback=e,this.element=t.element,this.target=t.options.inputTarget,this.domHandler=function(e){_(t.options.enable,[t])&&n.handler(e)},this.init()}function j(t,e,n){var i=n.pointers.length,s=n.changedPointers.length,o=1&e&&i-s==0,r=12&e&&i-s==0;n.isFirst=!!o,n.isFinal=!!r,o&&(t.session={}),n.eventType=e,function(t,e){var n=t.session,i=e.pointers,s=i.length;n.firstInput||(n.firstInput=W(e));s>1&&!n.firstMultiple?n.firstMultiple=W(e):1===s&&(n.firstMultiple=!1);var o=n.firstInput,r=n.firstMultiple,c=r?r.center:o.center,u=e.center=V(i);e.timeStamp=d(),e.deltaTime=e.timeStamp-o.timeStamp,e.angle=K(c,u),e.distance=G(c,u),function(t,e){var n=e.center,i=t.offsetDelta||{},s=t.prevDelta||{},o=t.prevInput||{};1!==e.eventType&&4!==o.eventType||(s=t.prevDelta={x:o.deltaX||0,y:o.deltaY||0},i=t.offsetDelta={x:n.x,y:n.y});e.deltaX=s.x+(n.x-i.x),e.deltaY=s.y+(n.y-i.y)}(n,e),e.offsetDirection=U(e.deltaX,e.deltaY);var l=H(e.deltaTime,e.deltaX,e.deltaY);e.overallVelocityX=l.x,e.overallVelocityY=l.y,e.overallVelocity=p(l.x)>p(l.y)?l.x:l.y,e.scale=r?(h=r.pointers,f=i,G(f[0],f[1],Y)/G(h[0],h[1],Y)):1,e.rotation=r?function(t,e){return K(e[1],e[0],Y)+K(t[1],t[0],Y)}(r.pointers,i):0,e.maxPointers=n.prevInput?e.pointers.length>n.prevInput.maxPointers?e.pointers.length:n.prevInput.maxPointers:e.pointers.length,function(t,e){var n,i,s,o,r=t.lastInterval||e,c=e.timeStamp-r.timeStamp;if(8!=e.eventType&&(c>25||r.velocity===a)){var u=e.deltaX-r.deltaX,l=e.deltaY-r.deltaY,h=H(c,u,l);i=h.x,s=h.y,n=p(h.x)>p(h.y)?h.x:h.y,o=U(u,l),t.lastInterval=e}else n=r.velocity,i=r.velocityX,s=r.velocityY,o=r.direction;e.velocity=n,e.velocityX=i,e.velocityY=s,e.direction=o}(n,e);var h,f;var v=t.element;C(e.srcEvent.target,v)&&(v=e.srcEvent.target);e.target=v}(t,n),t.emit("hammer.input",n),t.recognize(n),t.session.prevInput=n}function W(t){for(var e=[],n=0;n<t.pointers.length;)e[n]={clientX:h(t.pointers[n].clientX),clientY:h(t.pointers[n].clientY)},n++;return{timeStamp:d(),pointers:e,center:V(e),deltaX:t.deltaX,deltaY:t.deltaY}}function V(t){var e=t.length;if(1===e)return{x:h(t[0].clientX),y:h(t[0].clientY)};for(var n=0,i=0,s=0;s<e;)n+=t[s].clientX,i+=t[s].clientY,s++;return{x:h(n/e),y:h(i/e)}}function H(t,e,n){return{x:e/t||0,y:n/t||0}}function U(t,e){return t===e?1:p(t)>=p(e)?t<0?2:4:e<0?8:16}function G(t,e,n){n||(n=F);var i=e[n[0]]-t[n[0]],s=e[n[1]]-t[n[1]];return Math.sqrt(i*i+s*s)}function K(t,e,n){n||(n=F);var i=e[n[0]]-t[n[0]],s=e[n[1]]-t[n[1]];return 180*Math.atan2(s,i)/Math.PI}q.prototype={handler:function(){},init:function(){this.evEl&&E(this.element,this.evEl,this.domHandler),this.evTarget&&E(this.target,this.evTarget,this.domHandler),this.evWin&&E(z(this.element),this.evWin,this.domHandler)},destroy:function(){this.evEl&&I(this.element,this.evEl,this.domHandler),this.evTarget&&I(this.target,this.evTarget,this.domHandler),this.evWin&&I(z(this.element),this.evWin,this.domHandler)}};var Z={mousedown:1,mousemove:2,mouseup:4},J="mousedown",Q="mousemove mouseup";function tt(){this.evEl=J,this.evWin=Q,this.pressed=!1,q.apply(this,arguments)}b(tt,q,{handler:function(t){var e=Z[t.type];1&e&&0===t.button&&(this.pressed=!0),2&e&&1!==t.which&&(e=4),this.pressed&&(4&e&&(this.pressed=!1),this.callback(this.manager,e,{pointers:[t],changedPointers:[t],pointerType:B,srcEvent:t}))}});var et={pointerdown:1,pointermove:2,pointerup:4,pointercancel:8,pointerout:8},nt={2:$,3:"pen",4:B,5:"kinect"},it="pointerdown",st="pointermove pointerup pointercancel";function ot(){this.evEl=it,this.evWin=st,q.apply(this,arguments),this.store=this.manager.session.pointerEvents=[]}s.MSPointerEvent&&!s.PointerEvent&&(it="MSPointerDown",st="MSPointerMove MSPointerUp MSPointerCancel"),b(ot,q,{handler:function(t){var e=this.store,n=!1,i=t.type.toLowerCase().replace("ms",""),s=et[i],o=nt[t.pointerType]||t.pointerType,r=o==$,a=P(e,t.pointerId,"pointerId");1&s&&(0===t.button||r)?a<0&&(e.push(t),a=e.length-1):12&s&&(n=!0),a<0||(e[a]=t,this.callback(this.manager,s,{pointers:e,changedPointers:[t],pointerType:o,srcEvent:t}),n&&e.splice(a,1))}});var rt={touchstart:1,touchmove:2,touchend:4,touchcancel:8},at="touchstart",ct="touchstart touchmove touchend touchcancel";function ut(){this.evTarget=at,this.evWin=ct,this.started=!1,q.apply(this,arguments)}function lt(t,e){var n=A(t.touches),i=A(t.changedTouches);return 12&e&&(n=O(n.concat(i),"identifier",!0)),[n,i]}b(ut,q,{handler:function(t){var e=rt[t.type];if(1===e&&(this.started=!0),this.started){var n=lt.call(this,t,e);12&e&&n[0].length-n[1].length==0&&(this.started=!1),this.callback(this.manager,e,{pointers:n[0],changedPointers:n[1],pointerType:$,srcEvent:t})}}});var ht={touchstart:1,touchmove:2,touchend:4,touchcancel:8},pt="touchstart touchmove touchend touchcancel";function dt(){this.evTarget=pt,this.targetIds={},q.apply(this,arguments)}function ft(t,e){var n=A(t.touches),i=this.targetIds;if(3&e&&1===n.length)return i[n[0].identifier]=!0,[n,n];var s,o,r=A(t.changedTouches),a=[],c=this.target;if(o=n.filter((function(t){return C(t.target,c)})),1===e)for(s=0;s<o.length;)i[o[s].identifier]=!0,s++;for(s=0;s<r.length;)i[r[s].identifier]&&a.push(r[s]),12&e&&delete i[r[s].identifier],s++;return a.length?[O(o.concat(a),"identifier",!0),a]:void 0}b(dt,q,{handler:function(t){var e=ht[t.type],n=ft.call(this,t,e);n&&this.callback(this.manager,e,{pointers:n[0],changedPointers:n[1],pointerType:$,srcEvent:t})}});function vt(){q.apply(this,arguments);var t=x(this.handler,this);this.touch=new dt(this.manager,t),this.mouse=new tt(this.manager,t),this.primaryTouch=null,this.lastTouches=[]}function mt(t,e){1&t?(this.primaryTouch=e.changedPointers[0].identifier,gt.call(this,e)):12&t&&gt.call(this,e)}function gt(t){var e=t.changedPointers[0];if(e.identifier===this.primaryTouch){var n={x:e.clientX,y:e.clientY};this.lastTouches.push(n);var i=this.lastTouches;setTimeout((function(){var t=i.indexOf(n);t>-1&&i.splice(t,1)}),2500)}}function yt(t){for(var e=t.srcEvent.clientX,n=t.srcEvent.clientY,i=0;i<this.lastTouches.length;i++){var s=this.lastTouches[i],o=Math.abs(e-s.x),r=Math.abs(n-s.y);if(o<=25&&r<=25)return!0}return!1}b(vt,q,{handler:function(t,e,n){var i=n.pointerType==$,s=n.pointerType==B;if(!(s&&n.sourceCapabilities&&n.sourceCapabilities.firesTouchEvents)){if(i)mt.call(this,e,n);else if(s&&yt.call(this,n))return;this.callback(t,e,n)}},destroy:function(){this.touch.destroy(),this.mouse.destroy()}});var Tt=M(l.style,"touchAction"),bt=Tt!==a,xt="compute",_t="auto",wt="manipulation",Et="none",It="pan-x",Ct="pan-y",St=function(){if(!bt)return!1;var t={},e=s.CSS&&s.CSS.supports;return["auto","manipulation","pan-y","pan-x","pan-x pan-y","none"].forEach((function(n){t[n]=!e||s.CSS.supports("touch-action",n)})),t}();function Lt(t,e){this.manager=t,this.set(e)}Lt.prototype={set:function(t){t==xt&&(t=this.compute()),bt&&this.manager.element.style&&St[t]&&(this.manager.element.style[Tt]=t),this.actions=t.toLowerCase().trim()},update:function(){this.set(this.manager.options.touchAction)},compute:function(){var t=[];return m(this.manager.recognizers,(function(e){_(e.options.enable,[e])&&(t=t.concat(e.getTouchAction()))})),function(t){if(S(t,Et))return Et;var e=S(t,It),n=S(t,Ct);if(e&&n)return Et;if(e||n)return e?It:Ct;if(S(t,wt))return wt;return _t}(t.join(" "))},preventDefaults:function(t){var e=t.srcEvent,n=t.offsetDirection;if(this.manager.session.prevented)e.preventDefault();else{var i=this.actions,s=S(i,Et)&&!St.none,o=S(i,Ct)&&!St["pan-y"],r=S(i,It)&&!St["pan-x"];if(s){var a=1===t.pointers.length,c=t.distance<2,u=t.deltaTime<250;if(a&&c&&u)return}if(!r||!o)return s||o&&6&n||r&&n&X?this.preventSrc(e):void 0}},preventSrc:function(t){this.manager.session.prevented=!0,t.preventDefault()}};var Pt=32;function At(t){this.options=c({},this.defaults,t||{}),this.id=N++,this.manager=null,this.options.enable=w(this.options.enable,!0),this.state=1,this.simultaneous={},this.requireFail=[]}function Ot(t){return 16&t?"cancel":8&t?"end":4&t?"move":2&t?"start":""}function Mt(t){return 16==t?"down":8==t?"up":2==t?"left":4==t?"right":""}function Nt(t,e){var n=e.manager;return n?n.get(t):t}function zt(){At.apply(this,arguments)}function Dt(){zt.apply(this,arguments),this.pX=null,this.pY=null}function Rt(){zt.apply(this,arguments)}function kt(){At.apply(this,arguments),this._timer=null,this._input=null}function $t(){zt.apply(this,arguments)}function Bt(){zt.apply(this,arguments)}function Xt(){At.apply(this,arguments),this.pTime=!1,this.pCenter=!1,this._timer=null,this._input=null,this.count=0}function Ft(t,e){return(e=e||{}).recognizers=w(e.recognizers,Ft.defaults.preset),new Yt(t,e)}At.prototype={defaults:{},set:function(t){return c(this.options,t),this.manager&&this.manager.touchAction.update(),this},recognizeWith:function(t){if(v(t,"recognizeWith",this))return this;var e=this.simultaneous;return e[(t=Nt(t,this)).id]||(e[t.id]=t,t.recognizeWith(this)),this},dropRecognizeWith:function(t){return v(t,"dropRecognizeWith",this)||(t=Nt(t,this),delete this.simultaneous[t.id]),this},requireFailure:function(t){if(v(t,"requireFailure",this))return this;var e=this.requireFail;return-1===P(e,t=Nt(t,this))&&(e.push(t),t.requireFailure(this)),this},dropRequireFailure:function(t){if(v(t,"dropRequireFailure",this))return this;t=Nt(t,this);var e=P(this.requireFail,t);return e>-1&&this.requireFail.splice(e,1),this},hasRequireFailures:function(){return this.requireFail.length>0},canRecognizeWith:function(t){return!!this.simultaneous[t.id]},emit:function(t){var e=this,n=this.state;function i(n){e.manager.emit(n,t)}n<8&&i(e.options.event+Ot(n)),i(e.options.event),t.additionalEvent&&i(t.additionalEvent),n>=8&&i(e.options.event+Ot(n))},tryEmit:function(t){if(this.canEmit())return this.emit(t);this.state=Pt},canEmit:function(){for(var t=0;t<this.requireFail.length;){if(!(33&this.requireFail[t].state))return!1;t++}return!0},recognize:function(t){var e=c({},t);if(!_(this.options.enable,[this,e]))return this.reset(),void(this.state=Pt);56&this.state&&(this.state=1),this.state=this.process(e),30&this.state&&this.tryEmit(e)},process:function(t){},getTouchAction:function(){},reset:function(){}},b(zt,At,{defaults:{pointers:1},attrTest:function(t){var e=this.options.pointers;return 0===e||t.pointers.length===e},process:function(t){var e=this.state,n=t.eventType,i=6&e,s=this.attrTest(t);return i&&(8&n||!s)?16|e:i||s?4&n?8|e:2&e?4|e:2:Pt}}),b(Dt,zt,{defaults:{event:"pan",threshold:10,pointers:1,direction:30},getTouchAction:function(){var t=this.options.direction,e=[];return 6&t&&e.push(Ct),t&X&&e.push(It),e},directionTest:function(t){var e=this.options,n=!0,i=t.distance,s=t.direction,o=t.deltaX,r=t.deltaY;return s&e.direction||(6&e.direction?(s=0===o?1:o<0?2:4,n=o!=this.pX,i=Math.abs(t.deltaX)):(s=0===r?1:r<0?8:16,n=r!=this.pY,i=Math.abs(t.deltaY))),t.direction=s,n&&i>e.threshold&&s&e.direction},attrTest:function(t){return zt.prototype.attrTest.call(this,t)&&(2&this.state||!(2&this.state)&&this.directionTest(t))},emit:function(t){this.pX=t.deltaX,this.pY=t.deltaY;var e=Mt(t.direction);e&&(t.additionalEvent=this.options.event+e),this._super.emit.call(this,t)}}),b(Rt,zt,{defaults:{event:"pinch",threshold:0,pointers:2},getTouchAction:function(){return[Et]},attrTest:function(t){return this._super.attrTest.call(this,t)&&(Math.abs(t.scale-1)>this.options.threshold||2&this.state)},emit:function(t){if(1!==t.scale){var e=t.scale<1?"in":"out";t.additionalEvent=this.options.event+e}this._super.emit.call(this,t)}}),b(kt,At,{defaults:{event:"press",pointers:1,time:251,threshold:9},getTouchAction:function(){return[_t]},process:function(t){var e=this.options,n=t.pointers.length===e.pointers,i=t.distance<e.threshold,s=t.deltaTime>e.time;if(this._input=t,!i||!n||12&t.eventType&&!s)this.reset();else if(1&t.eventType)this.reset(),this._timer=f((function(){this.state=8,this.tryEmit()}),e.time,this);else if(4&t.eventType)return 8;return Pt},reset:function(){clearTimeout(this._timer)},emit:function(t){8===this.state&&(t&&4&t.eventType?this.manager.emit(this.options.event+"up",t):(this._input.timeStamp=d(),this.manager.emit(this.options.event,this._input)))}}),b($t,zt,{defaults:{event:"rotate",threshold:0,pointers:2},getTouchAction:function(){return[Et]},attrTest:function(t){return this._super.attrTest.call(this,t)&&(Math.abs(t.rotation)>this.options.threshold||2&this.state)}}),b(Bt,zt,{defaults:{event:"swipe",threshold:10,velocity:.3,direction:30,pointers:1},getTouchAction:function(){return Dt.prototype.getTouchAction.call(this)},attrTest:function(t){var e,n=this.options.direction;return 30&n?e=t.overallVelocity:6&n?e=t.overallVelocityX:n&X&&(e=t.overallVelocityY),this._super.attrTest.call(this,t)&&n&t.offsetDirection&&t.distance>this.options.threshold&&t.maxPointers==this.options.pointers&&p(e)>this.options.velocity&&4&t.eventType},emit:function(t){var e=Mt(t.offsetDirection);e&&this.manager.emit(this.options.event+e,t),this.manager.emit(this.options.event,t)}}),b(Xt,At,{defaults:{event:"tap",pointers:1,taps:1,interval:300,time:250,threshold:9,posThreshold:10},getTouchAction:function(){return[wt]},process:function(t){var e=this.options,n=t.pointers.length===e.pointers,i=t.distance<e.threshold,s=t.deltaTime<e.time;if(this.reset(),1&t.eventType&&0===this.count)return this.failTimeout();if(i&&s&&n){if(4!=t.eventType)return this.failTimeout();var o=!this.pTime||t.timeStamp-this.pTime<e.interval,r=!this.pCenter||G(this.pCenter,t.center)<e.posThreshold;if(this.pTime=t.timeStamp,this.pCenter=t.center,r&&o?this.count+=1:this.count=1,this._input=t,0===this.count%e.taps)return this.hasRequireFailures()?(this._timer=f((function(){this.state=8,this.tryEmit()}),e.interval,this),2):8}return Pt},failTimeout:function(){return this._timer=f((function(){this.state=Pt}),this.options.interval,this),Pt},reset:function(){clearTimeout(this._timer)},emit:function(){8==this.state&&(this._input.tapCount=this.count,this.manager.emit(this.options.event,this._input))}}),Ft.VERSION="2.0.7",Ft.defaults={domEvents:!1,touchAction:xt,enable:!0,inputTarget:null,inputClass:null,preset:[[$t,{enable:!1}],[Rt,{enable:!1},["rotate"]],[Bt,{direction:6}],[Dt,{direction:6},["swipe"]],[Xt],[Xt,{event:"doubletap",taps:2},["tap"]],[kt]],cssProps:{userSelect:"none",touchSelect:"none",touchCallout:"none",contentZooming:"none",userDrag:"none",tapHighlightColor:"rgba(0,0,0,0)"}};function Yt(t,e){var n;this.options=c({},Ft.defaults,e||{}),this.options.inputTarget=this.options.inputTarget||t,this.handlers={},this.session={},this.recognizers=[],this.oldCssProps={},this.element=t,this.input=new((n=this).options.inputClass||(R?ot:k?dt:D?vt:tt))(n,j),this.touchAction=new Lt(this,this.options.touchAction),qt(this,!0),m(this.options.recognizers,(function(t){var e=this.add(new t[0](t[1]));t[2]&&e.recognizeWith(t[2]),t[3]&&e.requireFailure(t[3])}),this)}function qt(t,e){var n,i=t.element;i.style&&(m(t.options.cssProps,(function(s,o){n=M(i.style,o),e?(t.oldCssProps[n]=i.style[n],i.style[n]=s):i.style[n]=t.oldCssProps[n]||""})),e||(t.oldCssProps={}))}Yt.prototype={set:function(t){return c(this.options,t),t.touchAction&&this.touchAction.update(),t.inputTarget&&(this.input.destroy(),this.input.target=t.inputTarget,this.input.init()),this},stop:function(t){this.session.stopped=t?2:1},recognize:function(t){var e=this.session;if(!e.stopped){var n;this.touchAction.preventDefaults(t);var i=this.recognizers,s=e.curRecognizer;(!s||s&&8&s.state)&&(s=e.curRecognizer=null);for(var o=0;o<i.length;)n=i[o],2===e.stopped||s&&n!=s&&!n.canRecognizeWith(s)?n.reset():n.recognize(t),!s&&14&n.state&&(s=e.curRecognizer=n),o++}},get:function(t){if(t instanceof At)return t;for(var e=this.recognizers,n=0;n<e.length;n++)if(e[n].options.event==t)return e[n];return null},add:function(t){if(v(t,"add",this))return this;var e=this.get(t.options.event);return e&&this.remove(e),this.recognizers.push(t),t.manager=this,this.touchAction.update(),t},remove:function(t){if(v(t,"remove",this))return this;if(t=this.get(t)){var e=this.recognizers,n=P(e,t);-1!==n&&(e.splice(n,1),this.touchAction.update())}return this},on:function(t,e){if(t!==a&&e!==a){var n=this.handlers;return m(L(t),(function(t){n[t]=n[t]||[],n[t].push(e)})),this}},off:function(t,e){if(t!==a){var n=this.handlers;return m(L(t),(function(t){e?n[t]&&n[t].splice(P(n[t],e),1):delete n[t]})),this}},emit:function(t,e){this.options.domEvents&&function(t,e){var n=o.createEvent("Event");n.initEvent(t,!0,!0),n.gesture=e,e.target.dispatchEvent(n)}(t,e);var n=this.handlers[t]&&this.handlers[t].slice();if(n&&n.length){e.type=t,e.preventDefault=function(){e.srcEvent.preventDefault()};for(var i=0;i<n.length;)n[i](e),i++}},destroy:function(){this.element&&qt(this,!1),this.handlers={},this.session={},this.input.destroy(),this.element=null}},c(Ft,{INPUT_START:1,INPUT_MOVE:2,INPUT_END:4,INPUT_CANCEL:8,STATE_POSSIBLE:1,STATE_BEGAN:2,STATE_CHANGED:4,STATE_ENDED:8,STATE_RECOGNIZED:8,STATE_CANCELLED:16,STATE_FAILED:Pt,DIRECTION_NONE:1,DIRECTION_LEFT:2,DIRECTION_RIGHT:4,DIRECTION_UP:8,DIRECTION_DOWN:16,DIRECTION_HORIZONTAL:6,DIRECTION_VERTICAL:X,DIRECTION_ALL:30,Manager:Yt,Input:q,TouchAction:Lt,TouchInput:dt,MouseInput:tt,PointerEventInput:ot,TouchMouseInput:vt,SingleTouchInput:ut,Recognizer:At,AttrRecognizer:zt,Tap:Xt,Pan:Dt,Swipe:Bt,Pinch:Rt,Rotate:$t,Press:kt,on:E,off:I,each:m,merge:T,extend:y,assign:c,inherit:b,bindFn:x,prefixed:M}),(void 0!==s?s:"undefined"!=typeof self?self:{}).Hammer=Ft,(i=function(){return Ft}.call(e,n,e,t))===a||(t.exports=i)}(window,document)},function(t,e,n){"use strict";var i=n(0);n.n(i).a},function(t,e,n){"use strict";n.r(e);var i=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{on:{click:function(e){return e.stopPropagation(),t.closeLightBox(e)}}},[n("transition",{attrs:{mode:"out-in",name:"vue-lb-content-transition"},on:{afterEnter:t.enableImageTransition,beforeLeave:t.disableImageTransition}},[t.media?n("div",{directives:[{name:"show",rawName:"v-show",value:t.lightBoxOn,expression:"lightBoxOn"}],ref:"container",staticClass:"vue-lb-container"},[n("div",{staticClass:"vue-lb-content"},[n("div",{staticClass:"vue-lb-header"},[n("span"),t._v(" "),t.closable?n("button",{staticClass:"vue-lb-button-close",attrs:{type:"button",title:t.closeText}},[t._t("close",[n("CloseIcon")])],2):t._e()]),t._v(" "),n("div",{staticClass:"vue-lb-figure",on:{click:function(t){t.stopPropagation()}}},[n("transition",{attrs:{mode:"out-in",name:t.modalImageTransitionName}},["video"!==t.media[t.select].type?n("img",{directives:[{name:"lazy",rawName:"v-lazy",value:{src:t.media[t.select].src,loading:t.media[t.select].src,error:t.media[t.select].src},expression:"{\n                src: media[select].src,\n                loading: media[select].src,\n                error: media[select].src,\n              }"}],key:t.media[t.select].src,staticClass:"vue-lb-modal-image",attrs:{srcset:t.media[t.select].srcset||"",alt:t.media[t.select].caption}}):n("video",{key:t.media[t.select].sources[0].src,ref:"video",attrs:{width:t.media[t.select].width,height:t.media[t.select].height,autoplay:t.media[t.select].autoplay,controls:""}},t._l(t.media[t.select].sources,(function(t){return n("source",{key:t.src,attrs:{src:t.src,type:t.type}})})),0)]),t._v(" "),t._t("customCaption",[n("div",{directives:[{name:"show",rawName:"v-show",value:t.showCaption,expression:"showCaption"}],staticClass:"vue-lb-info",domProps:{innerHTML:t._s(t.media[t.select].caption)}})]),t._v(" "),n("div",{staticClass:"vue-lb-footer"},[n("div",{staticClass:"vue-lb-footer-info"}),t._v(" "),n("div",{directives:[{name:"show",rawName:"v-show",value:t.showFooterCount,expression:"showFooterCount"}],staticClass:"vue-lb-footer-count"},[t._t("footer",[t._v("\n                "+t._s(t.select+1)+" / "+t._s(t.media.length)+"\n              ")],{current:t.select+1,total:t.media.length})],2)])],2)]),t._v(" "),n("div",{staticClass:"vue-lb-thumbnail-wrapper"},[t.showThumbs?n("div",{staticClass:"vue-lb-thumbnail"},[t.media.length>1?n("button",{staticClass:"vue-lb-thumbnail-arrow vue-lb-thumbnail-left",attrs:{type:"button",title:t.previousThumbText},on:{click:function(e){return e.stopPropagation(),t.previousImage()}}},[t._t("previousThumb",[n("LeftArrowIcon")])],2):t._e(),t._v(" "),t._l(t.imagesThumb,(function(e,i){return n("div",{directives:[{name:"show",rawName:"v-show",value:i>=t.thumbIndex.begin&&i<=t.thumbIndex.end,expression:"index >= thumbIndex.begin && index <= thumbIndex.end"},{name:"lazy",rawName:"v-lazy:background-image",value:e,expression:"image",arg:"background-image"}],key:"string"==typeof e.src?""+e.src+i:i,class:"vue-lb-modal-thumbnail"+(t.select===i?"-active":""),on:{click:function(e){return e.stopPropagation(),t.showImage(i)}}},[e.type?t._t("videoIcon",[n("VideoIcon")]):t._e()],2)})),t._v(" "),t.media.length>1?n("button",{staticClass:"vue-lb-thumbnail-arrow vue-lb-thumbnail-right",attrs:{type:"button",title:t.nextThumbText},on:{click:function(e){return e.stopPropagation(),t.nextImage()}}},[t._t("nextThumb",[n("RightArrowIcon")])],2):t._e()],2):t._e()]),t._v(" "),t.media.length>1?n("button",{staticClass:"vue-lb-arrow vue-lb-left",attrs:{type:"button",title:t.previousText},on:{click:function(e){return e.stopPropagation(),t.previousImage()}}},[t._t("previous",[n("LeftArrowIcon")])],2):t._e(),t._v(" "),t.media.length>1?n("button",{staticClass:"vue-lb-arrow vue-lb-right",attrs:{type:"button",title:t.nextText},on:{click:function(e){return e.stopPropagation(),t.nextImage()}}},[t._t("next",[n("RightArrowIcon")])],2):t._e()]):t._e()])],1)};i._withStripped=!0;var s=function(){var t=this.$createElement,e=this._self._c||t;return e("span",[e("svg",{attrs:{fill:"white",x:"0px",y:"0px",width:"100%",height:"100%",viewBox:"0 0 512 512"}},[e("path",{attrs:{d:"M213.7,256L213.7,256L213.7,256L380.9,81.9c4.2-4.3,4.1-11.4-0.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-0.2L131.1,247.9 c-2.2,2.2-3.2,5.2-3,8.1c-0.1,3,0.9,5.9,3,8.1l204.2,212.7c4.2,4.3,11.2,4.2,15.5-0.2l29.9-30.6c4.3-4.4,4.4-11.5,0.2-15.8 L213.7,256z"}})])])};function o(t,e,n,i,s,o,r,a){var c,u="function"==typeof t?t.options:t;if(e&&(u.render=e,u.staticRenderFns=n,u._compiled=!0),i&&(u.functional=!0),o&&(u._scopeId="data-v-"+o),r?(c=function(t){(t=t||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext)||"undefined"==typeof __VUE_SSR_CONTEXT__||(t=__VUE_SSR_CONTEXT__),s&&s.call(this,t),t&&t._registeredComponents&&t._registeredComponents.add(r)},u._ssrRegister=c):s&&(c=a?function(){s.call(this,(u.functional?this.parent:this).$root.$options.shadowRoot)}:s),c)if(u.functional){u._injectStyles=c;var l=u.render;u.render=function(t,e){return c.call(e),l(t,e)}}else{var h=u.beforeCreate;u.beforeCreate=h?[].concat(h,c):[c]}return{exports:t,options:u}}s._withStripped=!0;var r=o({},s,[],!1,null,null,null);r.options.__file="src/components/LeftArrowIcon.vue";var a=r.exports,c=function(){var t=this.$createElement,e=this._self._c||t;return e("span",[e("svg",{attrs:{fill:"white",x:"0px",y:"0px",width:"100%",height:"100%",viewBox:"0 0 512 512"}},[e("path",{attrs:{d:"M298.3,256L298.3,256L298.3,256L131.1,81.9c-4.2-4.3-4.1-11.4,0.2-15.8l29.9-30.6c4.3-4.4,11.3-4.5,15.5-0.2l204.2,212.7 c2.2,2.2,3.2,5.2,3,8.1c0.1,3-0.9,5.9-3,8.1L176.7,476.8c-4.2,4.3-11.2,4.2-15.5-0.2L131.3,446c-4.3-4.4-4.4-11.5-0.2-15.8 L298.3,256z"}})])])};c._withStripped=!0;var u=o({},c,[],!1,null,null,null);u.options.__file="src/components/RightArrowIcon.vue";var l=u.exports,h=function(){var t=this.$createElement,e=this._self._c||t;return e("span",[e("svg",{staticStyle:{"enable-background":"new 0 0 512 512"},attrs:{fill:"white",x:"0px",y:"0px",width:"100%",height:"100%",viewBox:"0 0 512 512"}},[e("path",{attrs:{d:"M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4 L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1 c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1 c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z"}})])])};h._withStripped=!0;var p=o({},h,[],!1,null,null,null);p.options.__file="src/components/CloseIcon.vue";var d=p.exports,f=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("svg",{staticStyle:{"enable-background":"new 0 0 271.953 271.953",margin:"12px"},attrs:{x:"0px",y:"0px",viewBox:"0 0 271.953 271.953","xml:space":"preserve"}},[n("g",[n("g",[n("path",{staticStyle:{fill:"#fff"},attrs:{d:"M135.977,271.953c75.097,0,135.977-60.879,135.977-135.977S211.074,0,135.977,0S0,60.879,0,135.977    S60.879,271.953,135.977,271.953z M250.197,135.977c0,62.979-51.241,114.22-114.22,114.22s-114.22-51.241-114.22-114.22    s51.241-114.22,114.22-114.22S250.197,72.998,250.197,135.977z"}}),t._v(" "),n("path",{staticStyle:{fill:"#fff"},attrs:{d:"M112.295,205.031c2.692,1.115,5.434,1.659,8.235,1.659c5.662,0,11.183-2.208,15.344-6.375    l48.93-48.952c8.496-8.496,8.485-22.273-0.011-30.769l-48.957-48.952c-4.161-4.161-9.73-6.375-15.393-6.375    c-2.801,0-5.461,0.544-8.153,1.659c-8.126,3.367-13.255,11.297-13.255,20.097v97.903    C99.034,193.729,104.164,201.664,112.295,205.031z M120.791,88.613v-1.588l48.952,48.952l-48.952,48.952V88.613z"}})])])])};f._withStripped=!0;var v=o({},f,[],!1,null,null,null);v.options.__file="src/components/VideoIcon.vue";var m,g=v.exports;"undefined"!=typeof window&&(m=n(1));var y={components:{LeftArrowIcon:a,RightArrowIcon:l,CloseIcon:d,VideoIcon:g},props:{media:{type:Array,required:!0},disableScroll:{type:Boolean,default:!0},showLightBox:{type:Boolean,default:!0},closable:{type:Boolean,default:!0},startAt:{type:Number,default:0},nThumbs:{type:Number,default:7},showThumbs:{type:Boolean,default:!0},showFooterCount:{type:Boolean,default:!0},autoPlay:{type:Boolean,default:!1},autoPlayTime:{type:Number,default:3e3},siteLoading:{type:String,default:""},showCaption:{type:Boolean,default:!1},lengthToLoadMore:{type:Number,default:0},closeText:{type:String,default:"Close (Esc)"},previousText:{type:String,default:"Previous"},nextText:{type:String,default:"Next"},previousThumbText:{type:String,default:"Previous"},nextThumbText:{type:String,default:"Next"}},data:function(){return{select:this.startAt,lightBoxOn:this.showLightBox,timer:null,modalImageTransitionName:"vue-lb-modal-image-no-transition"}},computed:{thumbIndex:function(){var t=Math.floor(this.nThumbs/2);return this.select>=t&&this.select<this.media.length-t?{begin:this.select-t+(1-this.nThumbs%2),end:this.select+t}:this.select<t?{begin:0,end:this.nThumbs-1}:{begin:this.media.length-this.nThumbs,end:this.media.length-1}},imagesThumb:function(){var t=this;return this.siteLoading?this.media.map((function(e){return{src:e.thumb,type:e.type,loading:t.siteLoading,error:t.siteLoading}})):this.media.map((function(t){return{src:t.thumb,type:t.type}}))}},watch:{lightBoxOn:function(t){null!=document&&this.onToggleLightBox(t)},select:function(){this.$emit("onImageChanged",this.select),this.select>=this.media.length-this.lengthToLoadMore-1&&this.$emit("onLoad"),this.select===this.media.length-1&&this.$emit("onLastIndex"),0===this.select&&this.$emit("onFirstIndex"),this.select===this.startAt&&this.$emit("onStartIndex")}},mounted:function(){var t=this;if(this.autoPlay&&(this.timer=setInterval((function(){t.nextImage()}),this.autoPlayTime)),this.onToggleLightBox(this.lightBoxOn),this.$refs.container){var e=new m(this.$refs.container);e.on("swiperight",(function(){t.previousImage()})),e.on("swipeleft",(function(){t.nextImage()}))}},beforeDestroy:function(){document.removeEventListener("keydown",this.addKeyEvent),this.autoPlay&&clearInterval(this.timer)},methods:{onLightBoxOpen:function(){this.$emit("onOpened"),this.disableScroll&&document.querySelector("html").classList.add("no-scroll"),document.querySelector("body").classList.add("vue-lb-open"),document.addEventListener("keydown",this.addKeyEvent),this.$refs.video&&this.$refs.video.autoplay&&this.$refs.video.play()},onLightBoxClose:function(){this.$emit("onClosed"),this.disableScroll&&document.querySelector("html").classList.remove("no-scroll"),document.querySelector("body").classList.remove("vue-lb-open"),document.removeEventListener("keydown",this.addKeyEvent),this.$refs.video&&(this.$refs.video.pause(),this.$refs.video.currentTime=0)},onToggleLightBox:function(t){t?this.onLightBoxOpen():this.onLightBoxClose()},showImage:function(t){this.$set(this,"select",t),this.$set(this,"lightBoxOn",!0)},addKeyEvent:function(t){37===t.keyCode&&this.previousImage(),39===t.keyCode&&this.nextImage(),27===t.keyCode&&this.closeLightBox()},closeLightBox:function(){this.closable&&this.$set(this,"lightBoxOn",!1)},nextImage:function(){this.$set(this,"select",(this.select+1)%this.media.length)},previousImage:function(){this.$set(this,"select",(this.select+this.media.length-1)%this.media.length)},enableImageTransition:function(){this.$set(this,"modalImageTransitionName","vue-lb-modal-image-transition")},disableImageTransition:function(){this.$set(this,"modalImageTransitionName","vue-lb-modal-image-no-transition")}}},T=(n(2),o(y,i,[],!1,null,null,null));T.options.__file="src/components/LightBox.vue";e.default=T.exports}])}));
+//# sourceMappingURL=vue-image-lightbox.min.js.map
+
+/***/ }),
+
+/***/ "./node_modules/vue-lazyload/vue-lazyload.esm.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/vue-lazyload/vue-lazyload.esm.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ index)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/*!
+ * Vue-Lazyload.js v3.0.0-rc.1
+ * (c) 2022 Awe <hilongjw@gmail.com>
+ * Released under the MIT License.
+ */
+
+
+
+function createCommonjsModule(fn, module) {
+	return module = { exports: {} }, fn(module, module.exports), module.exports;
+}
+
+var assignSymbols$1 = createCommonjsModule(function (module) {
+
+  const toString = Object.prototype.toString;
+  const isEnumerable = Object.prototype.propertyIsEnumerable;
+  const getSymbols = Object.getOwnPropertySymbols;
+
+  module.exports = (target, ...args) => {
+    if (!isObject(target)) {
+      throw new TypeError('expected the first argument to be an object');
+    }
+
+    if (args.length === 0 || typeof Symbol !== 'function' || typeof getSymbols !== 'function') {
+      return target;
+    }
+
+    for (let arg of args) {
+      let names = getSymbols(arg);
+
+      for (let key of names) {
+        if (isEnumerable.call(arg, key)) {
+          target[key] = arg[key];
+        }
+      }
+    }
+    return target;
+  };
+
+  function isObject(val) {
+    return typeof val === 'function' || toString.call(val) === '[object Object]' || Array.isArray(val);
+  }
+});
+
+var assignSymbols$2 = /*#__PURE__*/Object.freeze({
+	__proto__: null,
+	'default': assignSymbols$1,
+	__moduleExports: assignSymbols$1
+});
+
+var assignSymbols = ( assignSymbols$2 && assignSymbols$1 ) || assignSymbols$2;
+
+var assignDeep = createCommonjsModule(function (module) {
+
+  const toString = Object.prototype.toString;
+
+  const isValidKey = key => {
+    return key !== '__proto__' && key !== 'constructor' && key !== 'prototype';
+  };
+
+  const assign = module.exports = (target, ...args) => {
+    let i = 0;
+    if (isPrimitive(target)) target = args[i++];
+    if (!target) target = {};
+    for (; i < args.length; i++) {
+      if (isObject(args[i])) {
+        for (const key of Object.keys(args[i])) {
+          if (isValidKey(key)) {
+            if (isObject(target[key]) && isObject(args[i][key])) {
+              assign(target[key], args[i][key]);
+            } else {
+              target[key] = args[i][key];
+            }
+          }
+        }
+        assignSymbols(target, args[i]);
+      }
+    }
+    return target;
+  };
+
+  function isObject(val) {
+    return typeof val === 'function' || toString.call(val) === '[object Object]';
+  }
+
+  function isPrimitive(val) {
+    return typeof val === 'object' ? val === null : typeof val !== 'function';
+  }
+});
+
+const inBrowser = typeof window !== 'undefined' && window !== null;
+const hasIntersectionObserver = checkIntersectionObserver();
+function checkIntersectionObserver() {
+    if (inBrowser && 'IntersectionObserver' in window && 'IntersectionObserverEntry' in window && 'intersectionRatio' in window.IntersectionObserverEntry.prototype) {
+        // Minimal polyfill for Edge 15's lack of `isIntersecting`
+        // See: https://github.com/w3c/IntersectionObserver/issues/211
+        if (!('isIntersecting' in window.IntersectionObserverEntry.prototype)) {
+            Object.defineProperty(window.IntersectionObserverEntry.prototype, 'isIntersecting', {
+                get: function () {
+                    return this.intersectionRatio > 0;
+                }
+            });
+        }
+        return true;
+    }
+    return false;
+}
+const modeType = {
+    event: 'event',
+    observer: 'observer'
+};
+function remove(arr, item) {
+    if (!arr.length) return;
+    const index = arr.indexOf(item);
+    if (index > -1) return arr.splice(index, 1);
+}
+function getBestSelectionFromSrcset(el, scale) {
+    if (el.tagName !== 'IMG' || !el.getAttribute('data-srcset')) return '';
+    let options = el.getAttribute('data-srcset').trim().split(',');
+    const result = [];
+    const container = el.parentNode;
+    const containerWidth = container.offsetWidth * scale;
+    let spaceIndex;
+    let tmpSrc;
+    let tmpWidth;
+    options.forEach(item => {
+        item = item.trim();
+        spaceIndex = item.lastIndexOf(' ');
+        if (spaceIndex === -1) {
+            tmpSrc = item;
+            tmpWidth = 99999;
+        } else {
+            tmpSrc = item.substr(0, spaceIndex);
+            tmpWidth = parseInt(item.substr(spaceIndex + 1, item.length - spaceIndex - 2), 10);
+        }
+        result.push([tmpWidth, tmpSrc]);
+    });
+    result.sort((a, b) => {
+        if (a[0] < b[0]) {
+            return 1;
+        }
+        if (a[0] > b[0]) {
+            return -1;
+        }
+        if (a[0] === b[0]) {
+            if (b[1].indexOf('.webp', b[1].length - 5) !== -1) {
+                return 1;
+            }
+            if (a[1].indexOf('.webp', a[1].length - 5) !== -1) {
+                return -1;
+            }
+        }
+        return 0;
+    });
+    let bestSelectedSrc = '';
+    let tmpOption;
+    for (let i = 0; i < result.length; i++) {
+        tmpOption = result[i];
+        bestSelectedSrc = tmpOption[1];
+        const next = result[i + 1];
+        if (next && next[0] < containerWidth) {
+            bestSelectedSrc = tmpOption[1];
+            break;
+        } else if (!next) {
+            bestSelectedSrc = tmpOption[1];
+            break;
+        }
+    }
+    return bestSelectedSrc;
+}
+const getDPR = (scale = 1) => inBrowser ? window.devicePixelRatio || scale : scale;
+// https://developers.google.com/speed/webp/faq#how_can_i_detect_browser_support_using_javascript
+function supportWebp() {
+    if (!inBrowser) return false;
+    let support = true;
+    function checkWebpFeature(feature, callback) {
+        const kTestImages = {
+            lossy: 'UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA',
+            lossless: 'UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==',
+            alpha: 'UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==',
+            animation: 'UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA'
+        };
+        const img = new Image();
+        img.onload = function () {
+            const result = img.width > 0 && img.height > 0;
+            callback(result);
+        };
+        img.onerror = function () {
+            // eslint-disable-next-line node/no-callback-literal
+            callback(false);
+        };
+        img.src = 'data:image/webp;base64,' + kTestImages[feature];
+    }
+    checkWebpFeature('lossy', isSupported => {
+        support = isSupported;
+    });
+    checkWebpFeature('lossless', isSupported => {
+        support = isSupported;
+    });
+    checkWebpFeature('alpha', isSupported => {
+        support = isSupported;
+    });
+    checkWebpFeature('animation', isSupported => {
+        support = isSupported;
+    });
+    return support;
+}
+function throttle(action, delay) {
+    let timeout = null;
+    let lastRun = 0;
+    return function () {
+        if (timeout) {
+            return;
+        }
+        const elapsed = Date.now() - lastRun;
+        // @ts-ignore
+        const context = this;
+        const args = arguments;
+        const runCallback = function () {
+            lastRun = Date.now();
+            timeout = false;
+            action.apply(context, args);
+        };
+        if (elapsed >= delay) {
+            runCallback();
+        } else {
+            timeout = setTimeout(runCallback, delay);
+        }
+    };
+}
+function testSupportsPassive() {
+    if (!inBrowser) return false;
+    let support = false;
+    try {
+        const opts = Object.defineProperty({}, 'passive', {
+            get: function () {
+                support = true;
+            }
+        });
+        window.addEventListener('test', noop, opts);
+    } catch (e) {}
+    return support;
+}
+const supportsPassive = testSupportsPassive();
+const _ = {
+    on(el, type, func, capture = false) {
+        if (supportsPassive) {
+            el.addEventListener(type, func, {
+                capture: capture,
+                passive: true
+            });
+        } else {
+            el.addEventListener(type, func, capture);
+        }
+    },
+    off(el, type, func, capture = false) {
+        el.removeEventListener(type, func, capture);
+    }
+};
+const loadImageAsync = (item, resolve, reject) => {
+    let image = new Image();
+    if (!item || !item.src) {
+        const err = new Error('image src is required');
+        return reject(err);
+    }
+    if (item.cors) {
+        image.crossOrigin = item.cors;
+    }
+    image.src = item.src;
+    image.onload = function () {
+        resolve({
+            naturalHeight: image.naturalHeight,
+            naturalWidth: image.naturalWidth,
+            src: image.src
+        });
+        image = null;
+    };
+    image.onerror = function (e) {
+        reject(e);
+    };
+};
+// keyof CSSStyleDeclaration
+const style = (el, prop) => {
+    return typeof getComputedStyle !== 'undefined' ? getComputedStyle(el, null).getPropertyValue(prop) : el.style[prop];
+};
+const overflow = el => {
+    return style(el, 'overflow') + style(el, 'overflowY') + style(el, 'overflowX');
+};
+const scrollParent = el => {
+    if (!inBrowser) return;
+    if (!(el instanceof Element)) {
+        return window;
+    }
+    let parent = el;
+    while (parent) {
+        if (parent === document.body || parent === document.documentElement) {
+            break;
+        }
+        if (!parent.parentNode) {
+            break;
+        }
+        if (/(scroll|auto)/.test(overflow(parent))) {
+            return parent;
+        }
+        parent = parent.parentNode;
+    }
+    return window;
+};
+function noop() {}
+class ImageCache {
+    constructor(max) {
+        this.max = max || 100;
+        this._caches = [];
+    }
+    has(key) {
+        return this._caches.indexOf(key) > -1;
+    }
+    add(key) {
+        if (this.has(key)) return;
+        this._caches.push(key);
+        if (this._caches.length > this.max) {
+            this.free();
+        }
+    }
+    free() {
+        this._caches.shift();
+    }
+}
+
+// el: {
+//     state,
+//     src,
+//     error,
+//     loading
+// }
+class ReactiveListener {
+    constructor(el, src, error, loading, bindType, $parent, options, cors, elRenderer, imageCache) {
+        this.el = el;
+        this.src = src;
+        this.error = error;
+        this.loading = loading;
+        this.bindType = bindType;
+        this.attempt = 0;
+        this.cors = cors;
+        this.naturalHeight = 0;
+        this.naturalWidth = 0;
+        this.options = options;
+        this.rect = {};
+        this.$parent = $parent;
+        this.elRenderer = elRenderer;
+        this._imageCache = imageCache;
+        this.performanceData = {
+            init: Date.now(),
+            loadStart: 0,
+            loadEnd: 0
+        };
+        this.filter();
+        this.initState();
+        this.render('loading', false);
+    }
+    /*
+     * init listener state
+     * @return
+     */
+    initState() {
+        if ('dataset' in this.el) {
+            this.el.dataset.src = this.src;
+        } else {
+            this.el.setAttribute('data-src', this.src);
+        }
+        this.state = {
+            loading: false,
+            error: false,
+            loaded: false,
+            rendered: false
+        };
+    }
+    /*
+     * record performance
+     * @return
+     */
+    record(event) {
+        this.performanceData[event] = Date.now();
+    }
+    /*
+     * update image listener data
+     * @param  {String} image uri
+     * @param  {String} loading image uri
+     * @param  {String} error image uri
+     * @return
+     */
+    update(option) {
+        const oldSrc = this.src;
+        this.src = option.src;
+        this.loading = option.loading;
+        this.error = option.error;
+        this.filter();
+        if (oldSrc !== this.src) {
+            this.attempt = 0;
+            this.initState();
+        }
+    }
+    /*
+     * get el node rect
+     * @return
+     */
+    getRect() {
+        this.rect = this.el.getBoundingClientRect();
+    }
+    /*
+     * check el is in view
+     * @return {Boolean} el is in view
+     */
+    checkInView() {
+        this.getRect();
+        return this.rect.top < window.innerHeight * this.options.preLoad && this.rect.bottom > this.options.preLoadTop && this.rect.left < window.innerWidth * this.options.preLoad && this.rect.right > 0;
+    }
+    /*
+     * listener filter
+     */
+    filter() {
+        for (const key in this.options.filter) {
+            this.options.filter[key](this, this.options);
+        }
+    }
+    /*
+     * render loading first
+     * @params cb:Function
+     * @return
+     */
+    renderLoading(cb) {
+        this.state.loading = true;
+        loadImageAsync({
+            src: this.loading,
+            cors: this.cors
+        }, () => {
+            this.render('loading', false);
+            this.state.loading = false;
+            cb();
+        }, () => {
+            // handler `loading image` load failed
+            cb();
+            this.state.loading = false;
+            if (!this.options.silent) console.warn(`VueLazyload log: load failed with loading image(${this.loading})`);
+        });
+    }
+    /*
+     * try load image and  render it
+     * @return
+     */
+    load(onFinish = noop) {
+        if (this.attempt > this.options.attempt - 1 && this.state.error) {
+            if (!this.options.silent) console.log(`VueLazyload log: ${this.src} tried too more than ${this.options.attempt} times`);
+            onFinish();
+            return;
+        }
+        if (this.state.rendered && this.state.loaded) return;
+        if (this._imageCache.has(this.src)) {
+            this.state.loaded = true;
+            this.render('loaded', true);
+            this.state.rendered = true;
+            return onFinish();
+        }
+        this.renderLoading(() => {
+            this.attempt++;
+            this.options.adapter.beforeLoad && this.options.adapter.beforeLoad(this, this.options);
+            this.record('loadStart');
+            loadImageAsync({
+                src: this.src,
+                cors: this.cors
+            }, data => {
+                this.naturalHeight = data.naturalHeight;
+                this.naturalWidth = data.naturalWidth;
+                this.state.loaded = true;
+                this.state.error = false;
+                this.record('loadEnd');
+                this.render('loaded', false);
+                this.state.rendered = true;
+                this._imageCache.add(this.src);
+                onFinish();
+            }, err => {
+                !this.options.silent && console.error(err);
+                this.state.error = true;
+                this.state.loaded = false;
+                this.render('error', false);
+            });
+        });
+    }
+    /*
+     * render image
+     * @param  {String} state to render // ['loading', 'src', 'error']
+     * @param  {String} is form cache
+     * @return
+     */
+    render(state, cache) {
+        this.elRenderer(this, state, cache);
+    }
+    /*
+     * output performance data
+     * @return {Object} performance data
+     */
+    performance() {
+        let state = 'loading';
+        let time = 0;
+        if (this.state.loaded) {
+            state = 'loaded';
+            time = (this.performanceData.loadEnd - this.performanceData.loadStart) / 1000;
+        }
+        if (this.state.error) state = 'error';
+        return {
+            src: this.src,
+            state,
+            time
+        };
+    }
+    /*
+     * $destroy
+     * @return
+     */
+    $destroy() {
+        this.el = null;
+        this.src = '';
+        this.error = null;
+        this.loading = '';
+        this.bindType = null;
+        this.attempt = 0;
+    }
+}
+
+const DEFAULT_URL = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+const DEFAULT_EVENTS = ['scroll', 'wheel', 'mousewheel', 'resize', 'animationend', 'transitionend', 'touchmove'];
+const DEFAULT_OBSERVER_OPTIONS = {
+    rootMargin: '0px',
+    threshold: 0
+};
+class Lazy {
+    constructor({ preLoad, error, throttleWait, preLoadTop, dispatchEvent, loading, attempt, silent = true, scale, listenEvents, filter, adapter, observer, observerOptions }) {
+        this.version = '"3.0.0-rc.1"';
+        this.lazyContainerMananger = null;
+        this.mode = modeType.event;
+        this.ListenerQueue = [];
+        this.TargetIndex = 0;
+        this.TargetQueue = [];
+        this.options = {
+            silent: silent,
+            dispatchEvent: !!dispatchEvent,
+            throttleWait: throttleWait || 200,
+            preLoad: preLoad || 1.3,
+            preLoadTop: preLoadTop || 0,
+            error: error || DEFAULT_URL,
+            loading: loading || DEFAULT_URL,
+            attempt: attempt || 3,
+            scale: scale || getDPR(scale),
+            listenEvents: listenEvents || DEFAULT_EVENTS,
+            supportWebp: supportWebp(),
+            filter: filter || {},
+            adapter: adapter || {},
+            observer: !!observer,
+            observerOptions: observerOptions || DEFAULT_OBSERVER_OPTIONS
+        };
+        this._initEvent();
+        this._imageCache = new ImageCache(200);
+        this.lazyLoadHandler = throttle(this._lazyLoadHandler.bind(this), this.options.throttleWait);
+        this.setMode(this.options.observer ? modeType.observer : modeType.event);
+    }
+    /**
+     * output listener's load performance
+     * @return {Array}
+     */
+    performance() {
+        const list = [];
+        this.ListenerQueue.map(item => list.push(item.performance()));
+        return list;
+    }
+    /*
+     * add lazy component to queue
+     * @param  {Vue} vm lazy component instance
+     * @return
+     */
+    addLazyBox(vm) {
+        this.ListenerQueue.push(vm);
+        if (inBrowser) {
+            this._addListenerTarget(window);
+            this._observer && this._observer.observe(vm.el);
+            if (vm.$el && vm.$el.parentNode) {
+                this._addListenerTarget(vm.$el.parentNode);
+            }
+        }
+    }
+    /*
+     * add image listener to queue
+     * @param  {DOM} el
+     * @param  {object} binding vue directive binding
+     * @param  {vnode} vnode vue directive vnode
+     * @return
+     */
+    add(el, binding, vnode) {
+        if (this.ListenerQueue.some(item => item.el === el)) {
+            this.update(el, binding);
+            return (0,vue__WEBPACK_IMPORTED_MODULE_0__.nextTick)(this.lazyLoadHandler);
+        }
+        let { src, loading, error, cors } = this._valueFormatter(binding.value);
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.nextTick)(() => {
+            src = getBestSelectionFromSrcset(el, this.options.scale) || src;
+            this._observer && this._observer.observe(el);
+            const container = Object.keys(binding.modifiers)[0];
+            let $parent;
+            if (container) {
+                $parent = binding.instance.$refs[container];
+                // if there is container passed in, try ref first, then fallback to getElementById to support the original usage
+                $parent = $parent ? $parent.el || $parent : document.getElementById(container);
+            }
+            if (!$parent) {
+                $parent = scrollParent(el);
+            }
+            const newListener = new ReactiveListener(el, src, error, loading, binding.arg, $parent, this.options, cors, this._elRenderer.bind(this), this._imageCache);
+            this.ListenerQueue.push(newListener);
+            if (inBrowser) {
+                this._addListenerTarget(window);
+                this._addListenerTarget($parent);
+            }
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.nextTick)(this.lazyLoadHandler);
+        });
+    }
+    /**
+    * update image src
+    * @param  {DOM} el
+    * @param  {object} vue directive binding
+    * @return
+    */
+    update(el, binding, vnode) {
+        let { src, loading, error } = this._valueFormatter(binding.value);
+        src = getBestSelectionFromSrcset(el, this.options.scale) || src;
+        const exist = this.ListenerQueue.find(item => item.el === el);
+        if (!exist) {
+            if (el.getAttribute('lazy') !== 'loaded' || el.dataset.src !== src) {
+                this.add(el, binding, vnode);
+            }
+        } else {
+            exist.update({
+                src,
+                loading,
+                error
+            });
+        }
+        if (this._observer) {
+            this._observer.unobserve(el);
+            this._observer.observe(el);
+        }
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.nextTick)(this.lazyLoadHandler);
+    }
+    /**
+    * remove listener form list
+    * @param  {DOM} el
+    * @return
+    */
+    remove(el) {
+        if (!el) return;
+        this._observer && this._observer.unobserve(el);
+        const existItem = this.ListenerQueue.find(item => item.el === el);
+        if (existItem) {
+            this._removeListenerTarget(existItem.$parent);
+            this._removeListenerTarget(window);
+            remove(this.ListenerQueue, existItem);
+            existItem.$destroy && existItem.$destroy();
+        }
+    }
+    /*
+     * remove lazy components form list
+     * @param  {Vue} vm Vue instance
+     * @return
+     */
+    removeComponent(vm) {
+        if (!vm) return;
+        remove(this.ListenerQueue, vm);
+        this._observer && this._observer.unobserve(vm.el);
+        if (vm.$parent && vm.$el.parentNode) {
+            this._removeListenerTarget(vm.$el.parentNode);
+        }
+        this._removeListenerTarget(window);
+    }
+    setMode(mode) {
+        if (!hasIntersectionObserver && mode === modeType.observer) {
+            mode = modeType.event;
+        }
+        this.mode = mode; // event or observer
+        if (mode === modeType.event) {
+            if (this._observer) {
+                this.ListenerQueue.forEach(listener => {
+                    this._observer.unobserve(listener.el);
+                });
+                this._observer = null;
+            }
+            this.TargetQueue.forEach(target => {
+                this._initListen(target.el, true);
+            });
+        } else {
+            this.TargetQueue.forEach(target => {
+                this._initListen(target.el, false);
+            });
+            this._initIntersectionObserver();
+        }
+    }
+    /*
+    *** Private functions ***
+    */
+    /*
+     * add listener target
+     * @param  {DOM} el listener target
+     * @return
+     */
+    _addListenerTarget(el) {
+        if (!el) return;
+        let target = this.TargetQueue.find(target => target.el === el);
+        if (!target) {
+            target = {
+                el: el,
+                id: ++this.TargetIndex,
+                childrenCount: 1,
+                listened: true
+            };
+            this.mode === modeType.event && this._initListen(target.el, true);
+            this.TargetQueue.push(target);
+        } else {
+            target.childrenCount++;
+        }
+        return this.TargetIndex;
+    }
+    /*
+     * remove listener target or reduce target childrenCount
+     * @param  {DOM} el or window
+     * @return
+     */
+    _removeListenerTarget(el) {
+        this.TargetQueue.forEach((target, index) => {
+            if (target.el === el) {
+                target.childrenCount--;
+                if (!target.childrenCount) {
+                    this._initListen(target.el, false);
+                    this.TargetQueue.splice(index, 1);
+                    target = null;
+                }
+            }
+        });
+    }
+    /*
+     * add or remove eventlistener
+     * @param  {DOM} el DOM or Window
+     * @param  {boolean} start flag
+     * @return
+     */
+    _initListen(el, start) {
+        this.options.listenEvents.forEach(evt => _[start ? 'on' : 'off'](el, evt, this.lazyLoadHandler));
+    }
+    _initEvent() {
+        this.Event = {
+            listeners: {
+                loading: [],
+                loaded: [],
+                error: []
+            }
+        };
+        this.$on = (event, func) => {
+            if (!this.Event.listeners[event]) this.Event.listeners[event] = [];
+            this.Event.listeners[event].push(func);
+        };
+        this.$once = (event, func) => {
+            const vm = this;
+            function on() {
+                vm.$off(event, on);
+                func.apply(vm, arguments);
+            }
+            this.$on(event, on);
+        };
+        this.$off = (event, func) => {
+            if (!func) {
+                if (!this.Event.listeners[event]) return;
+                this.Event.listeners[event].length = 0;
+                return;
+            }
+            remove(this.Event.listeners[event], func);
+        };
+        this.$emit = (event, context, inCache) => {
+            if (!this.Event.listeners[event]) return;
+            this.Event.listeners[event].forEach(func => func(context, inCache));
+        };
+    }
+    /**
+     * find nodes which in viewport and trigger load
+     * @return
+     */
+    _lazyLoadHandler() {
+        const freeList = [];
+        this.ListenerQueue.forEach((listener, index) => {
+            if (!listener.el || !listener.el.parentNode || listener.state.loaded) {
+                freeList.push(listener);
+            }
+            const catIn = listener.checkInView();
+            if (!catIn) return;
+            if (!listener.state.loaded) listener.load();
+        });
+        freeList.forEach(item => {
+            remove(this.ListenerQueue, item);
+            item.$destroy && item.$destroy();
+        });
+    }
+    /**
+    * init IntersectionObserver
+    * set mode to observer
+    * @return
+    */
+    _initIntersectionObserver() {
+        if (!hasIntersectionObserver) return;
+        this._observer = new IntersectionObserver(this._observerHandler.bind(this), this.options.observerOptions);
+        if (this.ListenerQueue.length) {
+            this.ListenerQueue.forEach(listener => {
+                this._observer.observe(listener.el);
+            });
+        }
+    }
+    /**
+    * init IntersectionObserver
+    * @param {Array<IntersectionObserverEntry>} entries
+    * @return
+    */
+    _observerHandler(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                this.ListenerQueue.forEach(listener => {
+                    if (listener.el === entry.target) {
+                        if (listener.state.loaded) return this._observer.unobserve(listener.el);
+                        listener.load();
+                    }
+                });
+            }
+        });
+    }
+    /**
+    * set element attribute with image'url and state
+    * @param  {ReactiveListener} lazyload listener object
+    * @param  {TeventType} state will be rendered
+    * @param  {bool} inCache  is rendered from cache
+    * @return
+    */
+    _elRenderer(listener, state, cache) {
+        if (!listener.el) return;
+        const { el, bindType } = listener;
+        let src;
+        switch (state) {
+            case 'loading':
+                src = listener.loading;
+                break;
+            case 'error':
+                src = listener.error;
+                break;
+            default:
+                src = listener.src;
+                break;
+        }
+        if (bindType) {
+            // @ts-ignore
+            el.style[bindType] = 'url("' + src + '")';
+        } else if (el.getAttribute('src') !== src) {
+            el.setAttribute('src', src);
+        }
+        el.setAttribute('lazy', state);
+        this.$emit(state, listener, cache);
+        this.options.adapter[state] && this.options.adapter[state](listener, this.options);
+        if (this.options.dispatchEvent) {
+            const event = new CustomEvent(state, {
+                detail: listener
+            });
+            el.dispatchEvent(event);
+        }
+    }
+    _valueFormatter(value) {
+        if (typeof value === 'object') {
+            if (!value.src && !this.options.silent) console.error('Vue Lazyload warning: miss src with ' + value);
+            return {
+                src: value.src,
+                loading: value.loading || this.options.loading,
+                error: value.error || this.options.error,
+                cors: this.options.cors
+            };
+        }
+        return {
+            src: value,
+            loading: this.options.loading,
+            error: this.options.error,
+            cors: this.options.cors
+        };
+    }
+}
+
+const useCheckInView = (el, preLoad) => {
+    let rect = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({});
+    const getRect = () => {
+        rect = el.value.getBoundingClientRect();
+    };
+    const checkInView = () => {
+        getRect();
+        return inBrowser && rect.top < window.innerHeight * preLoad && rect.bottom > 0 && rect.left < window.innerWidth * preLoad && rect.right > 0;
+    };
+    return {
+        rect,
+        checkInView
+    };
+};
+
+var LazyComponent = (lazy => {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
+        props: {
+            tag: {
+                type: String,
+                default: 'div'
+            }
+        },
+        emits: ['show'],
+        setup(props, { emit, slots }) {
+            const el = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)();
+            const state = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({
+                loaded: false,
+                error: false,
+                attempt: 0
+            });
+            const show = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
+            const { rect, checkInView } = useCheckInView(el, lazy.options.preLoad);
+            const load = () => {
+                show.value = true;
+                state.loaded = true;
+                emit('show', show.value);
+            };
+            const vm = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => {
+                return {
+                    el: el.value,
+                    rect,
+                    checkInView,
+                    load,
+                    state
+                };
+            });
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.onMounted)(() => {
+                lazy.addLazyBox(vm.value);
+                lazy.lazyLoadHandler();
+            });
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.onUnmounted)(() => {
+                lazy.removeComponent(vm.value);
+            });
+            return () => {
+                var _a;
+                return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(props.tag, {
+                    ref: el
+                }, [show.value && ((_a = slots.default) === null || _a === void 0 ? void 0 : _a.call(slots))]);
+            };
+        }
+    });
+});
+
+class LazyContainerMananger {
+    constructor(lazy) {
+        this.lazy = lazy;
+        lazy.lazyContainerMananger = this;
+        this._queue = [];
+    }
+    bind(el, binding, vnode) {
+        const container = new LazyContainer(el, binding, vnode, this.lazy);
+        this._queue.push(container);
+    }
+    update(el, binding, vnode) {
+        const container = this._queue.find(item => item.el === el);
+        if (!container) return;
+        container.update(el, binding);
+    }
+    unbind(el, binding, vnode) {
+        const container = this._queue.find(item => item.el === el);
+        if (!container) return;
+        container.clear();
+        remove(this._queue, container);
+    }
+}
+const defaultOptions = {
+    selector: 'img',
+    error: '',
+    loading: ''
+};
+class LazyContainer {
+    constructor(el, binding, vnode, lazy) {
+        this.el = el;
+        this.vnode = vnode;
+        this.binding = binding;
+        this.options = {};
+        this.lazy = lazy;
+        this._queue = [];
+        this.update(el, binding);
+    }
+    update(el, binding) {
+        this.el = el;
+        this.options = assignDeep({}, defaultOptions, binding.value);
+        const imgs = this.getImgs();
+        imgs.forEach(el => {
+            this.lazy.add(el, assignDeep({}, this.binding, {
+                value: {
+                    src: el.getAttribute('data-src') || el.dataset.src,
+                    error: el.getAttribute('data-error') || el.dataset.error || this.options.error,
+                    loading: el.getAttribute('data-loading') || el.dataset.loading || this.options.loading
+                }
+            }), this.vnode);
+        });
+    }
+    getImgs() {
+        return Array.from(this.el.querySelectorAll(this.options.selector));
+    }
+    clear() {
+        const imgs = this.getImgs();
+        imgs.forEach(el => this.lazy.remove(el));
+        this.vnode = null;
+        this.binding = null;
+        this.lazy = null;
+    }
+}
+
+var LazyImage = (lazy => {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
+        setup(props, { slots }) {
+            const el = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)();
+            const options = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({
+                src: '',
+                error: '',
+                loading: '',
+                attempt: lazy.options.attempt
+            });
+            const state = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({
+                loaded: false,
+                error: false,
+                attempt: 0
+            });
+            const { rect, checkInView } = useCheckInView(el, lazy.options.preLoad);
+            const renderSrc = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)('');
+            const load = (onFinish = noop) => {
+                if (state.attempt > options.attempt - 1 && state.error) {
+                    if (!lazy.options.silent) console.log(`VueLazyload log: ${options.src} tried too more than ${options.attempt} times`);
+                    return onFinish();
+                }
+                const src = options.src;
+                loadImageAsync({ src }, ({ src }) => {
+                    renderSrc.value = src;
+                    state.loaded = true;
+                }, () => {
+                    state.attempt++;
+                    renderSrc.value = options.error;
+                    state.error = true;
+                });
+            };
+            const vm = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => {
+                return {
+                    el: el.value,
+                    rect,
+                    checkInView,
+                    load,
+                    state
+                };
+            });
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.onMounted)(() => {
+                lazy.addLazyBox(vm.value);
+                lazy.lazyLoadHandler();
+            });
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.onUnmounted)(() => {
+                lazy.removeComponent(vm.value);
+            });
+            const init = () => {
+                const { src, loading, error } = lazy._valueFormatter(props.src);
+                state.loaded = false;
+                options.src = src;
+                options.error = error;
+                options.loading = loading;
+                renderSrc.value = options.loading;
+            };
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.watch)(() => props.src, () => {
+                init();
+                lazy.addLazyBox(vm.value);
+                lazy.lazyLoadHandler();
+            }, {
+                immediate: true
+            });
+            return () => {
+                var _a;
+                return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(props.tag || 'img', {
+                    src: renderSrc.value,
+                    ref: el
+                }, [(_a = slots.default) === null || _a === void 0 ? void 0 : _a.call(slots)]);
+            };
+        }
+    });
+});
+
+var index = {
+    /*
+    * install function
+    * @param  {Vue} Vue
+    * @param  {object} options lazyload options
+    */
+    install(Vue, options = {}) {
+        const lazy = new Lazy(options);
+        const lazyContainer = new LazyContainerMananger(lazy);
+        const vueVersion = Number(Vue.version.split('.')[0]);
+        if (vueVersion < 3) return new Error('Vue version at least 3.0');
+        Vue.config.globalProperties.$Lazyload = lazy;
+        Vue.provide('Lazyload', lazy);
+        if (options.lazyComponent) {
+            Vue.component('lazy-component', LazyComponent(lazy));
+        }
+        if (options.lazyImage) {
+            Vue.component('lazy-image', LazyImage(lazy));
+        }
+        Vue.directive('lazy', {
+            beforeMount: lazy.add.bind(lazy),
+            beforeUpdate: lazy.update.bind(lazy),
+            updated: lazy.lazyLoadHandler.bind(lazy),
+            unmounted: lazy.remove.bind(lazy)
+        });
+        Vue.directive('lazy-container', {
+            beforeMount: lazyContainer.bind.bind(lazyContainer),
+            updated: lazyContainer.update.bind(lazyContainer),
+            unmounted: lazyContainer.unbind.bind(lazyContainer)
+        });
+    }
+};
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/dist/exportHelper.js":
 /*!******************************************************!*\
   !*** ./node_modules/vue-loader/dist/exportHelper.js ***!
   \******************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 // runtime helper for setting properties on components
@@ -17925,6 +19107,7 @@ exports["default"] = (sfc, props) => {
   \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17952,6 +19135,7 @@ if (false) {}
   \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17979,6 +19163,7 @@ if (false) {}
   \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -18009,6 +19194,7 @@ if (false) {}
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_FigurePopup_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
@@ -18024,6 +19210,7 @@ __webpack_require__.r(__webpack_exports__);
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavBar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
@@ -18039,6 +19226,7 @@ __webpack_require__.r(__webpack_exports__);
   \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ToggleMenu_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
@@ -18054,6 +19242,7 @@ __webpack_require__.r(__webpack_exports__);
   \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_FigurePopup_vue_vue_type_template_id_4f1e69e6__WEBPACK_IMPORTED_MODULE_0__.render)
@@ -18069,6 +19258,7 @@ __webpack_require__.r(__webpack_exports__);
   \**************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavBar_vue_vue_type_template_id_5dd24bca__WEBPACK_IMPORTED_MODULE_0__.render)
@@ -18084,6 +19274,7 @@ __webpack_require__.r(__webpack_exports__);
   \******************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ToggleMenu_vue_vue_type_template_id_8570f404_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
@@ -18099,6 +19290,7 @@ __webpack_require__.r(__webpack_exports__);
   \********************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ToggleMenu_vue_vue_type_style_index_0_id_8570f404_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ToggleMenu.vue?vue&type=style&index=0&id=8570f404&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/ToggleMenu.vue?vue&type=style&index=0&id=8570f404&scoped=true&lang=css");
 
@@ -18111,6 +19303,7 @@ __webpack_require__.r(__webpack_exports__);
   \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "BaseTransition": () => (/* reexport safe */ _vue_runtime_dom__WEBPACK_IMPORTED_MODULE_0__.BaseTransition),
@@ -18340,6 +19533,7 @@ function compileToFunction(template, options) {
   \*************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ render)
@@ -18372,6 +19566,7 @@ function render(_ctx, _cache) {
   \**************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ render)
@@ -18404,6 +19599,7 @@ function render(_ctx, _cache) {
   \*********************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ render)
@@ -18436,6 +19632,7 @@ function render(_ctx, _cache) {
   \*****************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ render)
@@ -18468,6 +19665,7 @@ function render(_ctx, _cache) {
   \************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ render)
