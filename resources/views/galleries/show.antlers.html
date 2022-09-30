@@ -15,23 +15,14 @@
       {{ partial:components/back_to_index url="/galleries/" title="Back to galleries"}}
     </div>
   </div>
-  <ul class="container mx-auto md:px-8 lg:px-16 xl:px-24 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
-    {{ images }}
-      <li class="w-full h-full relative">
-        <figure-popup>
-          <img src="{{asset}}" class="w-full h-full object-cover"/>
-        </figure-popup>
-      </li>
-    {{ /images }}
-  </ul>
-  <light-box
-    :media="[
+  <gallery
+    :imgs="[
       {{ images }}
-        {
-          thumb: '{{asset}}',
-          src: '{{asset}}'
+        { 
+          src:'{{asset}}',
+          alt:'{{asset.alt}}',
         },
       {{ /images }}
     ]"
-  ></light-box>
+  ></gallery>
 </article>
