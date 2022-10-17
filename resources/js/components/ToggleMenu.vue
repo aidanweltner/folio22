@@ -11,7 +11,7 @@
         </span>
         <span class="hamburger-label sr-only">Menu</span>
     </button>
-    <div class="absolute top-full right-0 w-full h-screen bg-coffee-200 dark:bg-stone-800 transition-opacity ease-in-out duration-200" :class=" isExpanded ? 'opacity-80' : 'opacity-0' " @click="isExpanded = false"></div>
+    <div class="absolute top-full right-0 w-full h-screen bg-coffee-200 dark:bg-stone-800 transition-opacity ease-in-out duration-200" :class=" isExpanded ? 'opacity-80 block' : 'opacity-0 hidden' " @click="isExpanded = false"></div>
     <div id="navigation" class="sm:block relative" :class="{ 'hidden' : !isExpanded }">
       <slot></slot>
     </div>
