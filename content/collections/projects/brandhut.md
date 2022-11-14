@@ -1,7 +1,7 @@
 ---
-id: 221d35bc-c6f6-41bd-b1d3-6224f6eb9041
+id: 2cfcb39b-947d-4082-89de-7e8f596babb0
 blueprint: link
-title: 'Brandhut'
+title: Brandhut
 redirect: 'https://brandhut.agency/'
 start_date: '2019-09-01'
 is_current: false
