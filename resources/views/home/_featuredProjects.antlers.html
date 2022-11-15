@@ -1,7 +1,7 @@
 <div class="container mx-auto px-4 lg:px-6 pt-8 md:pt-24 lg:pt-48">
   <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 pb-3">Featured Projects</h2>
   <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-6 mt-6 lg:mt-9">
-      {{ collection:projects is_featured:is="true" sort="project_start_date:desc" }}
+      {{ collection:projects is_featured:is="true" sort="start_date:desc" }}
           <li>
               <article class="flex flex-col lg:flex-row-reverse lg:items-end justify-between border border-coffee-400 dark:border-coffee-800 rounded-lg p-2 lg:p-4">
                   <a href="{{ url }}" class="hover:opacity-60 w-full lg:w-3/5" title="{{ title }}">

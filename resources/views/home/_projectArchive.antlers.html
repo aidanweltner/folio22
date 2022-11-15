@@ -12,7 +12,7 @@
     </div>
     <table class="w-full">
       <tbody class="divide-y divide-coffee-400 dark:divide-coffee-800">
-          {{ collection:projects limit="9" redirects="true" is_featured:isnt="true" sort="project_end_date:desc|project_start_date:desc" }}
+          {{ collection:projects limit="9" redirects="true" is_featured:isnt="true" sort="end_date:desc|start_date:desc" }}
               <tr class="py-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-2">
                   <td class="sm:col-span-2">
                       <div class="flex items-center justify-between md:justify-start gap-4">

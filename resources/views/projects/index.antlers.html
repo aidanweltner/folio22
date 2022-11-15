@@ -6,7 +6,7 @@
         </header>
         <section>
             <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-6 mt-6 lg:mt-9">
-            {{ collection:projects is_featured:is="true" limit="4" sort="project_start_date:desc" }}
+            {{ collection:projects is_featured:is="true" limit="4" sort="start_date:desc" }}
                 <li>
                     <article class="flex flex-col lg:flex-row-reverse lg:items-end justify-between border border-coffee-400 dark:border-coffee-800 rounded-lg p-2 lg:p-4">
                         <a href="{{ url }}" class="hover:opacity-60 w-full lg:w-3/5" title="{{ title }}">
@@ -53,7 +53,7 @@
           {{ /taxonomy }}
       </ul>
     </div>
-    {{ collection:projects as="project" paginate="9" redirects="true" is_featured:isnt="true" sort="project_start_date:desc" }}
+    {{ collection:projects as="project" paginate="9" redirects="true" is_featured:isnt="true" sort="end_date:desc|start_date:desc" }}
         <table class="w-full">
             <tbody class="divide-y divide-coffee-400 dark:divide-coffee-800">
                 {{ project }}
