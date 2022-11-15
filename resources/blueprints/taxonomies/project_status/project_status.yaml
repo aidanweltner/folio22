@@ -43,4 +43,14 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: order
+        field:
+          display: Order
+          type: integer
+          icon: integer
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: 'Project Status'
