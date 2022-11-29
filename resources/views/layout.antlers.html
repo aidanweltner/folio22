@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site:name }}</title>
+        {{ aardvark-seo:head }}
         <link rel="stylesheet" href="{{ mix src='css/app.css' }}">
         <link rel="stylesheet" href="https://use.typekit.net/emq4rys.css">
     </head>
     <body class="bg-white dark:bg-stone-900 font-sans leading-normal text-gray-800">
+        {{ aardvark-seo:body }}
         <div id="app">
             <nav-bar>
                 <ul class="shadow-lg container bg-coffee-200 dark:bg-stone-800 sm:bg-transparent absolute right-0 pt-2 pb-6 px-4 w-screen sm:w-auto sm:shadow-none justify-end sm:justify-start flex-row sm:py-0 sm:relative text-left flex gap-4">
@@ -31,5 +32,6 @@
             {{ partial:partials/footer }}
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>
+        {{ aardvark-seo:footer }}
     </body>
 </html>
