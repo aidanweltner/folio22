@@ -14,7 +14,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.82",
         "laravel/tinker": "^2.5",
-        "statamic/cms": "3.3.55",
+        "statamic/cms": "3.3.59",
         "withcandour/aardvark-seo": "^2.0"
     },
     "require-dev": {
