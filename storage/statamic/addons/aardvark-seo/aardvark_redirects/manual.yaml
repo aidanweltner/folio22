@@ -17,3 +17,9 @@ default:
     status_code: '301'
     is_active: true
     id: 9c44f8c7-8062-4ad1-9166-f2837f933f3c
+  -
+    source_url: /project-status/archived
+    target_url: /projects/project-status/archived
+    status_code: '301'
+    is_active: true
+    id: f23a93bf-569e-4f0e-9cbd-50663e3181cb
