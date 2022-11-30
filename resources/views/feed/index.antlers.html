@@ -18,7 +18,7 @@
     </div>
   </header>
   <ul class="w-full pb-10 lg:pb-12">
-    {{ collection:feed as="feed" paginate="9" sort="publish_date:desc" }}
+    {{ collection:feed as="feed" paginate="9" sort="date:desc" }}
       {{ feed }}
         <li class="border-b border-coffee-400 dark:border-coffee-800">
             <article class="py-4 flex justify-between items-stretch">

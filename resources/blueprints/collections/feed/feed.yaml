@@ -32,22 +32,12 @@ sections:
           type: slug
           localizable: true
       -
-        handle: publish_date
+        handle: date
         field:
-          mode: single
-          format: Ymd
-          time_enabled: false
-          time_seconds_enabled: false
-          full_width: false
-          inline: false
-          columns: 1
-          rows: 1
-          display: 'Publish Date'
           type: date
-          icon: date
-          listable: hidden
-          instructions_position: above
-          read_only: false
+          required: true
+          validate:
+            - required
       -
         handle: categories
         field:
