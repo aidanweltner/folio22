@@ -99,6 +99,7 @@ return [
         resource_path('users'),
         storage_path('forms'),
         public_path('assets'),
+        storage_path('statamic/addons/aardvark-seo'),
     ],
 
     /*
