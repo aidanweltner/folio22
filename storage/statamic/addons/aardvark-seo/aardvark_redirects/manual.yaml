@@ -1,0 +1,19 @@
+default:
+  -
+    source_url: /project-status/
+    target_url: /projects/
+    status_code: '301'
+    is_active: true
+    id: 4b3be28a-ee9f-4912-9309-1a945f5db502
+  -
+    source_url: /project-status/active
+    target_url: /projects/project-status/active
+    status_code: '301'
+    is_active: true
+    id: a68aa999-a603-4c1a-ac70-150db74822a3
+  -
+    source_url: /project-status/ongoing
+    target_url: /projects/project-status/ongoing
+    status_code: '301'
+    is_active: true
+    id: 9c44f8c7-8062-4ad1-9166-f2837f933f3c

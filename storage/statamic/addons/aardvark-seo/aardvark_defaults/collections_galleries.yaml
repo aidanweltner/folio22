@@ -1,0 +1,25 @@
+default:
+  meta_section: null
+  meta_title: 'Galleries // Aidan Weltner'
+  meta_description: null
+  use_meta_keywords: false
+  meta_keywords: {  }
+  indexing_section: null
+  no_index_page: false
+  no_follow_links: false
+  share_section_og: null
+  og_title: null
+  og_description: null
+  og_image: null
+  share_section_twitter: null
+  override_twitter_settings: false
+  twitter_title: null
+  twitter_description: null
+  override_twitter_card_settings: false
+  twitter_card_type_page: summary
+  twitter_summary_image: null
+  twitter_summary_large_image: null
+  scripts_section: null
+  head_snippets: null
+  footer_snippets: null
+  schema_objects: null
