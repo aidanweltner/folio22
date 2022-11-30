@@ -23,3 +23,21 @@ default:
     status_code: '301'
     is_active: true
     id: f23a93bf-569e-4f0e-9cbd-50663e3181cb
+  -
+    source_url: /portfolio
+    target_url: /projects
+    status_code: '301'
+    is_active: true
+    id: 2c6268fd-3f70-440b-8573-fa14d0beec6d
+  -
+    source_url: /work
+    target_url: /projects
+    status_code: '301'
+    is_active: true
+    id: c696c7f5-78ab-4ee5-8217-5b4e90955e46
+  -
+    source_url: /first-creation-of-the-day/
+    target_url: /categories/creative
+    status_code: '301'
+    is_active: true
+    id: 2725d036-063e-4d5b-847a-e0feabdf1599
