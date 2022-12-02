@@ -1,12 +1,11 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import NavBar from './components/NavBar.vue'
-import Gallery from './components/Gallery'
-import { DocumentTextIcon, ArrowTopRightOnSquareIcon, ArrowLongLeftIcon, ArrowLongRightIcon } from '@heroicons/vue/24/outline'
+/* import Gallery from './components/Gallery' */
 
-createApp({
+new Vue({
+  el: '#app',
   components: {
     NavBar,
-    Gallery,
-    DocumentTextIcon, ArrowTopRightOnSquareIcon, ArrowLongLeftIcon, ArrowLongRightIcon,
+    /* Gallery, */
   }
-}).mount('#app')
+})

@@ -1,5 +1,5 @@
 <template>
-  <Transition
+  <transition
     enter-active-class="duration-400 transition-all ease-in-out"
     enter-class="opacity-0 -translate-y-16 "
     enter-to-class="opacity-100 translate-y-0"
@@ -18,7 +18,7 @@
             </ToggleMenu>
         </div>
     </header>
-  </Transition>
+  </transition>
 </template>
 
 <script>
