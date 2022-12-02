@@ -18,7 +18,7 @@
         {{ if external }}
           <a href="{{ external }}" title="{{ title }} (external link)" target="_blank" class="mb-1 lg:mb-2">
             <span class="sr-only">{{title}} (external link)</span>
-            <arrow-top-right-on-square-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6" />
+            {{ partial:heroicons/arrow-top-right-on-square-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6"}}
           </a>
         {{ /if }}
       </div>
