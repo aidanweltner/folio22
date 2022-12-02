@@ -13,7 +13,7 @@ let tailwindcss = require('tailwindcss');
 
 mix
     .js('resources/js/site.js', 'public/js')
-    .vue();
+    .vue({ version: 2 });
 
 mix
     .sass( 'resources/sass/app.scss', 'public/css' )
