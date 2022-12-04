@@ -23,7 +23,6 @@ sections:
           icon: assets
           listable: hidden
           instructions_position: above
-          read_only: false
       -
         handle: content
         field:
@@ -105,7 +104,6 @@ sections:
           icon: replicator
           listable: hidden
           instructions_position: above
-          read_only: false
   sidebar:
     display: Sidebar
     fields:
@@ -114,4 +112,27 @@ sections:
         field:
           type: slug
           localizable: true
+      -
+        handle: external_gallery
+        field:
+          default: false
+          display: 'Link to External Gallery'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: external
+        field:
+          display: External
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            external_gallery: 'equals true'
 title: Galleries
