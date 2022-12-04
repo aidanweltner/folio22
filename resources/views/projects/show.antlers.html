@@ -28,9 +28,7 @@
         {{ /skills }}
       </ul>
     </div>
-    {{ featured }}
-      <img class="rounded-md w-full max-w-screen-md mx-auto" src="{{ url }}" alt="{{ alt }}">
-    {{ /featured }}
+    <div class="w-full max-w-screen-md mx-auto">{{ responsive:featured class="rounded-md"}}</div>
   </header>
   <div class="prose dark:prose-invert mx-auto mb-4 lg:mb-8">
     {{ content }}
