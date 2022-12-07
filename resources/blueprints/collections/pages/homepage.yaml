@@ -36,6 +36,9 @@ sections:
           width: 50
           listable: hidden
           instructions_position: above
+          visibility: visible
+          always_save: false
+          container: assets
       -
         handle: about_landscape_2
         field:
@@ -50,6 +53,9 @@ sections:
           width: 50
           listable: hidden
           instructions_position: above
+          visibility: visible
+          always_save: false
+          container: assets
       -
         handle: about_portrait
         field:
@@ -64,6 +70,9 @@ sections:
           width: 50
           listable: hidden
           instructions_position: above
+          visibility: visible
+          always_save: false
+          container: assets
       -
         handle: about_landscape_3
         field:
@@ -78,6 +87,9 @@ sections:
           width: 50
           listable: hidden
           instructions_position: above
+          visibility: visible
+          always_save: false
+          container: assets
       -
         handle: about_heading
         field:
@@ -151,3 +163,11 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+      -
+        handle: skills
+        field:
+          type: terms
+          taxonomies:
+            - skills
+          display: Skills
+          mode: select
