@@ -23,6 +23,18 @@ sections:
         field:
           type: markdown
           localizable: true
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          always_save: false
+          container: remote
+          folder: feed
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: true
   sidebar:
     display: Sidebar
     fields:
