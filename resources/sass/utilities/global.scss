@@ -2,6 +2,10 @@
   background: rgb(231,229,228);
 }
 
+ul.grid picture img[data-statamic-responsive-images] {
+  margin: 0 !important;
+}
+
 @media (min-width: 1024px) {
   .bg-header {
     background: rgb(231,229,228);
