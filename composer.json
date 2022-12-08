@@ -16,7 +16,7 @@
         "laravel/tinker": "^2.5",
         "spatie/laravel-google-cloud-storage": "^2.0",
         "spatie/statamic-responsive-images": "^2.14",
-        "statamic/cms": "3.3.59",
+        "statamic/cms": "3.3.60",
         "withcandour/aardvark-seo": "^2.0"
     },
     "require-dev": {
