@@ -209,3 +209,57 @@ default:
     status_code: '301'
     is_active: true
     id: c392068c-3e30-48fb-9e18-eb160bb71049
+  -
+    source_url: /portfolio/one-stone/
+    target_url: /projects/one-stone/
+    status_code: '301'
+    is_active: true
+    id: 34b41734-44c6-471f-a93f-b12da695f69d
+  -
+    source_url: /portfolio/vertical/
+    target_url: /projects/vertical-construction/
+    status_code: '301'
+    is_active: true
+    id: b7245540-450b-4e07-b90d-1a10705f46db
+  -
+    source_url: /portfolio/tolsma-usa/
+    target_url: /projects/project-status/archived/
+    status_code: '301'
+    is_active: true
+    id: b7defd54-942e-4887-b988-53192653dc21
+  -
+    source_url: /portfolio/adventure-scientists/
+    target_url: /projects/adventure-scientists/
+    status_code: '301'
+    is_active: true
+    id: 727c36bf-4ddc-41fa-9b5a-5a70bdfd4f38
+  -
+    source_url: /portfolio/drake-cooper/
+    target_url: /projects/drake-cooper/
+    status_code: '301'
+    is_active: true
+    id: 74176329-d5bb-453f-8d01-b200c78b414d
+  -
+    source_url: /portfolio/getyourassintonature/
+    target_url: /projects/getyourassintonature/
+    status_code: '301'
+    is_active: true
+    id: 508f61d9-0d66-4b3a-ab80-112964ac8b2b
+  -
+    source_url: /portfolio/sharelift/
+    target_url: /projects/sharelift/
+    status_code: '301'
+    is_active: true
+    id: d15943a5-dc51-4fb1-821c-53fd3dd34ede
+  -
+    source_url: /portfolio/why-we-care/
+    target_url: /projects/why-we-care/
+    status_code: '301'
+    is_active: true
+    id: 02be2f58-c5b8-49f8-b669-16b0e2c549d2
+  -
+    source_url: /portfolio/pronghorn-advisors/
+    target_url: /projects/pronghorn-advisors/
+    status_code: '301'
+    is_active: true
+    id: b02c5530-df66-4f6f-b2a5-c18ac8a59ad1
