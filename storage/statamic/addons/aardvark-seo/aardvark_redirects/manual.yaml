@@ -59,3 +59,153 @@ default:
     status_code: '301'
     is_active: true
     id: 7b7b305c-4577-4bb5-9352-1477da82974f
+  -
+    source_url: /uncategorized/generations-challenge/
+    target_url: /feed/generations-challenge
+    status_code: '301'
+    is_active: true
+    id: ab39a2f0-b8d0-4757-8cc4-eacdec67e645
+  -
+    source_url: /uncategorized/flathead/
+    target_url: /feed/flathead-wild
+    status_code: '301'
+    is_active: true
+    id: 2a5df994-3580-424d-a7e5-8d56d2ac512a
+  -
+    source_url: /uncategorized/film/
+    target_url: /feed/why-i-love-film
+    status_code: '301'
+    is_active: true
+    id: 80246e08-4aad-462f-95a3-4df13755b796
+  -
+    source_url: /uncategorized/yellowstone-2017/
+    target_url: /feed/yellowstone-2017
+    status_code: '301'
+    is_active: true
+    id: 7e14fc54-cc0a-4ab2-bc13-41be65172763
+  -
+    source_url: /fcod/photo-update-of-my-life-for-my-grandma/
+    target_url: /feed/photo-update-of-my-life-for-my-grandma
+    status_code: '301'
+    is_active: true
+    id: 131a4104-33bd-4b07-8c14-aafa1c649788
+  -
+    source_url: /fcod/nav-menu-for-a-private-security-firm/
+    target_url: /feed/nav-menu-for-a-private-security-firm/
+    status_code: '301'
+    is_active: true
+    id: 869949f0-af55-42f1-97a9-57ecf2a6adf3
+  -
+    source_url: /fcod/topographic-color-study/
+    target_url: /feed/topographic-color-study/
+    status_code: '301'
+    is_active: true
+    id: ff748bbb-b66f-4c7d-b9a1-4c0ec8f5d97c
+  -
+    source_url: /fcod/listing-card-for-used-bicycle-exchange/
+    target_url: /feed/listing-card-for-used-bicycle-exchange/
+    status_code: '301'
+    is_active: true
+    id: 3f14b8db-847c-47c2-96ec-7e6e34db388f
+  -
+    source_url: /fcod/portfolio-mockups-for-boutique-living-client/
+    target_url: /feed/portfolio-mockups-for-boutique-living-client/
+    status_code: '301'
+    is_active: true
+    id: c2430541-48a6-4da5-8f10-a4b2a972c3e3
+  -
+    source_url: /fcod/new-email-signature-for-my-cottontail-creative-email/
+    target_url: /feed/new-email-signature-for-my-cottontail-creative-email/
+    status_code: '301'
+    is_active: true
+    id: d0a4fe33-2dc9-4d96-b561-1a4738b58125
+  -
+    source_url: /fcod/categories-component-for-used-bicycle-exchange/
+    target_url: /feed/categories-component-for-used-bicycle-exchange/
+    status_code: '301'
+    is_active: true
+    id: 27dbe559-51ac-43cf-a022-ce287d9f5dc5
+  -
+    source_url: /fcod/portraits-of-some-friends-moving-away/
+    target_url: /feed/portraits-of-some-friends-moving-away/
+    status_code: '301'
+    is_active: true
+    id: 8540471c-b8b1-4a40-b2a7-fc8234969a2c
+  -
+    source_url: /fcod/a-new-place-to-publish-my-creations/
+    target_url: /feed/a-new-place-to-publish-my-creations/
+    status_code: '301'
+    is_active: true
+    id: c83aa40a-9b40-46dd-939b-7831dc505874
+  -
+    source_url: /fcod/an-ode-to-camping-by-yourself/
+    target_url: /feed/an-ode-to-camping-by-yourself/
+    status_code: '301'
+    is_active: true
+    id: 0cc3e25e-d547-46a8-ac81-32dedd2732e9
+  -
+    source_url: /fcod/unconventional-ui-design/
+    target_url: /feed/unconventional-ui-design/
+    status_code: '301'
+    is_active: true
+    id: 873bf2f1-762f-4dcc-994e-9beadb8373ad
+  -
+    source_url: /fcod/keyboard-shortcuts-to-aid-my-forgetful-mind/
+    target_url: /feed/keyboard-shortcuts-to-aid-my-forgetful-mind/
+    status_code: '301'
+    is_active: true
+    id: adda9c2c-1b72-42de-9907-840082e7a75e
+  -
+    source_url: /fcod/a-concept-for-a-new-portfolio/
+    target_url: /feed/a-concept-for-a-new-portfolio/
+    status_code: '301'
+    is_active: true
+    id: 7e893f53-39a7-4928-8e31-99f9e98d812c
+  -
+    source_url: /fcod/a-warm-gray-color-palette-for-tailwindcss/
+    target_url: /feed/a-warm-gray-color-palette-for-tailwindcss/
+    status_code: '301'
+    is_active: true
+    id: a9ee6409-ba64-48b9-a07d-c67d744e113d
+  -
+    source_url: /fcod/a-portrait-of-some-friends-riding-bikes/
+    target_url: /feed/a-portrait-of-some-friends-riding-bikes/
+    status_code: '301'
+    is_active: true
+    id: c4329639-beee-4cfc-8f43-8d9e49605d2e
+  -
+    source_url: /fcod/more-photos-of-friends-bikes-and-camping-in-idaho/
+    target_url: /feed/more-photos-of-friends-bikes-and-camping-in-idaho/
+    status_code: '301'
+    is_active: true
+    id: ce408f2d-3273-4876-a6e5-794deaac2b33
+  -
+    source_url: /fcod/photos-from-5-days-of-off-grid-desert-river-trippin/
+    target_url: /feed/photos-from-5-days-of-off-grid-desert-river-trippin/
+    status_code: '301'
+    is_active: true
+    id: d32e6b09-157d-47b6-8884-0102063cdf33
+  -
+    source_url: /fcod/some-windy-late-summer-montana-high-country-goodness/
+    target_url: /feed/some-windy-late-summer-montana-high-country-goodness/
+    status_code: '301'
+    is_active: true
+    id: 16c36b00-28fc-479d-8d78-24e3ae57d641
+  -
+    source_url: /fcod/recipes/my-favorite-way-to-eat-grouse/
+    target_url: /feed/my-favorite-way-to-eat-grouse/
+    status_code: '301'
+    is_active: true
+    id: 3606e4ed-f288-4387-97ff-6f03be78d23b
+  -
+    source_url: /fcod/web-design/designing-the-most-important-part-of-my-new-website/
+    target_url: /feed/designing-the-most-important-part-of-my-new-website/
+    status_code: '301'
+    is_active: true
+    id: b576b328-4d26-46b7-8231-3caf31b31718
+  -
+    source_url: /fcod/new-snippets-for-laravel-8-blade-components/
+    target_url: /feed/new-snippets-for-laravel-8-blade-components/
+    status_code: '301'
+    is_active: true
+    id: c392068c-3e30-48fb-9e18-eb160bb71049
