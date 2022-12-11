@@ -1,0 +1,58 @@
+---
+id: 00f1c1ac-401f-405f-817c-10fd88c88da6
+blueprint: remote-source
+title: 'People 2014-2017'
+featured: galleries/people/aidanweltner-people--10.jpg
+images:
+  - galleries/people/aidanweltner-people--01.jpg
+  - galleries/people/aidanweltner-people--02.jpg
+  - galleries/people/aidanweltner-people--03.jpg
+  - galleries/people/aidanweltner-people--04.jpg
+  - galleries/people/aidanweltner-people--05.jpg
+  - galleries/people/aidanweltner-people--06.jpg
+  - galleries/people/aidanweltner-people--07.jpg
+  - galleries/people/aidanweltner-people--08.jpg
+  - galleries/people/aidanweltner-people--09.jpg
+  - galleries/people/aidanweltner-people--10.jpg
+  - galleries/people/aidanweltner-people--11.jpg
+  - galleries/people/aidanweltner-people--12.jpg
+  - galleries/people/aidanweltner-people--13.jpg
+  - galleries/people/aidanweltner-people--14.jpg
+  - galleries/people/aidanweltner-people--15.jpg
+  - galleries/people/aidanweltner-people--16.jpg
+  - galleries/people/aidanweltner-people--17.jpg
+  - galleries/people/aidanweltner-people--18.jpg
+  - galleries/people/aidanweltner-people--19.jpg
+  - galleries/people/aidanweltner-people--20.jpg
+  - galleries/people/aidanweltner-people--21.jpg
+  - galleries/people/aidanweltner-people--22.jpg
+  - galleries/people/aidanweltner-people--23.jpg
+  - galleries/people/aidanweltner-people--24.jpg
+  - galleries/people/aidanweltner-people--25.jpg
+  - galleries/people/aidanweltner-people--26.jpg
+  - galleries/people/aidanweltner-people--27.jpg
+  - galleries/people/aidanweltner-people--28.jpg
+  - galleries/people/aidanweltner-people--29.jpg
+  - galleries/people/aidanweltner-people--30.jpg
+  - galleries/people/aidanweltner-people--31.jpg
+  - galleries/people/aidanweltner-people--32.jpg
+  - galleries/people/aidanweltner-people--33.jpg
+  - galleries/people/aidanweltner-people--34.jpg
+  - galleries/people/aidanweltner-people--35.jpg
+  - galleries/people/aidanweltner-people--36.jpg
+  - galleries/people/aidanweltner-people--37.jpg
+  - galleries/people/aidanweltner-people--38.jpg
+  - galleries/people/aidanweltner-people--39.jpg
+  - galleries/people/aidanweltner-people--40.jpg
+  - galleries/people/aidanweltner-people--41.jpg
+  - galleries/people/aidanweltner-people--42.jpg
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1670801357
+---
+A gallery of portraits taken by Aidan Weltner in his college years: 2014-2017. You can view more of his photography by [visiting his Flickr page](https://www.flickr.com/people/aidanweltner/). [Reach out](/contact) for collaborations or questions.
