@@ -18,10 +18,17 @@
   <gallery
     :imgs="[
       {{ images }}
-        { 
-          src:'{{asset}}',
-          alt:'{{asset.alt}}',
-        },
+        {{ if asset }}
+          { 
+            src:'{{asset}}',
+            alt:'{{asset.alt}}',
+          },
+        {{ elseif url }}
+          { 
+            src:'{{url}}',
+            alt:'{{alt}}',
+          },
+        {{ /if }}
       {{ /images }}
     ]"
   ></gallery>

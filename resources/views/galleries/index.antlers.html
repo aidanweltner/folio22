@@ -7,8 +7,8 @@
       <li class="w-full h-full relative">
         <div class="block">
           <a class="block hover:opacity-60" target="{{ (external_gallery == true) ? '_blank' : '_self' }}" href="{{ (external_gallery == true) ? external : url }}" title="{{ title }} Gallery">
-            <div class="w-full h-42 xl:h-64">
-              {{ responsive:featured class="h-42 xl:h-64 rounded-md" }}
+            <div class="w-full">
+              {{ responsive:featured class="rounded-md" glide:width="900" glide:height="600" glide:fit="crop" }}
             </div>
           </a>
           <a class="block relative" target="{{ (external_gallery == true) ? '_blank' : '_self' }}" href="{{ (external_gallery == true) ? external : url }}" title="{{ title }} Gallery">

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto md:px-8 lg:px-16 xl:px-24">
+  <div class="container mx-auto md:px-8 lg:px-16 xl:px-24 mb-8 lg:mb-16">
     <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
       <li v-for="(img, index) in imgs" :key="index" class="w-full h-full relative">
         <div class="group relative w-full h-full" @click="() => showImg(index)">
