@@ -305,3 +305,27 @@ default:
     status_code: '301'
     is_active: true
     id: 5acffce0-af56-4320-b395-96fd4562f786
+  -
+    source_url: /portfolio/people/
+    target_url: /galleries/people-2017
+    status_code: '301'
+    is_active: true
+    id: 9b51a1ca-ed85-4262-9453-18a98d352a11
+  -
+    source_url: /portfolio/places-things/
+    target_url: /galleries/places-things-2017
+    status_code: '301'
+    is_active: true
+    id: 6282f066-8c8e-4ba8-ac9c-8721e87923f1
+  -
+    source_url: /portfolio/movement/
+    target_url: /galleries/movement-2017
+    status_code: '301'
+    is_active: true
+    id: 19444cf5-1f97-45af-bbd0-98e30e971afa
+  -
+    source_url: /portfolio/events/
+    target_url: /galleries/events-2017
+    status_code: '301'
+    is_active: true
+    id: 72a5518b-fb2a-4681-b600-9e0177b36dc0
