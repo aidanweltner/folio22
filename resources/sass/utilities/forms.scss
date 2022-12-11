@@ -1,0 +1,31 @@
+.base-form {
+  @apply max-w-md space-y-4;
+
+  .fieldset {
+    @apply space-y-1;
+  }
+  
+  .input_wrap {
+    input,
+    textarea {
+      @apply rounded-md w-full bg-coffee-200 dark:bg-coffee-800 border-none;
+
+      &:focus {
+        @apply ring-1 ring-coffee-500;
+      }
+    }
+  }
+
+  .form-submit {
+    @apply rounded-md py-2 border-none;
+
+    &:hover &__text,
+    &:focus &__text {
+      @apply underline;
+    }
+
+    &:focus {
+      @apply ring-1 ring-coffee-500;
+    }
+  }
+}

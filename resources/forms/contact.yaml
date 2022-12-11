@@ -1,0 +1,11 @@
+title: Contact
+honeypot: username
+email:
+  -
+    id: lbjox7zv
+    to: aidan.weltner@gmail.com
+    subject: 'New message from aidanweltner.com'
+    html: mail/html/contact-submission
+    markdown: true
+    reply_to: '{{email}}'
+    text: mail/html/contact-submission
