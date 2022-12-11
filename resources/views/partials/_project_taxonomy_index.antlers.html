@@ -14,73 +14,74 @@
       <table class="w-full">
           <tbody class="divide-y divide-coffee-400 dark:divide-coffee-800">
               {{ results }}
-                  <tr class="py-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-2">
-                      <td class="sm:col-span-2">
-                          <div class="flex items-center justify-between md:justify-start gap-4">
-                              <div class="gap-4 inline-flex items-center">
-                                  {{ project_status }}
-                                      <div class="w-2 h-2 rounded-full {{ marker }}">
-                                          <span class="sr-only">Project Status: {{ title }}</span>
-                                      </div>
-                                  {{ /project_status }}
-                                  <a href="{{ url }}" title="{{ title }}" target="{{ blueprint == 'link' ?= '_blank'  }}" class="text-xl font-header space-x-2">
-                                        <span class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</span>
-                                        <span class="sr-only">Project date(s):</span>
-                                        {{ if is_current }}
-                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
-                                                <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
-                                                <span class="lg:hidden">{{ start_date format='M y' }} -</span>
-                                            </time>
-                                        {{ else }}
-                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
-                                                <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
-                                                <span class="lg:hidden">{{ start_date format='M y' }} -</span>
-                                            </time>
-                                            <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">
-                                                <span class="hidden lg:inline">{{ end_date format='M Y' }}</span>
-                                                <span class="lg:hidden">{{ end_date format='M y' }}</span>
-                                            </time>
-                                        {{ endif }}
-                                  </a>
-                              </div>
-                              <div class="inline-flex gap-2">
-                                  {{ if blueprint == 'projects' }}
-                                      <a href="{{ url }}" title="{{ title }}">
-                                          {{ partial:heroicons/document-text-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6"}}
-                                          <span class="sr-only">View case study</span>
-                                      </a>
-                                  {{ else }}
-                                      <a href="{{ url }}" title="{{ title }}" target="_blank">
-                                          {{ partial:heroicons/arrow-top-right-on-square-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6"}}
-                                          <span class="sr-only">View site</span>
-                                      </a>
-                                  {{ /if }}
-                              </div>
-                          </div>
-                      </td>
-                      <td>
-                          <ul class="inline-flex items-center gap-2">
-                              {{ skills }}
-                                  {{ partial:components/taxonomy_li :url="url" :title="title" }}
-                              {{ /skills }}
-                          </ul>
-                      </td>
-                      <td class="hidden lg:flex justify-end gap-4 mt-0">
-                        {{ if partner_title }}
-                            {{ if partner_url }}
-                                <a href="{{ partner_url }}" title="{{ partner_title }}" class="text-xl font-header text-coffee-800 dark:text-coffee-200 font-semibold">
-                                    {{ partner_title }}
+                <tr class="py-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-2">
+                    <td class="sm:col-span-2">
+                        <div class="flex items-center justify-between md:justify-start gap-4">
+                            <div class="gap-4 inline-flex md:flex-row-reverse w-full md:w-auto justify-between md:justify-start items-center">
+                                <a href="{{ url }}" title="{{ title }}" target="{{ blueprint == 'link' ?= '_blank'  }}" class="text-xl font-header md:space-x-2">
+                                    <span class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</span>
+                                    <span class="sr-only">Project date(s):</span>
+                                    <br class="md:hidden">
+                                    {{ if is_current }}
+                                        <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
+                                            <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
+                                            <span class="lg:hidden">{{ start_date format='M y' }} -</span>
+                                        </time>
+                                    {{ else }}
+                                        <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
+                                            <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
+                                            <span class="lg:hidden">{{ start_date format='M y' }} -</span>
+                                        </time>
+                                        <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">
+                                            <span class="hidden lg:inline">{{ end_date format='M Y' }}</span>
+                                            <span class="lg:hidden">{{ end_date format='M y' }}</span>
+                                        </time>
+                                    {{ endif }}
                                 </a>
-                                <a href="{{ partner_url }}" title="{{ partner_title }}">
-                                    <span class="sr-only">View site</span>
-                                    {{ partial:heroicons/arrow-top-right-on-square-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6"}}
-                                </a>
-                            {{ else }}
-                                <p class="text-xl font-header text-coffee-800 dark:text-coffee-200 font-semibold">{{ partner_title }}</p>
-                            {{ /if }}
+                                {{ project_status }}
+                                    <div class="w-2 h-2 rounded-full {{ marker }}">
+                                        <span class="sr-only">Project Status: {{ title }}</span>
+                                    </div>
+                                {{ /project_status }}
+                            </div>
+                            <div class="inline-flex gap-2">
+                                {{ if blueprint == 'projects' }}
+                                    <a href="{{ url }}" title="{{ title }}">
+                                        {{ partial:heroicons/document-text-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6"}}
+                                        <span class="sr-only">View case study</span>
+                                    </a>
+                                {{ else }}
+                                    <a href="{{ url }}" title="{{ title }}" target="_blank">
+                                        {{ partial:heroicons/arrow-top-right-on-square-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6"}}
+                                        <span class="sr-only">View site</span>
+                                    </a>
+                                {{ /if }}
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <ul class="inline-flex flex-wrap items-center gap-2">
+                            {{ skills }}
+                            {{ partial:components/taxonomy_li :url="url" :title="title" }}
+                            {{ /skills }}
+                        </ul>
+                    </td>
+                    <td class="hidden lg:flex justify-end gap-4 mt-0">
+                    {{ if partner_title }}
+                        {{ if partner_url }}
+                            <a href="{{ partner_url }}" title="{{ partner_title }}" class="text-xl font-header text-coffee-800 dark:text-coffee-200 font-semibold">
+                                {{ partner_title }}
+                            </a>
+                            <a href="{{ partner_url }}" title="{{ partner_title }}">
+                                <span class="sr-only">View site</span>
+                                {{ partial:heroicons/arrow-top-right-on-square-icon class="text-coffee-700 dark:text-coffee-400 w-6 h-6"}}
+                            </a>
+                        {{ else }}
+                            <p class="text-xl font-header text-coffee-800 dark:text-coffee-200 font-semibold">{{ partner_title }}</p>
                         {{ /if }}
-                      </td>
-                  </tr>
+                    {{ /if }}
+                    </td>
+                </tr>
               {{ /results }}
           </tbody>
       </table>
