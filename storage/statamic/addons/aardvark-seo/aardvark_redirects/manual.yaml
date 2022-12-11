@@ -41,3 +41,21 @@ default:
     status_code: '301'
     is_active: true
     id: 2725d036-063e-4d5b-847a-e0feabdf1599
+  -
+    source_url: /feed/categories/blog
+    target_url: /categories/blog
+    status_code: '301'
+    is_active: true
+    id: 71941855-f89e-4c77-8a4b-00e944745e3f
+  -
+    source_url: /feed/categories/creative
+    target_url: /categories/creative
+    status_code: '301'
+    is_active: true
+    id: ae9b54bd-afc6-42f0-a5b5-7f955066146c
+  -
+    source_url: /feed/categories/moments
+    target_url: /categories/moments
+    status_code: '301'
+    is_active: true
+    id: 7b7b305c-4577-4bb5-9352-1477da82974f
