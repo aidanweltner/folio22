@@ -23,7 +23,7 @@ override_twitter_settings: false
 ---
 VERTICAL Construction is a small general contractor in Boise, ID. I originally did a web design overhaul, developed a new site and led a branding and logo refresh in 2017. The 2017 site was built in WordPress on the popular Divi theme, which was modified slightly. I refreshed the site again in 2020 with a much faster, more modern NextJS build. The repository is public and [can be viewed here](https://github.com/aidanweltner/vertical-next).
 
-{{responsive src="statamic://asset::remote::projects/vertical/mobilepreview.png" alt="Mobile view of Vertical Construction website homepage"}}
+{{responsive src="statamic://asset::remote::projects/vertical/mobilepreview.png" alt="Mobile view of Vertical Construction website homepage" glide:width="1024"}}
 
 [Read a more detailed case study](https://cottontailcreative.com/project/vertical-construction-web-design/) about the 2020 rebuild.
 
