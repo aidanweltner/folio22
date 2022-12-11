@@ -263,3 +263,45 @@ default:
     status_code: '301'
     is_active: true
     id: b02c5530-df66-4f6f-b2a5-c18ac8a59ad1
+  -
+    source_url: /about/
+    target_url: /
+    status_code: '301'
+    is_active: true
+    id: 8d4e269b-58b6-4515-80da-5bea3c731f52
+  -
+    source_url: /cart/
+    target_url: /
+    status_code: '301'
+    is_active: true
+    id: b3520e8f-3e99-48d2-9a4d-9969c2590062
+  -
+    source_url: /checkout/
+    target_url: /
+    status_code: '301'
+    is_active: true
+    id: dec06fb3-4268-4a4d-8afc-6ef503a00880
+  -
+    source_url: /my-account/
+    target_url: /
+    status_code: '301'
+    is_active: true
+    id: 13a088bb-0e5f-4113-b1b5-1c307fe8c11d
+  -
+    source_url: /prints/
+    target_url: /
+    status_code: '301'
+    is_active: true
+    id: 8982dddb-38a0-49f6-a723-eba283e9fc67
+  -
+    source_url: /shop/
+    target_url: /
+    status_code: '301'
+    is_active: true
+    id: 2ef59378-52ff-4e3e-879d-9c24ec2908e0
+  -
+    source_url: /blog/
+    target_url: /categories/blog/
+    status_code: '301'
+    is_active: true
+    id: 5acffce0-af56-4320-b395-96fd4562f786
