@@ -22,11 +22,11 @@ _Note: this portfolio project was originally published in 2015 but I still cite 
 ## Noteworthy Projects
 ### YMCA/Explore Camp
 The YMCA/Explore Camp video was a promotion for the Explore Camp program which was geared at getting kids at risk of nutritionally related health problems thinking about healthy lifestyle habits. [Nate Stranzl](https://www.natestranzl.com/) and I collaborated on the video to create something that captured the vibe at camp and conveyed to viewers the mission of the program.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LssLSEw28nE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube-nocookie.com/embed/LssLSEw28nE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### Fundraising Videos
 I had the experience to make various fundraising videos for One Stone with the rest of the Two Birds teams. The “I + WE” concept was one of our strongest.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X_tAstOGlyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube-nocookie.com/embed/X_tAstOGlyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I never shy away from a silly video concept.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FHWcfire5gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube-nocookie.com/embed/FHWcfire5gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

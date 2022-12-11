@@ -29,7 +29,7 @@ _Note: this portfolio project was originally published in 2017 but I still cite 
 ## Internal Marketing + Social Media
 ### 2016
 During my second summer in the backstage pass program, a partner and I were commissioned to create a video about the backstage pass program to share with prospective recruits and community members. I was the principal photographer, co-producer, writer and editor.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a0F-JaK2fZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube.com/embed/a0F-JaK2fZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### 2015
 The Backstage pass team also took over Drake Cooper social media in 2015. My favorite aspect of the project was the Instagram #TotOfTheDay.  We took pictures of tater tots (it’s an Idaho thing) all over the office and posted them with inspiring, insightful and silly captions.
@@ -38,15 +38,15 @@ The Backstage pass team also took over Drake Cooper social media in 2015. My fav
 ## Idaho Beef Council
 ### 2016
 The backstage pass team created two separate campaigns for the Idaho Beef Council. One focused on our favorite giant hamburger, Herbie and the other targeted health-conscious moms. The Herbie campaign was timed around the Olympics. We focused on an sports theme, enticing  people to think  about beef while watching Olympic events. The videos and GIFs we created were shared across all of the Beef Council’s social media pages.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SIyXiS9xRFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube.com/embed/SIyXiS9xRFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### 2015
 I was also involved in writing, photography direction and editing of a full production television commercial for the Idaho Beef Council and an accompanying social media campaign called “Mad Herbie”.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/km8721rE4Gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube.com/embed/km8721rE4Gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Jacksons
 Jacksons is a regional convenience store serving many towns west of the Rocky Mountains. The Backstage Pass team created and pitched a YouTube, Internet radio and Facebook campaign to Jackson executives. They loved the campaign but it was not approved for final publishing.  I think it was some of the best work we produced. I was involved in all aspects of the campaign including ideating, researching, copywriting and producing many of the storyboards and sample content (shown here). The tagline:  “Real food. Made of food.” We were targeting no-bull consumers that shopped at c-stores and consumers who wanted something healthy and convenient.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RMgVEy9F2fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube.com/embed/RMgVEy9F2fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 {{responsive src="statamic://asset::remote::projects/drake-cooper/jacksons.png" alt="Jacksons Food campaign tagline" glide:width="1024"}}
 {{responsive src="statamic://asset::remote::projects/drake-cooper/jacksons2.png" alt="Jacksons Food campaign positioning" glide:width="1024"}}
 

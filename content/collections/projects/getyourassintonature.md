@@ -31,7 +31,7 @@ I experimented with using GYAIN as a source of income for me by selling merchand
 
 ## TEDx
 In 2017, I was given the opportunity to speak at [TEDx Bozeman](https://www.tedxbozeman.com/) about my experience with starting and running GetYourAssIntoNature and what it meant to me. After a hail mary of an application and months of practice and revision, I floundered my way through an 8-minute talk and was able to tell my story on the [TEDx](https://www.ted.com/watch/tedx-talks) stage.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/USN-t6c0hY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="w-full aspect-w-16 aspect-h-9 relative"><iframe class="absolute inset-0" src="https://www.youtube.com/embed/USN-t6c0hY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Press
 > Montana State students frolic in Yellowstone National Park at an event organized by Aidan Weltner, who started @getyourassintonature
