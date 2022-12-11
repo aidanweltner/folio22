@@ -17,6 +17,8 @@
         "spatie/laravel-google-cloud-storage": "^2.0",
         "spatie/statamic-responsive-images": "^2.14",
         "statamic/cms": "3.3.60",
+        "symfony/http-client": "^6.0",
+        "symfony/mailgun-mailer": "^6.0",
         "withcandour/aardvark-seo": "^2.0"
     },
     "require-dev": {
