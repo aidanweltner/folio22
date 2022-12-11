@@ -3,16 +3,16 @@
       <div id="about-images" class="flex md:w-2/5 flex-col gap-2 lg:gap-4">
           <div class="grid grid-cols-1 lg:grid-cols-2 grid-flow-col-dense w-full gap-2 lg:gap-4">
               <div class="hidden lg:block w-full h-full">
-                {{ responsive:about_landscape_1 class="rounded-md" }}
+                {{ responsive:about_landscape_1 class="rounded-md" glide:width="468" glide:height="328" }}
               </div>
               <div class="hidden md:block row-span-2 w-full h-full">
-                {{ responsive:about_portrait class="rounded-md" }}
+                {{ responsive:about_portrait class="rounded-md" glide:width="468" glide:height="700"}}
               </div>
               <div class="w-full h-full hidden lg:block">
-                {{ responsive:about_landscape_2 class="rounded-md" }}
+                {{ responsive:about_landscape_2 class="rounded-md" glide:width="468" glide:height="328" }}
               </div>
           </div>
-          <div class="w-full">{{ responsive:about_landscape_3 class="rounded-md" }}</div>
+          <div class="w-full">{{ responsive:about_landscape_3 class="rounded-md" glide:width="968" glide:height="646" }}</div>
       </div>
       <div id="about-content" class="py-4 lg:py-8 max-w-prose dark:prose-invert">
           <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 pb-3">{{ about_heading }}</h2>
