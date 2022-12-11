@@ -1,7 +1,8 @@
 ---
 id: c3626ce6-715e-415e-b4fa-46c4b5571822
-blueprint: projects
+blueprint: link
 title: PFL
+redirect: 'https://www.pfl.com/platform/'
 start_date: '2022-02-28'
 is_current: false
 is_featured: false

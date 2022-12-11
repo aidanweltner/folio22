@@ -11,8 +11,15 @@ skills:
   - design
   - development
 project_status: archived
-updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1667151040
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1670724653
+featured: projects/sharelift/sharelift-post-feature-photo_4_3.jpg
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
 ---
 ## What is ShareLift?
 [ShareLift](https://www.shareliftapp.com/) was a rideshare app for skiers and snowboarders. It seamlessly connected skiers who are driving to the hill with those who need a ride. This process lightened the load on resort parking, reduced carbon emissions of the commute, saved everyone money in gas costs and sparked new friendships, new and old, between users. The app launched late in 2015 with service available to [Big Sky](https://bigskyresort.com/), [Bridger Bowl](https://bridgerbowl.com/), and the various resorts around Salt Lake City, UT. I was the founder and the director of marketing for the company. I was responsible for the brand of the company, social media presence, web presence, design of the app, and relations with community partners as well as sharing some responsibility for the general operations of the company. ShareLift closed its doors in 2017 due to lack of funding for much-needed development and insurance.
@@ -29,4 +36,8 @@ updated_at: 1667151040
 - [Grow Utah](http://www.growutah.com/press/bs16-winners-press)
 - [Tech Stars](https://www.techstars.com/content/community/app-to-crowdsource-carpooling-to-the-ski-slopes-takes-first-place-at-startup-weekend-bozeman/)
 
-\[Pictures\]
+<ul class="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-4 list-none pl-0">  
+  <li class="pl-0 m-0">{{ responsive src="statamic://asset::remote::projects/sharelift/rideweb.png" alt="The ride tab of the ShareLift app" glide:width="480"}}</li>
+  <li class="pl-0 m-0">{{ responsive src="statamic://asset::remote::projects/sharelift/myridesweb.png" alt="The home tab of the the ShareLift app" glide:width="480"}}</li>
+  <li class="pl-0 m-0">{{ responsive src="statamic://asset::remote::projects/sharelift/driveweb.png" alt="The driving tab of the ShareLift app" glide:width="480"}}</li>
+</ul>

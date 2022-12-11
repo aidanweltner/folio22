@@ -12,8 +12,14 @@ skills:
   - design
   - development
 project_status: archived
-updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1667150071
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1670727141
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
 ---
 ## The Foundation
 _Note: this portfolio project was originally published in 2017 but I still cite much of my career and confidence to Drake Cooper. I got to explore a lot of my interests in a professional setting and many of my peers remain close friends._
@@ -27,6 +33,7 @@ During my second summer in the backstage pass program, a partner and I were comm
 
 ### 2015
 The Backstage pass team also took over Drake Cooper social media in 2015. My favorite aspect of the project was the Instagram #TotOfTheDay.  We took pictures of tater tots (it’s an Idaho thing) all over the office and posted them with inspiring, insightful and silly captions.
+{{responsive src="statamic://asset::remote::projects/drake-cooper/dcinsta2-1.png" alt="Drake Cooper Instagram Brand Awareness Campaign"}}
 
 ## Idaho Beef Council
 ### 2016
@@ -39,11 +46,15 @@ I was also involved in writing, photography direction and editing of a full prod
 
 ## Jacksons
 Jacksons is a regional convenience store serving many towns west of the Rocky Mountains. The Backstage Pass team created and pitched a YouTube, Internet radio and Facebook campaign to Jackson executives. They loved the campaign but it was not approved for final publishing.  I think it was some of the best work we produced. I was involved in all aspects of the campaign including ideating, researching, copywriting and producing many of the storyboards and sample content (shown here). The tagline:  “Real food. Made of food.” We were targeting no-bull consumers that shopped at c-stores and consumers who wanted something healthy and convenient.
-\[pictures\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RMgVEy9F2fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{responsive src="statamic://asset::remote::projects/drake-cooper/jacksons.png" alt="Jacksons Food campaign tagline" glide:width="1024"}}
+{{responsive src="statamic://asset::remote::projects/drake-cooper/jacksons2.png" alt="Jacksons Food campaign positioning" glide:width="1024"}}
 
 ## Selway-Bitterroot Frank Church Foundation
 The Selway-Bitterroot Frank Church Foundation is a wildness conservation organization based in Montana and Idaho. They are stewards of wilderness management of the Frank Church and Selway-Bitterroot wilderness areas. They were the 2015 recipient of the Drake Cooper’s Dream Big project –  an opportunity for nonprofits to receive free professional marketing, in this case, a website renovation. The [site build](http://www.selwaybitterroot.org/) was managed by the Backstage Pass team. My role was asset management, page building and graphic design for elements on the site.
 
 _2022 update: I ended up doing some light UI work for SBFCF this past year. It was pure coincidence as they were unaware I was part of the team who worked on the original website._
 
-\[pictures\]
+{{responsive src="statamic://asset::remote::projects/drake-cooper/map.png" alt="Selway Bitterroot website branded map" glide:width="1024"}}
+
+{{responsive src="statamic://asset::remote::projects/drake-cooper/sbfcsite.png" alt="Selway Bitterroot website homepage" glide:width="1024"}}

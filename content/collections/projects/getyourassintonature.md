@@ -11,8 +11,15 @@ skills:
   - development
   - visual-media
 project_status: ongoing
-updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1667159579
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1670726141
+featured: projects/gyain/gyain_webheader_4x3.jpg
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
 ---
 [GetYourAssIntoNature](https://getyourassintonature.com/) is an online community and retail business dedicated to the idea of courageous individuals who inspire everyone to love their bodies, make connections to nature and use social media in a unique and fresh way. I started GYAIN in early 2015 as a project to experiment and develop my skills in social media. It eventually turned into a business and a well-loved movement. I have since slowed down on the project for other professional pursuits but it’s something I love dearly and have learned a lot from. I shared thousands of stories from all over the world and met tons of awesome people along the way.
 
@@ -25,6 +32,23 @@ I experimented with using GYAIN as a source of income for me by selling merchand
 ## TEDx
 In 2017, I was given the opportunity to speak at [TEDx Bozeman](https://www.tedxbozeman.com/) about my experience with starting and running GetYourAssIntoNature and what it meant to me. After a hail mary of an application and months of practice and revision, I floundered my way through an 8-minute talk and was able to tell my story on the [TEDx](https://www.ted.com/watch/tedx-talks) stage.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/USN-t6c0hY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Press
+> Montana State students frolic in Yellowstone National Park at an event organized by Aidan Weltner, who started @getyourassintonature
+>
+> <cite>[National Geographic](https://www.nationalgeographic.com/magazine/2016/10/unplugging-the-selfie-generation-national-parks/)</cite>
+
+> The Instagram page has sparked a lot of conversation on social media for providing a major platform for people who want to get in touch with nature on a physical and spiritual level
+>
+> <cite>[ATTN](https://archive.attn.com/stories/6182/get-your-ass-nature-instagram)</cite>
+
+> He now encourages all those over the age of 18 to send their butts his way… to change the conversation around nudity.
+>
+> <cite>[Cosmopolitan](https://www.cosmopolitan.com/lifestyle/news/a54702/get-your-ass-into-nature-instagram/)</cite>
+
+>He hoped to turn social media on its head. Instead of inspiring fear of missing out or jealousy by posting ‘as so many other accounts do,’ he wanted to bring awareness to our shared humanity, to ‘inspire a large group of normal, regular people to get outside and in the process, to love themselves a little more.’
+>
+> <cite>[The Daily Beast](https://www.thedailybeast.com/gyain-is-why-you-might-see-a-naked-person-on-your-next-hike)</cite>
 
 ## Website
 The website was originally built in 2017 (v1.0) with the Divi theme in WordPress. It was set up as a WooCommerce store and a basic blog. As the community grew rapidly and submissions became difficult to manage through DM's, I rebuilt the site in 2020 (v2.0) to publish more user-submitted content than I could on the Instagram page.

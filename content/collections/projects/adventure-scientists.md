@@ -19,12 +19,12 @@ _Note: This portfolio project was originally published in 2017 but it was a form
 
 ## Timber Project
 In 2018, I was working on training videos for volunteers for the newly established [Timber Project](http://www.adventurescientists.org/timber.html).
-\[Video Coming Soon\]
+\[Video has not been uploaded to YouTube yet :)\]
 
 ## Pollinators
 I worked with Adventure Scientists on their [Pollinators Project](http://www.adventurescientists.org/pollinators.html)from May 2017 to early 2018. I aided in visually enhancing their volunteer training program. I produced a series of short videos that are a fun way to break up the drudgery of the training modules. The videos demonstrate simple techniques and protocols with a little bit of silly-ness.
-\[Video Coming Soon\]
+\[Video has not been uploaded to YouTube yet :)\]
 
 ## Microplastics
 I was brought on the [Microplastics Project](http://www.adventurescientists.org/microplastics.html) to interview a few of the volunteers and create a video that showcases the project’s participants. I had the volunteers talk to a few points about the organization and I set them up with a table of toys and props to aid them in telling the often funny or terrifying stories of the collection of their water samples. The storytelling portions were the most fun even if they were not included in the final video.
-\[Video Coming Soon\]
+\[Video has not been uploaded to YouTube yet :)\]
