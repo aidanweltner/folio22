@@ -1,5 +1,13 @@
 title: Moments
-updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1653339843
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1670720605
 blueprint: categories
 content: 'A place for milestones, personal achievements, changes, updates, or other adventures worth sharing. Shout out to [Rob Hope](https://robhope.com/moments) for the idea.'
+meta_title: 'Moments // Aidan Weltner'
+meta_description: 'A place for milestones, personal achievements, changes, updates, or other adventures worth sharing.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false

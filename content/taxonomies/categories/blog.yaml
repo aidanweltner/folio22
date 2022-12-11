@@ -1,5 +1,13 @@
 title: Blog
-updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1653339679
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1670720562
 blueprint: categories
 content: 'A place for long-form posts about anything I may be interested in, learning, or think is worth sharing.'
+meta_title: 'Blog // Aidan Weltner'
+meta_description: 'A place for long-form posts about anything I may be interested in, learning, or think is worth sharing.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
