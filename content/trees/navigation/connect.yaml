@@ -23,11 +23,3 @@ tree:
     id: 2a8c5bde-8751-44b1-9d7e-446ade811922
     title: LinkedIn
     url: 'https://www.linkedin.com/in/aidanweltner/'
-  -
-    id: ad680cc3-4212-455d-8a0e-879b161a2cc9
-    title: Schedule
-    url: 'https://calendly.com/cottontailmt/meeting'
-  -
-    id: d74b9081-311a-4f5d-b922-dbdb86b3352e
-    title: Email
-    url: 'mailto:hello@aidanweltner.com'
