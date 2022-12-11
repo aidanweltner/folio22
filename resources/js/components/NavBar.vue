@@ -33,7 +33,7 @@ export default {
     return {
       bannerIsVisible: true,
       isRendered: false,
-      previousScroll: window.pageXOffset,
+      previousScroll: window.scrollY,
     }
   },
 
@@ -44,7 +44,7 @@ export default {
 
   methods: {
     toggleBanner() {
-      const currentScroll = window.pageYOffset
+      const currentScroll = window.scrollY
 
       if ( currentScroll > this.previousScroll ) {
         this.bannerIsVisible = false
