@@ -8,8 +8,8 @@ default:
   no_index_page: false
   no_follow_links: false
   share_section_og: null
-  og_title: null
-  og_description: null
+  og_title: 'Feed // Aidan Weltner'
+  og_description: 'A place for a stream of personal posts that relate to any and everything that''s interesting or that I''ve recently learned. Posts fall into one of three categories: Blog, Creative or Moments.'
   og_image: null
   share_section_twitter: null
   override_twitter_settings: false

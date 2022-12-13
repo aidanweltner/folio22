@@ -1,6 +1,13 @@
 title: Development
 content: 'Web and front end development'
-updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1646872724
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1670972858
 blueprint: skills
 since: '2014-09-01'
+meta_title: 'All Development Projects // Aidan Weltner'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false

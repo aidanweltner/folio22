@@ -2,8 +2,14 @@ title: Galleries
 template: galleries/show
 layout: layout
 revisions: false
+title_format: '{{title}} Gallery'
+meta_title: 'All Galleries // Aidan Weltner'
 route: '/galleries/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'

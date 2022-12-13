@@ -1,15 +1,15 @@
 default:
   meta_section: null
-  meta_title: 'Galleries // Aidan Weltner'
-  meta_description: null
+  meta_title: 'Featured Galleries // Aidan Weltner'
+  meta_description: 'Browse featured photo galleries from Aidan Weltner.'
   use_meta_keywords: false
   meta_keywords: {  }
   indexing_section: null
   no_index_page: false
   no_follow_links: false
   share_section_og: null
-  og_title: null
-  og_description: null
+  og_title: 'All Galleries // Aidan Weltner'
+  og_description: 'Browse featured photo galleries from Aidan Weltner.'
   og_image: null
   share_section_twitter: null
   override_twitter_settings: false
