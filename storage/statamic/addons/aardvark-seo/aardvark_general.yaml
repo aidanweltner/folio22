@@ -3,7 +3,7 @@ default:
   title_separator: //
   site_name: 'Aidan Weltner'
   favicon_section: null
-  global_favicon: null
+  global_favicon: seo/favicon.png
   knowledge_graph_section: null
   company_or_person: person
   target_name: 'Aidan Weltner'
