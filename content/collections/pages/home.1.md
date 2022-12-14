@@ -3,7 +3,7 @@ id: a3cdb98a-194a-45c4-a5d9-a53f212c28e9
 blueprint: homepage
 title: Home
 updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
-updated_at: 1670801860
+updated_at: 1670979356
 author: 25de984e-075a-47a8-8b41-32e9880eb240
 template_field: home
 template: home
@@ -29,4 +29,5 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
+meta_description: 'I create web experiences for small businesses and provide creative, technical solutions for difficult marketing and operations problems.'
 ---
