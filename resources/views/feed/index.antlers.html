@@ -1,3 +1,17 @@
+{{ push:head }}
+  <title>Feed // Aidan Weltner</title>
+  <meta name="description" content="{{ feed_index:description }}">
+  <link rel="canonical" href="{{ config:app:url }}/feed">
+  <meta property="og:url" content="{{ config:app:url }}/feed">
+  <link rel="shortcut icon" href="/assets/seo/favicon.png">
+  <meta property="og:site_name" content="Aidan Weltner">
+  <meta property="og:title" content="Feed // Aidan Weltner">
+  <meta property="og:description" content="{{ feed_index:description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en-US">
+  <meta name="twitter:card" content="summary">
+{{ /push:head}}
+
 <div class="container mx-auto px-4 lg:px-6 pt-20 lg:pt-24 pb-16 lg:pb-20">
   <header class="mb-6 lg:mb-12">
     <div class="flex flex-col md:flex-row gap-2 mb-4 md:mb-0 items-baseline justify-between w-full">
