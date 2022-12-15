@@ -14,6 +14,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
+        "mitydigital/feedamic": "^2.2",
         "spatie/laravel-google-cloud-storage": "^2.0",
         "spatie/statamic-responsive-images": "^2.14",
         "statamic/cms": "3.3.61",
