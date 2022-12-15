@@ -51,8 +51,11 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
-updated_at: 1670800673
+updated_at: 1671078376
 featured: galleries/movement/aidanweltner-movement--17.jpg
+meta_description: 'Portfolio of outdoor sports photography Aidan Weltner. Sports include mountain biking, hiking, climbing, skiing and snowboarding.'
+og_title: 'Movement Gallery 2014-2017'
+og_description: 'Portfolio of outdoor sports photography Aidan Weltner. Sports include mountain biking, hiking, climbing, skiing and snowboarding.'
 ---
 Portfolio of outdoor sports photography in Bozeman, MT by photographer Aidan Weltner.
 Sports include mountain biking, hiking, climbing, skiing and snowboarding. Photographs taken during the college years: 2014-2017.

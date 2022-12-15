@@ -35,6 +35,9 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
-updated_at: 1670801122
+updated_at: 1671078413
+meta_description: 'A gallery of event photography by Aidan Weltner taken in his college years: 2014-2017.'
+og_title: 'Events Gallery 2014-2017'
+og_description: 'A gallery of event photography by Aidan Weltner taken in his college years: 2014-2017.'
 ---
 A gallery of event photography by Aidan Weltner taken in his college years: 2014-2017. You can view more of his photography by [visiting his Flickr page](https://www.flickr.com/people/aidanweltner/). [Reach out](/contact) for collaborations or questions.
