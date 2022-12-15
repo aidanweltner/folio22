@@ -133,14 +133,13 @@ return [
     |
     */
 
-    'image' => false/* [
+    'image' => [
         'fields' => [
-            'featured',
-            'meta_og_image'
+            'og_image'
         ],
         'width' => 1280,
         'height' => 720
-    ] */,
+    ],
 
 
     /*
