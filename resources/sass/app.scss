@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+@layer base {
+  @import "./base/fonts";
+}
+
 @layer components {
   @import "~hamburgers/_sass/hamburgers/hamburgers";
 }
@@ -11,5 +15,4 @@
 @layer utilities {
   @import './utilities/global';
   @import './utilities/forms';
-  @import './utilities/font-compensation';
 }
