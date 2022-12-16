@@ -14,8 +14,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        header: ['sofia-pro', ...defaultTheme.fontFamily.sans],
-        mono: ['odisseia', ...defaultTheme.fontFamily.mono],
+        header: ["Lexend", ...defaultTheme.fontFamily.sans],
+        mono: ["Roboto Mono", ...defaultTheme.fontFamily.mono],
       },
       colors: {
         coffee: {
