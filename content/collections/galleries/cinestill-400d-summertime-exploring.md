@@ -1,0 +1,34 @@
+---
+id: ab80ec49-0be8-4549-9944-a239495f430f
+blueprint: remote-source
+title: 'Roll of Cinestill 400D - Summertime Exploring'
+featured: galleries/cinestill_summertime/230115_cd400_01_28-flickr.jpg
+images:
+  - galleries/cinestill_summertime/230115_cd400_01_02-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_04-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_05-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_09-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_11-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_18-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_21-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_22-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_26-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_27-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_28-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_30-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_33-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_34-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_35-flickr.jpg
+  - galleries/cinestill_summertime/230115_cd400_01_36-flickr.jpg
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
+updated_at: 1673929931
+---
+I backed the [Cinestill 400D Crowdfunding campaign](https://cinestillfilm.com/products/a-new-color-film-400dynamic) early in 2022. There's been a lot of shakeup in the film manufacturing industry and I wanted to make sure I can continue to put my vintage camera collection to good use. Cinestill primarily alters Kodak motion picture film to be used in still cameras in 35mm and 120 formats. Up until this campaign, they only made films that were color balanced for artificial lighting. I ran this film through one of my more modern film cameras over the course of this past summer to give it a test run. I really like the colors and it's fun to see how it renders the Arkansas big woods.
+
+Cinestill 400D | Canon EOS 620 w/ 50mm f/1.8 | Developed at home in Cinestill CS41 | Scanned in my Epson V60
