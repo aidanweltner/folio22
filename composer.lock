@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "363e76af9ead105e7d7b70ad5d73f4a7",
+    "content-hash": "b93a6ffa30b1869e6f213a561e1d3511",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5457,16 +5457,16 @@
         },
         {
             "name": "spatie/statamic-responsive-images",
-            "version": "v2.14.4",
+            "version": "v2.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/statamic-responsive-images.git",
-                "reference": "5f518cdfa0ed4dcd0578e239a643b04b920549ee"
+                "reference": "a13cf34a70a366d0fa804c5a3c5254d1761e36fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/5f518cdfa0ed4dcd0578e239a643b04b920549ee",
-                "reference": "5f518cdfa0ed4dcd0578e239a643b04b920549ee",
+                "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/a13cf34a70a366d0fa804c5a3c5254d1761e36fd",
+                "reference": "a13cf34a70a366d0fa804c5a3c5254d1761e36fd",
                 "shasum": ""
             },
             "require": {
@@ -5474,8 +5474,8 @@
             },
             "require-dev": {
                 "orchestra/testbench": "^6.9|^7.1",
-                "phpunit/phpunit": "^9.5",
-                "spatie/phpunit-snapshot-assertions": "^4.2"
+                "pestphp/pest": "^1.22",
+                "spatie/pest-plugin-snapshots": "^1.1"
             },
             "type": "statamic-addon",
             "extra": {
@@ -5501,9 +5501,9 @@
             "description": "Responsive Images for Statamic 3",
             "support": {
                 "issues": "https://github.com/spatie/statamic-responsive-images/issues",
-                "source": "https://github.com/spatie/statamic-responsive-images/tree/v2.14.4"
+                "source": "https://github.com/spatie/statamic-responsive-images/tree/v2.15.1"
             },
-            "time": "2022-11-09T18:52:56+00:00"
+            "time": "2023-01-12T20:14:50+00:00"
         },
         {
             "name": "statamic/cms",

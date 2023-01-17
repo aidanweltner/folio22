@@ -16,7 +16,7 @@
         "laravel/tinker": "^2.5",
         "mitydigital/feedamic": "^2.2",
         "spatie/laravel-google-cloud-storage": "^2.0",
-        "spatie/statamic-responsive-images": "^2.14",
+        "spatie/statamic-responsive-images": "^2.15",
         "statamic/cms": "3.3.61",
         "symfony/http-client": "^6.0",
         "symfony/mailgun-mailer": "^6.0",
