@@ -22,7 +22,7 @@ return [
             /*
             | The title for the feed
             */
-            'title' => 'RSS Feed - All Content - Aidan Weltner',
+            'title' => 'Aidan Weltner',
 
             /*
             | The description (RSS) or subtitle (Atom) for the feed
