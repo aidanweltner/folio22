@@ -29,6 +29,7 @@
                 <header>
                     <div class="flex items-center gap-2 lg:gap-4">
                         <h3 class="font-header font-semibold text-lg lg:text-xl text-coffee-800 dark:text-coffee-200"><a href="{{ url }}" title="{{ title }}">{{ title }}</a></h3>
+                        <p class="inline-block py-1 mr-3 md:mr-0 font-mono text-coffee-800 dark:text-coffee-200 text-xs font-light"><span class="sr-only">Published: </span>{{ date format="M d, Y" }}</p>
                     </div>
                     <p class="font-sans line-clamp-2 text-lg lg:text-xl text-coffee-600 dark:text-coffee-300 mt-2 max-w-prose">
                       {{ description ? description : content }}

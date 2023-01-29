@@ -20,6 +20,7 @@
                       {{ categories }}
                         <p class="inline-block py-1 px-2 bg-coffee-200 dark:bg-stone-700 rounded font-mono text-coffee-800 dark:text-coffee-200 text-xs font-light">{{ title }}</p>
                       {{ /categories }}
+                      <p class="inline-block py-1 mr-3 md:mr-0 font-mono text-coffee-800 dark:text-coffee-200 text-xs font-light"><span class="sr-only">Published: </span>{{ date format="M d, Y" }}</p>
                   </div>
                   <p class="font-sans line-clamp-2 text-lg lg:text-xl text-coffee-600 dark:text-coffee-300 mt-2 max-w-prose dark:prose-invert">
                     {{ description ? description : content }}
