@@ -2,10 +2,10 @@ title: Galleries
 template: galleries/show
 layout: layout
 revisions: false
-title_format: '{{title}} Gallery'
-meta_title: 'All Galleries // Aidan Weltner'
+title_format: '{{title}}'
 route: '/galleries/{slug}'
-sort_dir: asc
+date: true
+sort_dir: desc
 date_behavior:
   past: public
   future: private
