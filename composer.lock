@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b8341f74cf3e8a00ed9813ea84162e9",
+    "content-hash": "78df8012837e34a3d949018c0e6d1d05",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,6 +68,51 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v1.1.5"
             },
             "time": "2022-08-24T05:52:35+00:00"
+        },
+        {
+            "name": "alpshq/statamic-cache-evader",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alpshq/statamic-cache-evader.git",
+                "reference": "3d275303ec1779142f5b7a778e840c8e8dc30501"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alpshq/statamic-cache-evader/zipball/3d275303ec1779142f5b7a778e840c8e8dc30501",
+                "reference": "3d275303ec1779142f5b7a778e840c8e8dc30501",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^3.3"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Cache Evader",
+                    "description": "A statamic Addon to help you evade the static cache and support forms on cached pages."
+                },
+                "laravel": {
+                    "providers": [
+                        "Alps\\CacheEvader\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Alps\\CacheEvader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A statamic Addon to help you evade the static cache and support forms on cached pages.",
+            "support": {
+                "issues": "https://github.com/alpshq/statamic-cache-evader/issues",
+                "source": "https://github.com/alpshq/statamic-cache-evader/tree/v1.4.1"
+            },
+            "time": "2022-05-12T20:54:13+00:00"
         },
         {
             "name": "asm89/stack-cors",
