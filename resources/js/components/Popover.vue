@@ -11,8 +11,8 @@
       leave-class="opacity-100 translate-y-0"
       leave-to-class="opacity-0 translate-y-1"
     >
-      <div v-if="isOpen" class="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-        <div class="w-screen max-w-sm flex-auto rounded-3xl bg-coffee-200 dark:bg-stone-800 p-4 text-sm leading-6 shadow-lg ring-1 ring-coffee-900/5 dark:ring-coffee-100/5">
+      <div v-if="isOpen" class="absolute right-0 z-10 mt-5 flex w-screen max-w-max px-4">
+        <div class="w-screen max-w-sm flex-auto rounded-b-3xl bg-coffee-200 dark:bg-stone-800 p-4 text-sm leading-6 ring-1 ring-coffee-500/5 dark:ring-coffee-100/5">
           <slot />
         </div>
       </div>
