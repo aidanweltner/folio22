@@ -1,5 +1,6 @@
 {{ push:head }}
   {{ aardvark-seo:head }}
+  {{ turnstile:script }}
 {{ /push:head }}
 
 
@@ -34,6 +35,7 @@
         </div>
       {{ /fields }}
       <input type="text" name="username" style="display:none;">
+      {{ turnstile:field }}
 
       <button class="form-submit flex items-center gap-2 group" type="submit">
           <span class="form-submit__text">Submit</span>
