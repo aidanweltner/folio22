@@ -13,6 +13,7 @@
         "alpshq/statamic-cache-evader": "^1.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "hairylemon-developers/form-guard": "^1.0",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
         "mitydigital/feedamic": "^2.2",

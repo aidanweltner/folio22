@@ -44,3 +44,4 @@ sections:
           always_save: false
           validate:
             - required
+            - form_guard
