@@ -1,8 +1,12 @@
 tree:
   -
-    id: 9f972e3d-b44d-4a92-be44-fcd2f6ce26aa
-    title: Twitter
-    url: 'https://twitter.com/aidanweltner'
+    id: cff87fdd-04a9-4342-82b3-baf1bcd2aeda
+    title: GitHub
+    url: 'https://github.com/aidanweltner'
+  -
+    id: 2a8c5bde-8751-44b1-9d7e-446ade811922
+    title: LinkedIn
+    url: 'https://www.linkedin.com/in/aidanweltner/'
   -
     id: f552129b-8f2f-4577-b19e-afb5ae6c97f2
     title: Instagram
@@ -20,9 +24,9 @@ tree:
     title: Dribbble
     url: 'https://dribbble.com/CottontailMT'
   -
-    id: 2a8c5bde-8751-44b1-9d7e-446ade811922
-    title: LinkedIn
-    url: 'https://www.linkedin.com/in/aidanweltner/'
+    id: 9f972e3d-b44d-4a92-be44-fcd2f6ce26aa
+    title: Twitter
+    url: 'https://twitter.com/aidanweltner'
   -
     id: 66f9242d-832c-41bc-8239-5d1673170d72
     title: RSS
