@@ -7,6 +7,8 @@ start_date: '2023-09-01'
 is_current: true
 skills:
   - development
+  - rev-ops
+updated_by: 29decb8f-8b74-4b71-a190-c6a7bae7e6dc
 project_status: active
 use_meta_keywords: false
 no_index_page: false
@@ -14,6 +16,4 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-updated_by: 25de984e-075a-47a8-8b41-32e9880eb240
-updated_at: 1720289852
 ---
