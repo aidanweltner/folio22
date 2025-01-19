@@ -15,6 +15,10 @@ fields:
       icon: date
       listable: hidden
       instructions_position: above
+      visibility: visible
+      always_save: false
+      format: Y-m-d
+      time_seconds_enabled: false
   -
     handle: is_current
     field:
@@ -41,6 +45,10 @@ fields:
       instructions_position: above
       if_any:
         is_current: '!== true'
+      visibility: visible
+      always_save: false
+      format: Y-m-d
+      time_seconds_enabled: false
   -
     handle: partner_title
     field:

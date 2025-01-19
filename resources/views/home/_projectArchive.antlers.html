@@ -23,20 +23,22 @@
                                   <span class="text-coffee-800 dark:text-coffee-200 font-semibold">{{ title }}</span>
                                   <span class="sr-only">Project date(s):</span>
                                   <br class="md:hidden">
-                                  {{ if is_current }}
+                                  {{ if is_current && start_date }}
                                       <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
                                           <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
                                           <span class="lg:hidden">{{ start_date format='M y' }} -</span>
                                       </time>
-                                  {{ else }}
+                                  {{ elseif start_date }}
                                       <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ start_date format='Y-m-d' }}">
                                           <span class="hidden lg:inline">{{ start_date format='M Y' }} -</span>
                                           <span class="lg:hidden">{{ start_date format='M y' }} -</span>
                                       </time>
-                                      <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">
-                                          <span class="hidden lg:inline">{{ end_date format='M Y' }}</span>
-                                          <span class="lg:hidden">{{ end_date format='M y' }}</span>
-                                      </time>
+                                      {{ if end_date }}
+                                          <time class="text-coffee-600 dark:text-coffee-300" datetime="{{ end_date format='Y-m-d' }}">
+                                              <span class="hidden lg:inline">{{ end_date format='M Y' }}</span>
+                                              <span class="lg:hidden">{{ end_date format='M y' }}</span>
+                                          </time>
+                                      {{ endif }}
                                   {{ endif }}
                               </a>
                               {{ project_status }}
