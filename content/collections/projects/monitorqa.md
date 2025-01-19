@@ -5,7 +5,7 @@ title: monitorQA
 featured: projects/monitorqa/dribble---mqa-homepage.jpg
 start_date: '2020-06-04'
 is_current: false
-is_featured: true
+is_featured: false
 updated_by: 6ab68b5f-4613-467b-99de-86fabe1e1bcd
 updated_at: 1670728601
 skills:

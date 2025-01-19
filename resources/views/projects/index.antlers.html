@@ -13,46 +13,46 @@
 {{ /push:head}}
 
 <div class="container mx-auto px-4 lg:px-6 pt-20 lg:pt-24 pb-16 lg:pb-20">
-    {{ if get:page > 1 }}
-    {{ else }}
-        <header class="mb-4 lg:mb-6">
-        <h1 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 mb-4 lg:mb-8">Featured Projects</h1>
-        </header>
-        <section>
-            <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-6 mt-6 lg:mt-9">
-            {{ collection:projects is_featured:is="true" limit="4" sort="start_date:desc" }}
-                <li>
-                    <article class="flex flex-col lg:flex-row-reverse lg:items-end justify-between border border-coffee-400 dark:border-coffee-800 rounded-lg p-2 lg:p-4">
-                        <a href="{{ url }}" class="hover:opacity-60 w-full lg:w-3/5" title="{{ title }}">
-                            {{ responsive:featured class="rounded-md" glide:width="1080"}}
-                        </a>
-                        <div class="pt-4 md:p-2 lg:p-4">
-                            <ul class="flex gap-2">
-                                {{ skills }}
-                                    {{ partial:components/taxonomy_li :url="url" :title="title" }}
-                                {{ /skills }}
-                            </ul>
-                            <a href="{{ url }}" title="{{ title }}">
-                                <h3 class="text-2xl mt-4 lg:text-4xl font-header font-semibold text-coffee-800 dark:text-coffee-200">
-                                    <span class="border-b-2 border-transparent hover:border-coffee-600 dark:hover:border-coffee-400 leading-tight">{{ title }}</span>
-                                </h3>
-                            </a>
-                            <p class="lg:text-xl font-header text-coffee-700 dark:text-coffee-400">
-                                <span class="sr-only">Project date(s):</span>
-                                {{ if is_current }}
-                                    <time datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='F Y' }} - </time>
-                                {{ else }}
-                                    <time datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='F Y' }} - </time>
-                                    <time datetime="{{ end_date format='Y-m-d' }}">{{ end_date format='F Y' }}</time>
-                                {{ endif }}
-                            </p>
-                        </div>
-                    </article>
-                </li>
-            {{ /collection:projects }}
-            </ul>
-        </section>
-    {{ /if }}
+<!--    {{ if get:page > 1 }}-->
+<!--    {{ else }}-->
+<!--        <header class="mb-4 lg:mb-6">-->
+<!--        <h1 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 mb-4 lg:mb-8">Featured Projects</h1>-->
+<!--        </header>-->
+<!--        <section>-->
+<!--            <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-6 mt-6 lg:mt-9">-->
+<!--            {{ collection:projects is_featured:is="true" limit="4" sort="start_date:desc" }}-->
+<!--                <li>-->
+<!--                    <article class="flex flex-col lg:flex-row-reverse lg:items-end justify-between border border-coffee-400 dark:border-coffee-800 rounded-lg p-2 lg:p-4">-->
+<!--                        <a href="{{ url }}" class="hover:opacity-60 w-full lg:w-3/5" title="{{ title }}">-->
+<!--                            {{ responsive:featured class="rounded-md" glide:width="1080"}}-->
+<!--                        </a>-->
+<!--                        <div class="pt-4 md:p-2 lg:p-4">-->
+<!--                            <ul class="flex gap-2">-->
+<!--                                {{ skills }}-->
+<!--                                    {{ partial:components/taxonomy_li :url="url" :title="title" }}-->
+<!--                                {{ /skills }}-->
+<!--                            </ul>-->
+<!--                            <a href="{{ url }}" title="{{ title }}">-->
+<!--                                <h3 class="text-2xl mt-4 lg:text-4xl font-header font-semibold text-coffee-800 dark:text-coffee-200">-->
+<!--                                    <span class="border-b-2 border-transparent hover:border-coffee-600 dark:hover:border-coffee-400 leading-tight">{{ title }}</span>-->
+<!--                                </h3>-->
+<!--                            </a>-->
+<!--                            <p class="lg:text-xl font-header text-coffee-700 dark:text-coffee-400">-->
+<!--                                <span class="sr-only">Project date(s):</span>-->
+<!--                                {{ if is_current }}-->
+<!--                                    <time datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='F Y' }} - </time>-->
+<!--                                {{ else }}-->
+<!--                                    <time datetime="{{ start_date format='Y-m-d' }}">{{ start_date format='F Y' }} - </time>-->
+<!--                                    <time datetime="{{ end_date format='Y-m-d' }}">{{ end_date format='F Y' }}</time>-->
+<!--                                {{ endif }}-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                    </article>-->
+<!--                </li>-->
+<!--            {{ /collection:projects }}-->
+<!--            </ul>-->
+<!--        </section>-->
+<!--    {{ /if }}-->
   <section class="py-10 lg:py-12">
     <div class="flex flex-col gap-2 pb-4 md:pb-0 border-b border-coffee-400 dark:border-coffee-800 md:border-none md:flex-row md:justify-between w-full md:items-center">
       <h2 class="font-header font-bold text-3xl lg:text-5xl text-coffee-800 dark:text-coffee-200 md:pb-3">All Projects</h2>
